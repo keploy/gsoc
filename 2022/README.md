@@ -25,18 +25,18 @@ _________________
   (which means the code may be thrown out entirely) which will help you
   understand the challenges of the project you want to work on; your
   application should refer to the prototype or other Github contributions
-  you made to OpenWISP that show you have the capability to succeed in the
+  you made to Keploy that show you have the capability to succeed in the
   project idea you are applying for.
 
 - **Students who have either shown to have or have shown to be
   fast learners for the required hard and soft skills by
-  contributing to OpenWISP have a lot more chances of being accepted**:
+  contributing to Keploy have a lot more chances of being accepted**:
   in order to get started contributing refer to the
-  :doc:`OpenWISP Contributing Guidelines <../developer/contributing>`
+  :doc:`Keploy Contributing Guidelines <keploy/keploy/contributing.md>`
 
 - **Get trained in the projects you want to apply for**: once
   applicants have completed some basic training by
-  :doc:`contributing to OpenWISP <../developer/contributing>`
+  :doc:`contributing to Keploy <keploy/keploy/contributing.md>`
   we highly suggest to start working on
   some aspects of the project they are
   interested in applying: all projects
