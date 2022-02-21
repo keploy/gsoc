@@ -50,20 +50,87 @@ _________________
 
 ## **Projects List**
 
+### 1. Keploy Typescript/Javascript SDK 
+**Mentors**: Neha Gupta, Ritik Jain, Rajat Sharma.
 
-### Keploy Console
+**Goals & Ideas**
+* Create Typescript SDK to enable JS/TS application servers to use the keploy ecosystem similar to the [Go SDK](https://github.com/keploy/go-sdk).
+* Create integration framework to easily add routers/web-frameworks or external dependencies similar to the [Go Integrations package](https://github.com/keploy/go-sdk/tree/main/integrations)
+* Use the integrations package to add support for top 2 web frameworks/routers, http client, mysql/postgres and mongo support.
+* Document the integration for users interested in adding support for more libraries.
+* Package and publish the SDK to npm registry.
+* Add support for running the SDK through the Mocha or Jest testing frameworks. 
+* Create a sample nodejs application server to demonstrate the functionalities of the ts/js SDK.  
 
-#### Create a StoryBook 
+**Skills Required**
+* Typescript/Javascript
+* Rest APIs
+* Unit testing
+
+**Refs**
+* https://github.com/keploy/go-sdk
+* https://jestjs.io
+* https://mochajs.org
+* https://github.com/keploy/example-url-shortener
 
 
-### Keploy Server
+### 2. Keploy Java SDK
+**Mentors**: Shubham Jain, Ritik Jain, Saurabh Nigam.
 
-#### Project 1
+**Goals & Ideas**
+* Create Java SDK to enable Java application servers to use the keploy ecosystem similar to the [Go SDK](https://github.com/keploy/go-sdk).
+* Create integration framework to easily add routers/web-frameworks or external dependencies similar to the [Go Integrations package](https://github.com/keploy/go-sdk/tree/main/integrations)
+* Use the integrations package to add support for top 2 web frameworks/routers (likely spring boot and Quarkus), mysql/postgres and mongo support.
+* Document the integration for users interested in adding support for more libraries.
+* Package and publish the SDK to maven central. 
+* Add support for running the SDK through the JUnit testing framework.
+* Create a sample spring boot application to demonstrate the functionalities of the Java SDK.
 
-#### Project 2
+**Skills Required**
+* Java
+* Rest APIs
+* Unit testing
 
-### Keploy SDK
+**Refs**
+* https://github.com/keploy/go-sdk
+* https://junit.org/junit5
+* https://github.com/keploy/example-url-shortener
 
-#### Project 1
+### 3. Autogenerate test cases
+Mentors: Shubham Jain, Neha Gupta, Sarthak
 
-#### Project 2
+**Goals & Ideas**
+* Use fuzz testing approach to generate new testcases from existing testcases. We can take inspiration from [Go Fuzzing](https://go.dev/doc/fuzz)
+* Define and capture testcases coverage and other useful metrics (KPIs) about the effectiveness of testcases. 
+* Avoid adding testcases that don't meaningfully impact any of the testing KPIs.
+* Use the API schemas and data types to ensure various potential edge cases are generated. 
+* Create a demo application to demonstrate the test case generation capability. 
+* Add the feature to generate extra testcases for the keploy server.
+
+**Skills Required**
+* Go
+* Rest APIs
+* Unit testing
+
+**Refs**
+* https://go.dev/doc/fuzz
+* https://github.com/keploy/keploy/issues/25
+* https://github.com/keploy/keploy/issues/24
+
+### 4. Add prioritization to deduplication algorithm
+Mentors: Shubham Jain, Neha Gupta
+
+**Goals & Ideas**
+* The current deduplication algorithm lacks any kind of prioritization for testcases.
+* For highly distributed or complex applications the amount of testcases captured from traffic could make the testcases too noisy. 
+* The idea is to prioritize top N testcases based on predefined KPI templates.
+* Create a demo application to demonstrate the test prioritization feature.
+* Publish benchmark results to show the baseline performances of the deduplication algorithms.
+
+**Skills Required**
+* Go
+* Rest APIs
+* Unit testing
+
+**Refs**
+* https://github.com/keploy/keploy/issues/27
