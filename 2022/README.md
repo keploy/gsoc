@@ -73,6 +73,9 @@ _________________
 * https://mochajs.org
 * https://github.com/keploy/example-url-shortener
 
+**Time Estimate** : 350 hours
+
+**Difficulty** : Hard
 
 ### 2. Keploy Java SDK
 **Mentors**: Shubham Jain, Ritik Jain, Saurabh Nigam.
@@ -96,8 +99,12 @@ _________________
 * https://junit.org/junit5
 * https://github.com/keploy/example-url-shortener
 
+**Time Estimate** : 350 hours
+
+**Difficulty** : Medium
+
 ### 3. Autogenerate test cases
-Mentors: Shubham Jain, Neha Gupta, Sarthak
+Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
 
 **Goals & Ideas**
 * Use fuzz testing approach to generate new testcases from existing testcases. We can take inspiration from [Go Fuzzing](https://go.dev/doc/fuzz)
@@ -117,8 +124,12 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak
 * https://github.com/keploy/keploy/issues/25
 * https://github.com/keploy/keploy/issues/24
 
+**Time Estimate** : 175 hours
+
+**Difficulty** : Medium
+
 ### 4. Add prioritization to deduplication algorithm
-Mentors: Shubham Jain, Neha Gupta
+Mentors: Shubham Jain, Neha Gupta, TBD
 
 **Goals & Ideas**
 * The current deduplication algorithm lacks any kind of prioritization for testcases.
@@ -134,3 +145,7 @@ Mentors: Shubham Jain, Neha Gupta
 
 **Refs**
 * https://github.com/keploy/keploy/issues/27
+
+**Time Estimate** : 175 hours
+
+**Difficulty** : Easy
