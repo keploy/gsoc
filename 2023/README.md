@@ -60,6 +60,8 @@ _________________
 (show complete tests info on both sides, only highlight differences with different color)
 * Add support for commands in Keploy CLI, for eg: `show [test_id];` will 
 show that specific test case among various testcases, `show [test_run_id];` will show the info related to it.
+* Rename test files and mock files to method_endpoint.
+* Add comment to keploy generated test file and mocks basically Kmocks and Ktests.
 
 **Skills Required**
 * Golang
@@ -69,6 +71,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 * https://github.com/keploy/keploy
 * https://github.com/keploy/example-url-shortener
 * https://docs.keploy.io/docs/devtools/server-contrib-guide
+* https://docs.keploy.io/
 
 **Time Estimate** : 175 hours
 
@@ -79,8 +82,11 @@ show that specific test case among various testcases, `show [test_run_id];` will
 **Mentors**: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu.
 
 **Goals & Ideas**
-* Add support for `MongoDB` framework.
+* Add support for `MongoDB` database.
 * Add support for `Apache Kafka`.
+* Add support for java Native HttpClient.
+* Add support for `RabbitMQ`.
+* Add support for `Google Cloud Platform` & `Azure` SDKs. 
 
 **Skills Required**
 * Java
@@ -89,9 +95,11 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 **Refs**
 * https://github.com/keploy/java-sdk
+* https://github.com/keploy/go-sdk
 * https://github.com/keploy/samples-java
 * https://junit.org/junit5
 * https://github.com/keploy/example-url-shortener
+* https://docs.keploy.io/
 
 **Time Estimate** : 350 hours
 
@@ -104,7 +112,8 @@ show that specific test case among various testcases, `show [test_run_id];` will
 * Add support for `Httpclients` in typescript. 
     - This sdk currently supports `node-fetch` httpClient, to support other httpclients like `axios`, `http`, etc. You can take the 1st ref below which intercepts other popular httpClients.
 * Add support for popular `Sql` databases. For eg: `PostgreSQL`, `MySQL`, etc. By adding support for `Sequelize`.
-* Add support for `MongoDB` framework.
+* Add support for `MongoDB` database.
+* Add support for `Amazon S3`, `DynamoDB`, `Azure Blob Storage`, and `Google Cloud Storage` using the HTTP Client.
 
 
 **Skills Required**
@@ -119,6 +128,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 * https://jestjs.io
 * https://mochajs.org
 * https://github.com/keploy/example-url-shortener
+* https://docs.keploy.io/
 
 **Time Estimate** : 350 hours
 
@@ -144,6 +154,7 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
 * https://go.dev/doc/fuzz
 * https://github.com/keploy/keploy/issues/25
 * https://github.com/keploy/keploy/issues/24
+* https://docs.keploy.io/
 
 **Time Estimate** : 175 hours
 
