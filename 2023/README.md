@@ -161,11 +161,11 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
 
 **Difficulty** : Medium
 
-### 5. Simulate time freezing
+### 5. Time Simulation in Java SDK
 Mentors: Sarthak Shyngle, Gourav Kumar
 
 **Goals & Ideas**
-* To capture time based tokens like jwt and recreate that session during test-mode .
+* To capture time based tokens like jwt and recreate that session during test-mode (Already implemented for go-sdk).
 * Basically record the time and save it with testcase in form of yamls.
 * Identify the methods which mainly return Time object used inside JSON Web Tokens (JWTs).
 * Override the Time object to return the recorded time at the time of test run by reading it from testcases which will mock time which was set to be expired. 
@@ -178,10 +178,11 @@ Mentors: Sarthak Shyngle, Gourav Kumar
 * Unit testing
 
 **Refs**
-* https://go.dev/doc/fuzz
-* https://github.com/keploy/keploy/issues/25
-* https://github.com/keploy/keploy/issues/24
-* https://docs.keploy.io/
+* https://github.com/keploy/java-sdk
+* https://github.com/keploy/samples-java
+* https://junit.org/junit5
+* https://github.com/keploy/go-sdk
+* https://www.baeldung.com/java-json-web-tokens-jjwt
 
 **Time Estimate** : 175 hours
 
