@@ -57,11 +57,9 @@ _________________
 * Add support for `Get` curl command for the test case.
 * Add support to `Run` individual test case.
 * On the CLI add a vertical line separator to show differences in the test cases 
-(show complete tests info on both sides, only differences in different color)
+(show complete tests info on both sides, only highlight differences with different color)
 * Add support for commands in Keploy CLI, for eg: `show [test_id];` will 
-show that specific test case among various of testruns, `show [test_run_id];` will show the info related to it.
-* Rename test files and mock files to method_endpoint.
-* Add comment to keploy generated test file and mocks basically Kmocks and Ktest.
+show that specific test case among various testcases, `show [test_run_id];` will show the info related to it.
 
 **Skills Required**
 * Golang
@@ -78,11 +76,11 @@ show that specific test case among various of testruns, `show [test_run_id];` wi
 
 
 ### 2. Keploy Java SDK
-**Mentors**: Shubham Jain, Sarthak Shyngle, Gourav Kumar.
+**Mentors**: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu.
 
 **Goals & Ideas**
-* Add support for `MongoDb` framework.
-* 
+* Add support for `MongoDB` framework.
+* Add support for `Apache Kafka`.
 
 **Skills Required**
 * Java
@@ -91,6 +89,7 @@ show that specific test case among various of testruns, `show [test_run_id];` wi
 
 **Refs**
 * https://github.com/keploy/java-sdk
+* https://github.com/keploy/samples-java
 * https://junit.org/junit5
 * https://github.com/keploy/example-url-shortener
 
@@ -102,8 +101,11 @@ show that specific test case among various of testruns, `show [test_run_id];` wi
 **Mentors**: Charan Kamarapu, Ritik Jain, Shubham Jain.
 
 **Goals & Ideas**
-* Add support for dependencies in typescript.
-* 
+* Add support for `Httpclients` in typescript. 
+    - This sdk currently supports `node-fetch` httpClient, to support other httpclients like `axios`, `http`, etc. You can take the 1st ref below which intercepts other popular httpClients.
+* Add support for popular `Sql` databases. For eg: `PostgreSQL`, `MySQL`, etc. By adding support for `Sequelize`.
+* Add support for `MongoDB` framework.
+
 
 **Skills Required**
 * Typescript/Javascript
@@ -111,6 +113,8 @@ show that specific test case among various of testruns, `show [test_run_id];` wi
 * Unit testing
 
 **Refs**
+* https://www.npmjs.com/package/@mswjs/interceptors
+* https://sequelize.org/
 * https://github.com/keploy/go-sdk
 * https://jestjs.io
 * https://mochajs.org
@@ -119,7 +123,6 @@ show that specific test case among various of testruns, `show [test_run_id];` wi
 **Time Estimate** : 350 hours
 
 **Difficulty** : Hard
-
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
@@ -145,25 +148,3 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
 **Time Estimate** : 175 hours
 
 **Difficulty** : Medium
-
-### 5. Add prioritization to deduplication algorithm
-Mentors: Shubham Jain, Neha Gupta, TBD
-
-**Goals & Ideas**
-* The current deduplication algorithm lacks any kind of prioritization for testcases.
-* For highly distributed or complex applications the amount of testcases captured from traffic could make the testcases too noisy. 
-* The idea is to prioritize top N testcases based on predefined KPI templates.
-* Create a demo application to demonstrate the test prioritization feature.
-* Publish benchmark results to show the baseline performances of the deduplication algorithms.
-
-**Skills Required**
-* Go
-* Rest APIs
-* Unit testing
-
-**Refs**
-* https://github.com/keploy/keploy/issues/27
-
-**Time Estimate** : 175 hours
-
-**Difficulty** : Easy
