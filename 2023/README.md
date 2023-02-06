@@ -114,6 +114,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 * Add support for popular `Sql` databases. For eg: `PostgreSQL`, `MySQL`, etc. By adding support for `Sequelize`.
 * Add support for `MongoDB` database.
 * Add support for `Amazon S3`, `DynamoDB`, `Azure Blob Storage`, and `Google Cloud Storage` using the HTTP Client.
+* Add support for `Redis` & `Elasticsearch`.
 
 
 **Skills Required**
