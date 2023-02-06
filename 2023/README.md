@@ -160,3 +160,29 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
 **Time Estimate** : 175 hours
 
 **Difficulty** : Medium
+
+### 5. Simulate time freezing
+Mentors: Sarthak Shyngle, Gourav Kumar
+
+**Goals & Ideas**
+* To capture time based tokens like jwt and recreate that session during test-mode .
+* Basically record the time and save it with testcase in form of yamls.
+* Identify the methods which mainly return Time object used inside JSON Web Tokens (JWTs).
+* Override the Time object to return the recorded time at the time of test run by reading it from testcases which will mock time which was set to be expired. 
+* Create a demo application which uses jwt token based authentication . 
+* It will good if there are minimum changes required in user API for that runtime ASM instrumentation libraries like bytebuddy can be used.
+
+**Skills Required**
+* Java
+* Rest APIs
+* Unit testing
+
+**Refs**
+* https://go.dev/doc/fuzz
+* https://github.com/keploy/keploy/issues/25
+* https://github.com/keploy/keploy/issues/24
+* https://docs.keploy.io/
+
+**Time Estimate** : 175 hours
+
+**Difficulty** : Medium
