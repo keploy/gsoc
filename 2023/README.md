@@ -136,7 +136,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 **Difficulty** : Hard
 
 ### 4. Autogenerate test cases
-Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
+Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy
 
 **Goals & Ideas**
 * Use fuzz testing approach to generate new testcases from existing testcases. We can take inspiration from [Go Fuzzing](https://go.dev/doc/fuzz)
