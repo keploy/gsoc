@@ -51,7 +51,7 @@ _________________
 ## **Projects List**
 
 ### 1. Keploy CLI Refactoring 
-**Mentors**: Neha Gupta, Ritik Jain
+**Mentors**: Neha Gupta, Ritik Jain, Sanskriti Harmukh, Ankit Kumar
 
 **Goals & Ideas**
 * Add support for `Get` curl command for the test case.
