@@ -79,7 +79,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 
 ### 2. Keploy Java SDK
-**Mentors**: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu.
+**Mentors**: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu, Barkatul Mujauddin.
 
 **Goals & Ideas**
 * Add support for `MongoDB` database.
