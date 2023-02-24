@@ -106,7 +106,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 **Difficulty** : Medium
 
 ### 3. Keploy Typescript/Javascript SDK
-**Mentors**: Charan Kamarapu, Ritik Jain, Shubham Jain.
+**Mentors**: Charan Kamarapu, Ritik Jain, Shubham Jain, Nishant Mishra, Diganta Kr Banik.
 
 **Goals & Ideas**
 * Add support for `Httpclients` in typescript. 
