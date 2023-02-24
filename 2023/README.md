@@ -51,7 +51,7 @@ _________________
 ## **Projects List**
 
 ### 1. Keploy CLI Refactoring 
-**Mentors**: Neha Gupta, Ritik Jain
+**Mentors**: Neha Gupta, Ritik Jain, Sanskriti Harmukh, Ankit Kumar
 
 **Goals & Ideas**
 * Add support for `Get` curl command for the test case.
@@ -106,7 +106,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 **Difficulty** : Medium
 
 ### 3. Keploy Typescript/Javascript SDK
-**Mentors**: Charan Kamarapu, Ritik Jain, Shubham Jain.
+**Mentors**: Charan Kamarapu, Ritik Jain, Shubham Jain, Nishant Mishra, Diganta Kr Banik.
 
 **Goals & Ideas**
 * Add support for `Httpclients` in typescript. 
@@ -136,7 +136,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 **Difficulty** : Hard
 
 ### 4. Autogenerate test cases
-Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
+Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy
 
 **Goals & Ideas**
 * Use fuzz testing approach to generate new testcases from existing testcases. We can take inspiration from [Go Fuzzing](https://go.dev/doc/fuzz)
@@ -162,7 +162,7 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, TBD
 **Difficulty** : Medium
 
 ### 5. Time Simulation in Java SDK
-Mentors: Sarthak Shyngle, Gourav Kumar
+Mentors: Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 
 **Goals & Ideas**
 * To capture time based tokens like jwt and recreate that session during test-mode (Already implemented for go-sdk).
