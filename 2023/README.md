@@ -136,7 +136,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 **Difficulty** : Hard
 
 ### 4. Autogenerate test cases
-Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy
+Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 
 **Goals & Ideas**
 * Use fuzz testing approach to generate new testcases from existing testcases. We can take inspiration from [Go Fuzzing](https://go.dev/doc/fuzz)
@@ -162,7 +162,7 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy
 **Difficulty** : Medium
 
 ### 5. Time Simulation in Java SDK
-Mentors: Sarthak Shyngle, Gourav Kumar, Animesh Pathak
+Mentors: Sarthak Shyngle, Gourav Kumar, Animesh Pathak, Pranshu Srivastava
 
 **Goals & Ideas**
 * To capture time based tokens like jwt and recreate that session during test-mode (Already implemented for go-sdk).
