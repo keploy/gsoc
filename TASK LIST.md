@@ -21,9 +21,9 @@ Mentors: Charan Kamarapu, Ritik Jain, Shubham Jain, Nishant Mishra, Diganta Kr B
 
 | Tasks | Available | GitHub ID | Completed |
 |-------|-----------|-----------|-----------|
-|       |           |           |           |
-|       |           |           |           |
-|       |           |           |           |
+| [Empty response for node-fetch http call](https://github.com/keploy/typescript-sdk/issues/49)      |           |           |           |
+| [linting action is failing in CI of TS-SDK](https://github.com/keploy/typescript-sdk/issues/50)       |           |           |           |
+| [add a sample unit test for mocking/stubbing calls in unit-tests](https://github.com/keploy/samples-typescript/issues/10)      |           |           |           |
 
 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy
