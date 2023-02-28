@@ -19,7 +19,7 @@ Mentors: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu, Barkatul Mujauddin
 |  Setup Keploy Locally with a Sample Java Application (Use as many dependencies you can)    |    Samples-Java       |           |           |
 |  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [ISSUE LINK](https://github.com/keploy/java-sdk/issues/129)        |           |
 |  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [ISSUE LINK](https://github.com/keploy/java-sdk/issues/127)       |           |
-|  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    Charan ( To Create GFI)   |           |           |
+|  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/131)   |           |           |
 | Creating Sample Java Application using JWT Token         |   Java-SDK   |     Gourav ( To Create GFI)      |           |
 | Creating Interceptors and Advice for different jwt objects   |   Java-SDK   |    Gourav ( To Create GFI)       |           |           |
 
