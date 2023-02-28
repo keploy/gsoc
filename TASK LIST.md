@@ -40,5 +40,5 @@ Mentors: Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 | Tasks                                            | Available | GitHub ID | Completed |
 |--------------------------------------------------|-----------|-----------|-----------|
 | Creating Sample Java Application using JWT Token |           |           |           |
-|                                                  |           |           |           |
-|                                                  |           |           |           |
+| Understanding ASM library bytebuddy              |           |           |           |
+| Creating Interceptors and Advice for different jwt objects   |           |           |           |
