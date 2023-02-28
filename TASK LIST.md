@@ -29,10 +29,12 @@ Mentors: Charan Kamarapu, Ritik Jain, Shubham Jain, Nishant Mishra, Diganta Kr B
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy
 
 | Tasks | Available | GitHub ID | Completed |
-|-------|-----------|-----------|-----------|
-|       |           |           |           |
-|       |           |           |           |
-|       |           |           |           |
+|----------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|
+| Create a rest api in golang using any router and one database supported by keploy .                      |           |           |           |
+| Short list different ideas to generate more than one testcase using api schema and response provided.    |           |           |           |
+| Learn how fuzz tests work https://go.dev/doc/tutorial/fuzz .                                             |           |           |           |
+| Add fuzz tests for the api created in golang  .                                                          |           |           |           |
+
 
 5. Time Simulation in JAVA SDK
 Mentors: Sarthak Shyngle, Gourav Kumar, Animesh Pathak
