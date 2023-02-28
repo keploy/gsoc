@@ -30,10 +30,10 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy
 
 | Tasks | Available | GitHub ID | Completed |
 |----------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|
-| Create a rest api in golang using any router and one database supported by keploy .                      |           |           |           |
-| Short list different ideas to generate more than one testcase using api schema and response provided.    |           |           |           |
-| Learn how fuzz tests work https://go.dev/doc/tutorial/fuzz .                                             |           |           |           |
-| Add fuzz tests for the api created in golang  .                                                          |           |           |           |
+| Create a rest api in golang using any router and one database supported by keploy                   |           |           |           |
+| Short list different ideas to generate more than one testcase using api schema and response provided |           |           |           |
+| Learn how fuzz tests work https://go.dev/doc/tutorial/fuzz                                        |           |           |           |
+| Add fuzz tests for the api created in golang                                               |           |           |           |
 
 
 5. Time Simulation in JAVA SDK
@@ -41,6 +41,6 @@ Mentors: Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 
 | Tasks                                            | Available | GitHub ID | Completed |
 |--------------------------------------------------|-----------|-----------|-----------|
-| Creating Sample Java Application using JWT Token |           |           |           |
+| [Creating Sample Java Application using JWT Token](https://github.com/keploy/samples-java/issues/34) |           |           |           |
 | Understanding ASM library bytebuddy              |           |           |           |
 | Creating Interceptors and Advice for different jwt objects   |           |           |           |
