@@ -197,9 +197,9 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 **Task List** : 
 | Tasks | Repo | Actionable By | <GitHub_ID> |
 |-------|-----------|-----------|-----------|
-| Create a REST-Api in Golang using any router and one database supported by Keploy                 |           |     Pranshu(To create GFI)      |      <PR_ID>     |  
-| Short list different ideas to generate more than one testcase using api schema and response provided |           |       Pranshu(To create GFI)    |           |      
-| Add Go-fuzz tests for the application created                                               |           |      Pranshu(To create GFI)     |           | 
+| Create a REST-Api in Golang using any router and one database supported by Keploy                 |           |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
+| Short list different ideas to generate more than one testcase using api schema and response provided |           |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
+| Add Go-fuzz tests for the application created                                               |           |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
 |     TBA more      |           |     Shubham (To be Added)      |           | 
 
 ### 5. eBPF based Keploy Integration
