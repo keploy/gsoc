@@ -85,7 +85,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 |  Setup Keploy Locally with a Sample Go Application      |      Samples-go     |           |          <PR_ID>|  
 |  Use Keploy to increase test cases coverage      |  Keploy         |    [ISSUE LINK](https://github.com/keploy/keploy/issues/333)     |           |           |
 |  Add a vertical line separator in CLI   |       Keploy    |      [ISSUE LINK](https://github.com/keploy/keploy/issues/334)   |           |           |
-|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    Sarthak ( To Create GFI)     |           |           |
+|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    [ISSUE LINK](https://github.com/keploy/keploy/issues/337)     |           |           |
 |  Update Keploy UI with new way of working Keploy    |    UI     |    [ISSUE LINK](https://github.com/keploy/keploy/issues/335)    |           |           |
 
 ### 2. Keploy Java SDK
