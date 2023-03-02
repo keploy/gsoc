@@ -56,12 +56,13 @@ _________________
 **Goals & Ideas**
 * Add support for `Get` curl command for the test case.
 * Add support to `Run` individual test case.
-* On the CLI add a vertical line separator to show differences in the test cases 
-(show complete tests info on both sides, only highlight differences with different color)
 * Add support for commands in Keploy CLI, for eg: `show [test_id];` will 
 show that specific test case among various testcases, `show [test_run_id];` will show the info related to it.
 * Rename test files and mock files to method_endpoint.
-* Add comment to keploy generated test file and mocks basically Kmocks and Ktests.
+* Add comment to keploy generated test file and mocks basically KMocks and KTests.
+* Pipe the server logs from SDK to Keploy Server. (Ritik to make GFI)
+* Add the static link to serve the test report genenerated at end of log.
+
 
 **Skills Required**
 * Golang
@@ -87,6 +88,8 @@ show that specific test case among various testcases, `show [test_run_id];` will
 * Add support for java Native HttpClient.
 * Add support for `RabbitMQ`.
 * Add support for `Google Cloud Platform` & `Azure` SDKs. 
+* Add Mock Library `Redis` and `KSQL` Support.
+
 
 **Skills Required**
 * Java
@@ -161,8 +164,9 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 
 **Difficulty** : Medium
 
-### 5. Time Simulation in Java SDK
-Mentors: Sarthak Shyngle, Gourav Kumar, Animesh Pathak, Pranshu Srivastava
+
+### 5. eBPF based Keploy Integration
+Mentors: Shubham Jain, Gourav Kumar, Animesh Pathak
 
 **Goals & Ideas**
 * To capture time based tokens like jwt and recreate that session during test-mode (Already implemented for go-sdk).
