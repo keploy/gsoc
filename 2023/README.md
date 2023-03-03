@@ -168,6 +168,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [ISSUE LINK](https://github.com/keploy/samples-typescript/issues/10)     |           |           |
 | Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      Ritik (To Create GFI)    |           |           |
 | Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) | | |
+| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) | | |
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
