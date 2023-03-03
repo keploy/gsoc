@@ -167,6 +167,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Linting action is failing in CI of TS-SDK       |    Typescript-SDK       |       [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/50)     |           |           |
 | Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [ISSUE LINK](https://github.com/keploy/samples-typescript/issues/10)     |           |           |
 | Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      Ritik (To Create GFI)    |           |           |
+| Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) | | |
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
