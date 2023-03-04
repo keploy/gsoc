@@ -25,7 +25,7 @@ You can read more about the format of the program and its goals [here](https://g
 
 
 ## What is the timeline for GSoC 2023?
-[Full timeline](https://summerofcode.withgoogle.com/programs/2023)
+[Full timeline](https://developers.google.com/open-source/gsoc/timeline)
 
 |Important events | Deadline|
 | ----- | ----- |
@@ -35,6 +35,9 @@ You can read more about the format of the program and its goals [here](https://g
 | Potential GSoC contributors discuss application ideas with mentoring organizations | February 22 - March 20, 2023 |
 | GSoC contributor application period | March 20 - April 4, 2023 |
 | Accepted GSoC Contributor projects announced | May 4, 2023 |
+| Contributors work on their Google Summer of Code projects | May 29, 2023 - August 28, 2023|
+| Mentors submit final GSoC contributor evaluations (standard coding period) | August 28, 2023 - September 4, 2023|
+| Initial results of Google Summer of Code 2023 announced | September 5, 2023 |
 | Students work on their Google Summer of Code project | May 4, 2023 - NOvember 17, 2023|
 
 #### Statistics
