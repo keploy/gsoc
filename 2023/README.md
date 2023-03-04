@@ -201,9 +201,9 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 **Task List** : 
 | Tasks | Repo | Actionable By | <GitHub_ID> |
 |-------|-----------|-----------|-----------|
-| Create a REST-Api in Golang using any router and one database supported by Keploy                 |           |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
-| Short list different ideas to generate more than one testcase using api schema and response provided |           |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
-| Add Go-fuzz tests for the application created                                               |           |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
+| Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
+| Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
+| Add Go-fuzz tests for the application created                                               |   Samples-go         |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
 | Add schema checks in Keploy's validation logic | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/431) | |
 | Generate OpenAPI schema from API calls/ Testcases | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/432) | |
 | Add validation to dependency request data | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/433) | |
