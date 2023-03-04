@@ -124,7 +124,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 |  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [ISSUE LINK](https://github.com/keploy/java-sdk/issues/129)        |           |
 |  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [ISSUE LINK](https://github.com/keploy/java-sdk/issues/127)       |           |
 |  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/131)   |           |           |
-| Creating Sample Java Application using JWT Token         |   Java-SDK   |     [ISSUE LINK](https://github.com/keploy/samples-java/issues/34)      |           |
+| Creating Sample Java Application using JWT Token         |   Samples-Java  |     [ISSUE LINK](https://github.com/keploy/samples-java/issues/34)      |           |
 | Creating Interceptors and Advice for different jwt objects   |   Java-SDK   |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/132)      |           |           |
 
 
