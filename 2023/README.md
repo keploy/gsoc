@@ -194,7 +194,7 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 * https://github.com/keploy/keploy/issues/24
 * https://docs.keploy.io/
 
-**Time Estimate** : 175 hours
+**Time Estimate** : 300 hours
 
 **Difficulty** : Medium
 
@@ -204,7 +204,9 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 | Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
 | Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
 | Add Go-fuzz tests for the application created                                               |   Samples-go         |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
-|     TBA more      |           |     Shubham (To be Added)      |           | 
+| Add schema checks in Keploy's validation logic | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/431) | |
+| Generate OpenAPI schema from API calls/ Testcases | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/432) | |
+| Add validation to dependency request data | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/433) | |
 
 ### 5. eBPF based Keploy Integration
 Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
