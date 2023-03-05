@@ -166,11 +166,12 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Empty response for node-fetch http call     |    Typescript-SDK       |     [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/49)        |           |           |
 | Linting action is failing in CI of TS-SDK       |    Typescript-SDK       |       [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/50)     |           |           |
 | Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [ISSUE LINK](https://github.com/keploy/samples-typescript/issues/10)     |           |           |
-| Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      Ritik (To Create GFI)    |           |           |
+| Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/56)    |           |           |
 | Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) | | |
-| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) | [#45](https://github.com/keploy/typescript-sdk/pull/48) | |
-| Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) | [#51](https://github.com/keploy/typescript-sdk/pull/53) | |
-| Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | | |
+| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) | | |
+| Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) | | |
+| Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | [keploy/typescript-sdk#47](https://github.com/keploy/typescript-sdk/pull/47) | |
+
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
@@ -194,17 +195,19 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 * https://github.com/keploy/keploy/issues/24
 * https://docs.keploy.io/
 
-**Time Estimate** : 175 hours
+**Time Estimate** : 300 hours
 
 **Difficulty** : Medium
 
 **Task List** : 
 | Tasks | Repo | Actionable By | <GitHub_ID> |
 |-------|-----------|-----------|-----------|
-| Create a REST-Api in Golang using any router and one database supported by Keploy                 |           |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
-| Short list different ideas to generate more than one testcase using api schema and response provided |           |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
-| Add Go-fuzz tests for the application created                                               |           |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
-|     TBA more      |           |     Shubham (To be Added)      |           | 
+| Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
+| Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
+| Add Go-fuzz tests for the application created                                               |   Samples-go         |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
+| Add schema checks in Keploy's validation logic | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/431) | |
+| Generate OpenAPI schema from API calls/ Testcases | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/432) | |
+| Add validation to dependency request data | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/433) | |
 
 ### 5. eBPF based Keploy Integration
 Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
