@@ -211,6 +211,43 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 ### 5. eBPF based Keploy Integration
 Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 
+**Goals & Ideas**
+* Use eBPF to capture network traffic instead of using a Keploy sdks.
+* The base platform for eBPF is Linux, but we should add support for other platforms via docker. 
+* The eBPF program should be able to capture network traffic from any application running on the host machine, without requiring any changes to the application.
+* For test generation we need to support HTTP, TLS and gRPC.
+* For mocks capturing we should be able to capture all the network traffic going out of the application and parse the protocol. 
+* Add support http and grpc clients for mocking.
+* Add support for popular databases like Postgres, MySQL, Postgres, Redis and MongoDB.
+* Make this implementation work with existing demos and samples in go, java and node.
+
+**Skills Required**
+* Linux fundamentals
+* eBPF (good to have prior experience)
+* Go
+* C/C++
+
+**Refs**
+* https://ebpf.io
+* https://github.com/DataDog/ebpf-training
+* https://github.com/pixie-io/pixie-demos
+* https://github.com/cilium/ebpf
+* https://blog.px.dev/ebpf-openssl-tracing/
+
+**Time Estimate** : 300 hours
+
+**Difficulty** : Medium
+
+**Task List** :
+
+| Tasks                                                                                                       | Repo       | Actionable By                                                 | <GitHub_ID> |
+|-------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
+| Implement an eBPF based program to start and application and capture all http incoming and outgoing traffic | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/436) |      <PR_ID>     |  
+| Capture all https incoming and outgoing traffic for an application                                          | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/437)     |           |      
+| Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [Issue Link](https://github.com/keploy/samples-go/issues/438) |           |
+| Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/439) | |
+
+
 <!--
 **Goals & Ideas**
 * To capture time based tokens like jwt and recreate that session during test-mode (Already implemented for go-sdk).
