@@ -60,7 +60,7 @@ _________________
 show that specific test case among various testcases, `show [test_run_id];` will show the info related to it.
 * Rename test files and mock files to method_endpoint.
 * Add comment to keploy generated test file and mocks basically KMocks and KTests.
-* Pipe the server logs from SDK to Keploy Server. (Ritik to make GFI)
+* Add configuration to pipe keploy server logs in a file.
 * Add the static link to serve the test report genenerated at end of log.
 
 **Skills Required**
@@ -167,10 +167,10 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Linting action is failing in CI of TS-SDK       |    Typescript-SDK       |       [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/50)     |           |           |
 | Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [ISSUE LINK](https://github.com/keploy/samples-typescript/issues/10)     |           |           |
 | Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/56)    |           |           |
-| Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) | | |
-| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) | | |
-| Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) | | |
-| Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | | |
+| Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) | [keploy/typescript-sdk#46](https://github.com/keploy/typescript-sdk/pull/46) | |
+| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) | [keploy/typescript-sdk#45](https://github.com/keploy/typescript-sdk/pull/48) | |
+| Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) | [keploy/typescript-sdk#51](https://github.com/keploy/typescript-sdk/pull/53) | |
+| Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | [keploy/typescript-sdk#47](https://github.com/keploy/typescript-sdk/pull/47) | |
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
@@ -204,12 +204,49 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 | Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
 | Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
 | Add Go-fuzz tests for the application created                                               |   Samples-go         |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
-| Add schema checks in Keploy's validation logic | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/431) | |
-| Generate OpenAPI schema from API calls/ Testcases | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/432) | |
-| Add validation to dependency request data | Keploy | [Issue Link](https://github.com/keploy/samples-go/issues/433) | |
+| Add schema checks in Keploy's validation logic | Keploy | [Issue Link](https://github.com/keploy/keploy/issues/431) | |
+| Generate OpenAPI schema from API calls/ Testcases | Keploy | [Issue Link](https://github.com/keploy/keploy/issues/432) | |
+| Add validation to dependency request data | Keploy | [Issue Link](https://github.com/keploy/keploy/issues/433) | |
 
 ### 5. eBPF based Keploy Integration
 Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
+
+**Goals & Ideas**
+* Use eBPF to capture network traffic instead of using a Keploy sdks.
+* The base platform for eBPF is Linux, but we should add support for other platforms via docker. 
+* The eBPF program should be able to capture network traffic from any application running on the host machine, without requiring any changes to the application.
+* For test generation we need to support HTTP, TLS and gRPC.
+* For mocks capturing we should be able to capture all the network traffic going out of the application and parse the protocol. 
+* Add support http and grpc clients for mocking.
+* Add support for popular databases like Postgres, MySQL, Postgres, Redis and MongoDB.
+* Make this implementation work with existing demos and samples in go, java and node.
+
+**Skills Required**
+* Linux fundamentals
+* eBPF (good to have prior experience)
+* Go
+* C/C++
+
+**Refs**
+* https://ebpf.io
+* https://github.com/DataDog/ebpf-training
+* https://github.com/pixie-io/pixie-demos
+* https://github.com/cilium/ebpf
+* https://blog.px.dev/ebpf-openssl-tracing/
+
+**Time Estimate** : 300 hours
+
+**Difficulty** : Medium
+
+**Task List** :
+
+| Tasks                                                                                                       | Repo       | Actionable By                                                 | <GitHub_ID> |
+|-------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
+| Implement an eBPF based program to start and application and capture all http incoming and outgoing traffic | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/436) |      <PR_ID>     |  
+| Capture all https incoming and outgoing traffic for an application                                          | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/437)     |           |      
+| Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [Issue Link](https://github.com/keploy/samples-go/issues/438) |           |
+| Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/439) | |
+
 
 <!--
 **Goals & Ideas**
