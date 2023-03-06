@@ -60,7 +60,7 @@ _________________
 show that specific test case among various testcases, `show [test_run_id];` will show the info related to it.
 * Rename test files and mock files to method_endpoint.
 * Add comment to keploy generated test file and mocks basically KMocks and KTests.
-* Pipe the server logs from SDK to Keploy Server. (Ritik to make GFI)
+* Add configuration to pipe keploy server logs in a file. (Ritik to make GFI)
 * Add the static link to serve the test report genenerated at end of log.
 
 **Skills Required**
