@@ -247,6 +247,37 @@ Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 | Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [Issue Link](https://github.com/keploy/samples-go/issues/438) |           |
 | Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/439) | |
 
+### 6. JS or Go based DSL for Keploy
+Mentors: Shubham Jain, Neha Gupta, Ritik Jain, Animesh Pathak
+
+**Goals & Ideas**
+* Create a DSL for Keploy in JS or Go instead of the current yaml.
+* The DSL should allow greater flexibility and extensibility than the current yaml format by enabling users to write custom code. 
+* Most of the DSL should be encapsulated in the library methods. 
+* We can take inspiration from k6.io and rest assured. k6 uses JS to define test scenarios.
+* The DSL should be able to define testcases and mocks as an alternative to the current yaml format.
+
+**Skills Required**
+* Go
+* Javascript (optional)
+* Code generation and parsing (good to have prior experience)
+
+**Refs**
+* https://k6.io
+* https://rest-assured.io
+
+**Time Estimate** : 300 hours
+
+**Difficulty** : Medium
+
+**Task List** :
+
+| Tasks                                                           | Repo       | Actionable By                                                 | <GitHub_ID> |
+|-----------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
+| Add support for reading js or go based testcases                | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/447) |      <PR_ID>     |  
+| Define basic library interfaces for the JS/Go DS                | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/448)     |           |      
+| Add support for generating testcases using the above DSL        | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/449) |           |
+| Generate tests using the DSL for the echo-sql demo in samples-go | Samples-go | [Issue Link](https://github.com/keploy/samples-go/issues/450) | |
 
 <!--
 **Goals & Ideas**
