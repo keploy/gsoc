@@ -242,7 +242,7 @@ Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 
 | Tasks                                                                                                       | Repo       | Actionable By                                                 | <GitHub_ID> |
 |-------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
-| Implement an eBPF based program to start and application and capture all http incoming and outgoing traffic | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/436) |      <PR_ID>     |  
+| Implement an eBPF based program to start and application and capture all http incoming and outgoing traffic | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/436) |      <PR_ID>     |  
 | Capture all https incoming and outgoing traffic for an application                                          | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/437)     |           |      
 | Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [Issue Link](https://github.com/keploy/samples-go/issues/438) |           |
 | Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/439) | |
