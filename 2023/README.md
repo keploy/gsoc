@@ -121,7 +121,6 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Tasks | Repo | Actionable By | [reem-atalah](https://github.com/reem-atalah) |
 |-------|-----------|-----------|-----------|
 |  Setup Keploy Locally with a Sample Java Application (Use as many dependencies you can)    |    Samples-Java       |           |      |     |
-| Conditional mocking of dependencies   |   Java-SDK   |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/124)      |     [PR LINK](https://github.com/keploy/java-sdk/pull/137)      |           |
 |  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [ISSUE LINK](https://github.com/keploy/java-sdk/issues/129)        |           |
 |  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [ISSUE LINK](https://github.com/keploy/java-sdk/issues/127)       |           |
 |  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/131)   |           |           |
