@@ -163,7 +163,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Tasks | Repo | Actionable By | <GitHub_ID> |
 |-------|-----------|-----------|-----------|
 | Setup Keploy Locally with a Sample TS Application   |    Samples-Typescript       |           |     <PR_ID>      |
-| Empty response for node-fetch http call     |    Typescript-SDK       |     [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/49)        |           |           |
+| Empty response for node-fetch http call     |    Typescript-SDK       |     [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/49)        | 	[keploy/typescript-sdk#60](https://github.com/keploy/typescript-sdk/pull/60)	 |           |
 | Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [ISSUE LINK](https://github.com/keploy/samples-typescript/issues/10)     |           |           |
 | Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/56)    |           |           |
 | Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) | [keploy/typescript-sdk#46](https://github.com/keploy/typescript-sdk/pull/46) | |
