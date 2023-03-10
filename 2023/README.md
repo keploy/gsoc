@@ -162,14 +162,14 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 | Tasks | Repo | Actionable By | [G0maa](https://github.com/G0maa) | [shreyanshshah27](https://github.com/shreyanshshah27) | [Hermione2408](https://github.com/Hermione2408) |
 |-------|-----------|-----------|-----------|-----------|-----------|
-| Setup Keploy Locally with a Sample TS Application   |    Samples-Typescript       |           |     <PR_ID>      |    |   |
-| Empty response for node-fetch http call     |    Typescript-SDK       |     [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/49)        | 	[keploy/typescript-sdk#60](https://github.com/keploy/typescript-sdk/pull/60)	 |           |           |
+| Setup Keploy Locally with a Sample TS Application   |    Samples-Typescript       |           |          |    |   |
+| Empty response for node-fetch http call     |    Typescript-SDK       |     [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/49)        | 	[PR LINK](https://github.com/keploy/typescript-sdk/pull/60)	 |           |           |
 | Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [ISSUE LINK](https://github.com/keploy/samples-typescript/issues/10)     |           |           |           |
 | Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/56)    |           |           |           |
-| Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) |           | [keploy/typescript-sdk#46](https://github.com/keploy/typescript-sdk/pull/46) |           |
-| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) |           |           | [keploy/typescript-sdk#45](https://github.com/keploy/typescript-sdk/pull/48)|
-| Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) |           | | [keploy/typescript-sdk#51](https://github.com/keploy/typescript-sdk/pull/53) |
-| Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | |[keploy/typescript-sdk#47](https://github.com/keploy/typescript-sdk/pull/47) |           | 
+| Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) |           | [PR LINK](https://github.com/keploy/typescript-sdk/pull/46) |           |
+| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) |           |           | [PR LINK](https://github.com/keploy/typescript-sdk/pull/48)|
+| Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) |           | | [PR LINK](https://github.com/keploy/typescript-sdk/pull/53) |
+| Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | |[PR LINK](https://github.com/keploy/typescript-sdk/pull/47) |           | 
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
