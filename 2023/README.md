@@ -273,7 +273,7 @@ Mentors: Shubham Jain, Neha Gupta, Ritik Jain, Animesh Pathak
 
 | Tasks                                                           | Repo       | Actionable By                                                 | <GitHub_ID> |
 |-----------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
-| Add support for reading js or go based testcases                | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/447) |      <PR_ID>     |  
+| Add support for reading js or go based testcases                | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/447) |      <PR_ID>     |  
 | Define basic library interfaces for the JS/Go DS                | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/448)     |           |      
 | Add support for generating testcases using the above DSL        | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/449) |           |
 | Generate tests using the DSL for the echo-sql demo in samples-go | Samples-go | [Issue Link](https://github.com/keploy/keploy/issues/450) | |
