@@ -170,6 +170,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) | [keploy/typescript-sdk#45](https://github.com/keploy/typescript-sdk/pull/48) | |
 | Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) | [keploy/typescript-sdk#51](https://github.com/keploy/typescript-sdk/pull/53) | |
 | Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | [keploy/typescript-sdk#47](https://github.com/keploy/typescript-sdk/pull/47) | |
+| TS-SDK records keploy-testcase even on test mode| Typescript-SDK | [ISSUE LINK](https://github.com/keploy/keploy/issues/430) | [keploy/typescript-sdk#63](https://github.com/keploy/typescript-sdk/pull/63) | |
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
