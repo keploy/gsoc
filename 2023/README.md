@@ -160,6 +160,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 **Task List** : 
 
+
 | Tasks | Repo | Actionable By | [G0maa](https://github.com/G0maa) | [shreyanshshah27](https://github.com/shreyanshshah27) | [Hermione2408](https://github.com/Hermione2408) |
 |-------|-----------|-----------|-----------|-----------|-----------|
 | Setup Keploy Locally with a Sample TS Application   |    Samples-Typescript       |           |          |    |   | 
@@ -170,6 +171,7 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Add log statement in keploy and mock module to log mode | Typescript-SDK | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/typescript-sdk/issues/45) |           |           | [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/typescript-sdk/pull/48)|
 | Remove cp cmd from build script | Typescript-SDK | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/typescript-sdk/issues/51) |           | | [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/typescript-sdk/pull/53) |
 | Add filter for headers during recording | Typescript-SDK | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/typescript-sdk/issues/44) | |[<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/typescript-sdk/pull/47) |           | 
+
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
@@ -277,6 +279,7 @@ Mentors: Shubham Jain, Neha Gupta, Ritik Jain, Animesh Pathak
 | Define basic library interfaces for the JS/Go DS                | Keploy     | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/448)     |           |      
 | Add support for generating testcases using the above DSL        | Keploy     | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/449) |           |
 | Generate tests using the DSL for the echo-sql demo in samples-go | Samples-go | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/450) | |
+
 
 <!--
 **Goals & Ideas**
