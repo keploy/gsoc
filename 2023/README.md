@@ -243,8 +243,8 @@ Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 |-------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
 | Implement an eBPF based program to start and application and capture all http incoming and outgoing traffic | Keploy     | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/436) |      <PR_ID>     |  
 | Capture all https incoming and outgoing traffic for an application                                          | Keploy     | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/437)     |           |      
-| Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-go/issues/438) |           |
-| Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-go/issues/439) | |
+| Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/438) |           |
+| Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/439) | |
 
 ### 6. JS or Go based DSL for Keploy
 Mentors: Shubham Jain, Neha Gupta, Ritik Jain, Animesh Pathak
