@@ -118,13 +118,13 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 **Task List** : 
 
-| Tasks | Repo | Actionable By | <GitHub_ID> |
+| Tasks | Repo | Actionable By | [reem-atalah](https://github.com/reem-atalah) |
 |-------|-----------|-----------|-----------|
-|  Setup Keploy Locally with a Sample Java Application (Use as many dependencies you can)    |    Samples-Java       |           |      <PR_ID>|     |
+|  Setup Keploy Locally with a Sample Java Application (Use as many dependencies you can)    |    Samples-Java       |           |      |     |
 |  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [ISSUE LINK](https://github.com/keploy/java-sdk/issues/129)        |           |
 |  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [ISSUE LINK](https://github.com/keploy/java-sdk/issues/127)       |           |
 |  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/131)   |           |           |
-| Creating Sample Java Application using JWT Token         |   Java-SDK   |     [ISSUE LINK](https://github.com/keploy/samples-java/issues/34)      |           |
+| Creating Sample Java Application using JWT Token         |   Samples-Java  |     [ISSUE LINK](https://github.com/keploy/samples-java/issues/34)      |     [PR LINK](https://github.com/keploy/samples-java/pull/42)      |
 | Creating Interceptors and Advice for different jwt objects   |   Java-SDK   |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/132)      |           |           |
 
 
@@ -273,10 +273,10 @@ Mentors: Shubham Jain, Neha Gupta, Ritik Jain, Animesh Pathak
 
 | Tasks                                                           | Repo       | Actionable By                                                 | <GitHub_ID> |
 |-----------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
-| Add support for reading js or go based testcases                | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/447) |      <PR_ID>     |  
+| Add support for reading js or go based testcases                | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/447) |      <PR_ID>     |  
 | Define basic library interfaces for the JS/Go DS                | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/448)     |           |      
-| Add support for generating testcases using the above DSL        | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/449) |           |
-| Generate tests using the DSL for the echo-sql demo in samples-go | Samples-go | [Issue Link](https://github.com/keploy/samples-go/issues/450) | |
+| Add support for generating testcases using the above DSL        | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/449) |           |
+| Generate tests using the DSL for the echo-sql demo in samples-go | Samples-go | [Issue Link](https://github.com/keploy/keploy/issues/450) | |
 
 <!--
 **Goals & Ideas**
