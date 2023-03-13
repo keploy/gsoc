@@ -83,10 +83,10 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Tasks | Repo | Actionable By | <GitHub_ID> |
 |-------|-----------|-----------|-----------|
 |  Setup Keploy Locally with a Sample Go Application      |      Samples-go     |           |          <PR_ID>|  
-|  Use Keploy to increase test cases coverage      |  Keploy         |    [ISSUE LINK](https://github.com/keploy/keploy/issues/333)     |           |           |
-|  Add a vertical line separator in CLI   |       Keploy    |      [ISSUE LINK](https://github.com/keploy/keploy/issues/334)   |           |           |
-|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    [ISSUE LINK](https://github.com/keploy/keploy/issues/337)     |           |           |
-|  Update Keploy UI with new way of working Keploy    |    UI     |    [ISSUE LINK](https://github.com/keploy/keploy/issues/335)    |           |           |
+|  Use Keploy to increase test cases coverage      |  Keploy         |    [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/333)     |           |           |
+|  Add a vertical line separator in CLI   |       Keploy    |      [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/334)   |           |           |
+|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/337)     |           |           |
+|  Update Keploy UI with new way of working Keploy    |    UI     |    [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/335)    |           |           |
 
 ### 2. Keploy Java SDK
 **Mentors**: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu, Barkatul Mujauddin.
@@ -121,15 +121,15 @@ show that specific test case among various testcases, `show [test_run_id];` will
 | Tasks | Repo | Actionable By | [reem-atalah](https://github.com/reem-atalah) |
 |-------|-----------|-----------|-----------|
 |  Setup Keploy Locally with a Sample Java Application (Use as many dependencies you can)    |    Samples-Java       |           |      |     |
-|  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [ISSUE LINK](https://github.com/keploy/java-sdk/issues/129)        |           |
-|  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [ISSUE LINK](https://github.com/keploy/java-sdk/issues/127)       |           |
-|  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/131)   |           |           |
-| Creating Sample Java Application using JWT Token         |   Samples-Java  |     [ISSUE LINK](https://github.com/keploy/samples-java/issues/34)      |     [PR LINK](https://github.com/keploy/samples-java/pull/42)      |
-| Creating Interceptors and Advice for different jwt objects   |   Java-SDK   |    [ISSUE LINK](https://github.com/keploy/java-sdk/issues/132)      |           |           |
+|  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/java-sdk/issues/129)        |           |
+|  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/java-sdk/issues/127)       |           |
+|  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/java-sdk/issues/131)   |           |           |
+| Creating Sample Java Application using JWT Token         |   Samples-Java  |     [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/samples-java/issues/34)      |     [<center><img src='../assets/pr.svg' height='30' width='20'/></center>](https://github.com/keploy/samples-java/pull/42)      |
+| Creating Interceptors and Advice for different jwt objects   |   Java-SDK   |    [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/java-sdk/issues/132)      |           |           |
 
 
 ### 3. Keploy Typescript/Javascript SDK
-**Mentors**: Charan Kamarapu, Ritik Jain, Shubham Jain, Nishant Mishra, Diganta Kr Banik.
+**Mentors**: Charan Kamarapu, Ritik Jain, Shubham Jain, Diganta Kr Banik.
 
 **Goals & Ideas**
 * Add support for `Httpclients` in typescript. 
@@ -162,14 +162,14 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 | Tasks | Repo | Actionable By | [G0maa](https://github.com/G0maa) | [shreyanshshah27](https://github.com/shreyanshshah27) | [Hermione2408](https://github.com/Hermione2408) |
 |-------|-----------|-----------|-----------|-----------|-----------|
-| Setup Keploy Locally with a Sample TS Application   |    Samples-Typescript       |           |          |    |   |
-| Empty response for node-fetch http call     |    Typescript-SDK       |     [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/49)        | 	[PR LINK](https://github.com/keploy/typescript-sdk/pull/60)	 |           |           |
-| Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [ISSUE LINK](https://github.com/keploy/samples-typescript/issues/10)     |           |           |           |
-| Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/56)    |           |           |           |
-| Add check to not record testcases during test mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/42) |           | [PR LINK](https://github.com/keploy/typescript-sdk/pull/46) |           |
-| Add log statement in keploy and mock module to log mode | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/45) |           |           | [PR LINK](https://github.com/keploy/typescript-sdk/pull/48)|
-| Remove cp cmd from build script | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/51) |           | | [PR LINK](https://github.com/keploy/typescript-sdk/pull/53) |
-| Add filter for headers during recording | Typescript-SDK | [ISSUE LINK](https://github.com/keploy/typescript-sdk/issues/44) | |[PR LINK](https://github.com/keploy/typescript-sdk/pull/47) |           | 
+| Setup Keploy Locally with a Sample TS Application   |    Samples-Typescript       |           |          |    |   | 
+| Empty response for node-fetch http call     |    Typescript-SDK       |     [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/issues/49)        | 	[<center><img src='../assets/pr.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/pull/60)	 |           |           |
+| Add a sample unit test for mocking/stubbing calls in unit-tests      |     Samples-Typescript      |      [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/samples-typescript/issues/10)     |           |           |           |
+| Write the test-cases for TS-SDK (for Integrations)       |     Typescript-SDK      |      [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/issues/56)    |           |           |           |
+| Add check to not record testcases during test mode | Typescript-SDK | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/issues/42) |           | [<center><img src='../assets/pr.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/pull/46) |           |
+| Add log statement in keploy and mock module to log mode | Typescript-SDK | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/issues/45) |           |           | [<center><img src='../assets/pr.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/pull/48)|
+| Remove cp cmd from build script | Typescript-SDK | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/issues/51) |           | | [<center><img src='../assets/pr.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/pull/53) |
+| Add filter for headers during recording | Typescript-SDK | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/issues/44) | |[<center><img src='../assets/pr.svg' height='30' width='20'/></center>](https://github.com/keploy/typescript-sdk/pull/47) |           | 
 
 ### 4. Autogenerate test cases
 Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
@@ -200,12 +200,12 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 **Task List** : 
 | Tasks | Repo | Actionable By | <GitHub_ID> |
 |-------|-----------|-----------|-----------|
-| Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [Issue Link](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
-| Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [Issue Link](https://github.com/keploy/keploy/issues/338)    |           |      
-| Add Go-fuzz tests for the application created                                               |   Samples-go         |    [Issue Link](https://github.com/keploy/samples-go/issues/40)       |           | 
-| Add schema checks in Keploy's validation logic | Keploy | [Issue Link](https://github.com/keploy/keploy/issues/431) | |
-| Generate OpenAPI schema from API calls/ Testcases | Keploy | [Issue Link](https://github.com/keploy/keploy/issues/432) | |
-| Add validation to dependency request data | Keploy | [Issue Link](https://github.com/keploy/keploy/issues/433) | |
+| Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
+| Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/338)    |           |      
+| Add Go-fuzz tests for the application created                                               |   Samples-go         |    [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/samples-go/issues/40)       |           | 
+| Add schema checks in Keploy's validation logic | Keploy | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/431) | |
+| Generate OpenAPI schema from API calls/ Testcases | Keploy | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/432) | |
+| Add validation to dependency request data | Keploy | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/433) | |
 
 ### 5. eBPF based Keploy Integration
 Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
@@ -241,10 +241,10 @@ Mentors: Shubham Jain, Sarthak Shyngle, Gourav Kumar, Animesh Pathak
 
 | Tasks                                                                                                       | Repo       | Actionable By                                                 | <GitHub_ID> |
 |-------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
-| Implement an eBPF based program to start and application and capture all http incoming and outgoing traffic | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/436) |      <PR_ID>     |  
-| Capture all https incoming and outgoing traffic for an application                                          | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/437)     |           |      
-| Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [Issue Link](https://github.com/keploy/samples-go/issues/438) |           |
-| Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [Issue Link](https://github.com/keploy/samples-go/issues/439) | |
+| Implement an eBPF based program to start and application and capture all http incoming and outgoing traffic | Keploy     | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/436) |      <PR_ID>     |  
+| Capture all https incoming and outgoing traffic for an application                                          | Keploy     | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/437)     |           |      
+| Add add support for intercepting and parsing Postgres traffic                                               | Samples-go | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/samples-go/issues/438) |           |
+| Create an eBPF based sample from echo-sql demo in sample-go                                                 | Keploy     | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/samples-go/issues/439) | |
 
 ### 6. JS or Go based DSL for Keploy
 Mentors: Shubham Jain, Neha Gupta, Ritik Jain, Animesh Pathak
@@ -273,10 +273,10 @@ Mentors: Shubham Jain, Neha Gupta, Ritik Jain, Animesh Pathak
 
 | Tasks                                                           | Repo       | Actionable By                                                 | <GitHub_ID> |
 |-----------------------------------------------------------------|------------|---------------------------------------------------------------|-----------|
-| Add support for reading js or go based testcases                | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/447) |      <PR_ID>     |  
-| Define basic library interfaces for the JS/Go DS                | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/448)     |           |      
-| Add support for generating testcases using the above DSL        | Keploy     | [Issue Link](https://github.com/keploy/keploy/issues/449) |           |
-| Generate tests using the DSL for the echo-sql demo in samples-go | Samples-go | [Issue Link](https://github.com/keploy/keploy/issues/450) | |
+| Add support for reading js or go based testcases                | Keploy     | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/447) |      <PR_ID>     |  
+| Define basic library interfaces for the JS/Go DS                | Keploy     | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/448)     |           |      
+| Add support for generating testcases using the above DSL        | Keploy     | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/449) |           |
+| Generate tests using the DSL for the echo-sql demo in samples-go | Samples-go | [<center><img src='../assets/issue.svg' height='30' width='20'/></center>](https://github.com/keploy/keploy/issues/450) | |
 
 <!--
 **Goals & Ideas**
