@@ -201,10 +201,10 @@ Mentors: Shubham Jain, Neha Gupta, Sarthak, Jyotirmoy Roy, Pranshu Srivastava
 **Difficulty** : Medium
 
 **Task List** : 
-| Tasks | Repo | Actionable By | <GitHub_ID> |
+| Tasks | Repo | Actionable By | [kartikvirendrar](https://github.com/kartikvirendrar) |
 |-------|-----------|-----------|-----------|
-| Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-go/issues/40)      |      <PR_ID>     |  
-| Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/338)    |           |      
+| Create a REST-Api in Golang using any router and one database supported by Keploy                 |  Samples-go         |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-go/issues/40)      |                  |  
+| Short list different ideas to generate more than one testcase using api schema and response provided |  Keploy         |       [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/338)    | [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/460) |      
 | Add Go-fuzz tests for the application created                                               |   Samples-go         |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-go/issues/40)       |           | 
 | Add schema checks in Keploy's validation logic | Keploy | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/431) | |
 | Generate OpenAPI schema from API calls/ Testcases | Keploy | [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/432) | |
