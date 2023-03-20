@@ -79,15 +79,14 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 
 **Task List** : 
-
-| Tasks | Repo | Actionable By | [Achintya](https://github.com/achintya-7) |
-|-------|-----------|-----------|-----------|
-|  Setup Keploy Locally with a Sample Go Application      |      Samples-go     |           |          |  
-|  Use Keploy to increase test cases coverage      |  Keploy         |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/333)     |           |           |
-|  Add a vertical line separator in CLI   |       Keploy    |      [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/334)   |           |           |
-|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/337)     |           |           |
-|  Update Keploy UI with new way of working Keploy    |    UI     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/335)    |           |           |
-| Add configuration to pipe keploy server logs in a file |    Keploy    |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/444)    |    [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/457)       |           | 
+| Tasks | Repo | Actionable By | [Achintya](https://github.com/achintya-7) | [cassiozareck](https://github.com/cassiozareck) |
+|-------|-----------|-----------|-----------|----------------|
+|  Setup Keploy Locally with a Sample Go Application      |      Samples-go     |           |          |          |    
+|  Use Keploy to increase test cases coverage      |  Keploy         |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/333)     |           |     [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/471)        |          | 
+|  Add a vertical line separator in CLI   |       Keploy    |      [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/334)   |           |           |          | 
+|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/337)     |           |           |          | 
+|  Update Keploy UI with new way of working Keploy    |    UI     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/335)    |           |           |          | 
+| Add configuration to pipe keploy server logs in a file |    Keploy    |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/444)    |    [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/457)       |           |          |  
 
 ### 2. Keploy Java SDK
 **Mentors**: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu, Barkatul Mujauddin.
