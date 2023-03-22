@@ -9,7 +9,7 @@ Hello! We are thrilled to announce that **Keploy** will be applying as a **GSoD*
 
 * [About Keploy](#about-keploy)
 * [About GSoD](#about-gsod)
-* [Keploy's Participation](#keploy's-participation)
+* [Keploy's Participation](#keploys-participation)
 * [Projects](#projects)
 * [Proposal Format](#proposal-format)
 * [Community](#community)
@@ -59,12 +59,19 @@ In summary, participating in GSoD aligns with our values of open source, communi
 
 
 2. Work on sample app creation for various integrations that Keploy offers. This would include creating sample apps and documenting how they work with sample test case and mock gnerations and test results. Here are a few ideas for some sample apps:
+
     2.1 https://github.com/keploy/keploy/issues/422
+    
     2.2 https://github.com/keploy/keploy/issues/420
+    
     2.3 https://github.com/keploy/keploy/issues/423
+    
     2.3 https://github.com/keploy/keploy/issues/421
+    
     2.5 https://github.com/keploy/keploy/issues/414
+    
     2.6 https://github.com/keploy/keploy/issues/417
+    
     2.7 https://github.com/keploy/keploy/issues/425
 
     You are also free to suggest sample apps on your own! You can refer to [this](https://github.com/keploy/samples-go/tree/main/echo-sql) to understand how to document your sample app.
@@ -73,7 +80,7 @@ In summary, participating in GSoD aligns with our values of open source, communi
 3. Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go). The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
 
 4. Improve Contribution Guide for Keploy SDK. 
-Currently, the conrtibution guide for Keploy's SDK just has a video refernce to Keploy and an HLD for Java. 
+Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and an HLD for Java. 
 You can take reference from the exisitng video and diagrams and construct a guided contribution guide based for the [SDK repo](https://github.com/keploy/keploy).
 
 
