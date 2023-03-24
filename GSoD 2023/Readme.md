@@ -56,7 +56,7 @@ In summary, participating in GSoD aligns with our values of open source, communi
 ## Projects
 
 1. <b>Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go)</b>. The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
-Mentors: Sanskriti Harmukh and Diganta Kr Banik
+Mentors: Sanskriti Harmukh, Diganta Kr Banik and Barkatul
 
 2. <b>Improve Contribution Guide for Keploy SDK</b>. 
 Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
