@@ -108,6 +108,9 @@ A Google Season Of Docs usually consists of a Statement Of Interest. Your Statem
 
 You can also go through [GSoD Tech Writer Guide](https://developers.google.com/season-of-docs/docs/tech-writer-guide) and [Creating a Statement of Interest](https://developers.google.com/season-of-docs/docs/tech-writer-statement) to get a better idea of how to construct your Statement of Interest. But remember, at the end of the day, this is just a suggestive list. ***Do add your creativity and provide us with any other information that you feel we should know!***
 
+## About Mentors
+
+Our mentors Animesh Pathak, Sanskriti Harmukh, Ankit Kumar, Diganta Kr Banik, Jyotirmoy Roy and Barakatul Mujauddin are also members of this year's `Google Summer Of Code`. Keploy is one of the projects that has been selected under `GSoC 2023` and we hope that we can provide participants seemless experience during the event. We also hope to follow our GSoC Success and participate in this year's `Google Season Of Docs`.
 ## Community
 
 Join the Keploy community and connect with mentors and other members through our Slack channel. 
