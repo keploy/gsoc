@@ -92,9 +92,6 @@ If our project proposal is accepted, we will have seven mentors who will work ac
 | TOTAL            |     10000          |
 
 
-
-
-
 ### Proposal Format
 A Google Season Of Docs usually consists of a Statement Of Interest. Your Statement Of Interest should generally contain about 1,000 words (**But don't consider this as a constraint**). Here's a guide of what you can include in your Statement Of Interest:
 
