@@ -63,6 +63,9 @@ Currently, the contribution guide for Keploy's SDK just has a video refernce to 
 You can take reference from the exisitng video and diagrams and construct a guided contribution guide based for the [SDK repo](https://github.com/keploy/keploy).
 Mentors: Ankit Kumar and Jyotirmoy Roy
 
+3. <b>Add References Page for Keploy Variables</b>. 
+Currently, the guide for Keploy's SDK just has no references to the Variables that user can set in addition to ``KEPLOY_MODE``. These Variables are mentioned under configs in [Server Code](https://github.com/keploy/keploy/blob/f9e65515e65a58dd18572564610cb41c55ee8de5/server/server.go#L53).
+Mentors: Animesh Pathak
 
 **Keep an Eye Out 👀 as we add more Projects! We would be happy to review any ideas that you may have to improve our docs!**
 
@@ -88,6 +91,7 @@ If our project proposal is accepted, we will have seven mentors who will work ac
 | ---------------- | --------------- |
 | Technical Writer achives the task of adding 'Supported JWT Middlewares' to Go Docs| 4000|
 | Technical Writer achives the task of improving Contribution Guide for Keploy SDK | 4000         |
+|Add 'References' of Keploy Variables | 4000 |
 | Swags/T-Shirts   | 200             |
 | TOTAL            |     10000          |
 
