@@ -9,7 +9,7 @@ Hello! We are thrilled to announce that **Keploy** will be applying as a **GSoD*
 
 * [About Keploy](#about-keploy)
 * [About GSoD](#about-gsod)
-* [Keploy's Participation](#keploy's-participation)
+* [Keploy's Participation](#keploys-participation)
 * [Projects](#projects)
 * [Proposal Format](#proposal-format)
 * [Community](#community)
@@ -57,8 +57,19 @@ In summary, participating in GSoD aligns with our values of open source, communi
 
     1.3 Connect with mentors or community members for guidance and support during the development process. This can include asking questions, seeking feedback, or pair programming.
 
+    Mentors: Animesh Pathak, Ankit Kumar, Sanskriti Harmukh, Nishant Mishra, Diganta Kr Banik, Jyotirmoy Roy, Barkatul Mujauddin
 
-**Keep an Eye Out 👀 as we add more Projects!**
+2. Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go). The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
+Mentors: Sanskriti Harmukh and Diganta Kr Banik
+
+3. Improve Contribution Guide for Keploy SDK. 
+Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
+You can take reference from the exisitng video and diagrams and construct a guided contribution guide based for the [SDK repo](https://github.com/keploy/keploy).
+Mentors: Ankit Kumar and Jyotirmoy Roy
+
+
+
+**Keep an Eye Out 👀 as we add more Projects! We would be happy to review any ideas that you may have to improve our docs!**
 
 ### Proposal Format
 A Google Season Of Docs usually consists of a Statement Of Interest. Your Statement Of Interest should generally contain about 1,000 words (**But don't consider this as a constraint**). Here's a guide of what you can include in your Statement Of Interest:
@@ -85,7 +96,7 @@ Follow us on Twitter and LinkedIn to stay up-to-date with the latest news and an
 
 [![LinkedIn Follow](https://img.shields.io/badge/Connect%20On-LinkedIn-blue)](https://www.linkedin.com/company/keploy/)
 
-You can also reach out to us via email at info@keploy.com.
+You can also reach out to us via email at support@keploy.io.
 
 We look forward to hearing from you and helping you get involved with the Keploy community!
 
