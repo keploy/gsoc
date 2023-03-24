@@ -1,3 +1,5 @@
+## Google Season Of Docs Proposal : Optimizing Go Repo User Experience: Improving JWT Middleware Documentation and SDK Contribution Guide
+<hr/>
 # WELCOME TO KEPLOY
 
 Hello! We are thrilled to announce that **Keploy** will be applying as a **GSoD** mentoring org for 2023! We are excited to welcome all technical writers to apply for contributing towards ***Keploy's Docs*** during this season! We love mentoring folks and help them get involved in the field of Open Source, tech and docs. If Keploy gets accepted for `GSoD 2023`, we would create task lists and basis of that select folks to contribute during the period. And even without `GSoD`, we always welcome folks to get involved ❤️!
@@ -11,6 +13,10 @@ Hello! We are thrilled to announce that **Keploy** will be applying as a **GSoD*
 * [About GSoD](#about-gsod)
 * [Keploy's Participation](#keploys-participation)
 * [Projects](#projects)
+* [Project Scope](#project-scope)
+* [Measuring Project's Success](#measuring-projects-success)
+* [Timeline](#timeline)
+* [Project Budget](#project-budget)
 * [Proposal Format](#proposal-format)
 * [Community](#community)
 * [Code Of Conduct](#code-of-conduct)
@@ -49,27 +55,45 @@ In summary, participating in GSoD aligns with our values of open source, communi
 
 ## Projects
 
-1. Work on [Good First Issues](https://github.com/keploy/docs/issues).
-
-    1.1 Review the list of Good First Issues in the project's repository and select the issues you want to work on.
-
-    1.2 Set up the development environment by cloning the repository and ensuring that the project builds and runs locally.
-
-    1.3 Connect with mentors or community members for guidance and support during the development process. This can include asking questions, seeking feedback, or pair programming.
-
-    Mentors: Animesh Pathak, Ankit Kumar, Sanskriti Harmukh, Nishant Mishra, Diganta Kr Banik, Jyotirmoy Roy, Barkatul Mujauddin
-
-2. Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go). The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
+1. <b>Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go)</b>. The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
 Mentors: Sanskriti Harmukh and Diganta Kr Banik
 
-3. Improve Contribution Guide for Keploy SDK. 
+2. <b>Improve Contribution Guide for Keploy SDK</b>. 
 Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
 You can take reference from the exisitng video and diagrams and construct a guided contribution guide based for the [SDK repo](https://github.com/keploy/keploy).
 Mentors: Ankit Kumar and Jyotirmoy Roy
 
 
-
 **Keep an Eye Out 👀 as we add more Projects! We would be happy to review any ideas that you may have to improve our docs!**
+
+## Project Scope
+
+1. <b>Scope for Adding 'Supported JWT Middlewares' to Go Docs</b>: The project would  explain the integration , which is lacking in case of the original doc in pkg.go.dev. Out of scope for this would include simply copying the entire documentation from pkg.go.dev and adding it to our docs.
+
+2. <b>Scope for improving contribution guide for Keploy SDK</b>: The scope includes a detailed guide to install Keploy on local machine and then tackle the issue to be solved (step by step guide would also include what problems one might face while setting up the environment and known methods to tackle the common errors). Out of Scope for this project would include adding more video content to explain the working of the SDK.
+
+## Measuring Project's Success
+We will measure the success of projects in two halves. 
+Firstly, we will use git's workflow issue(if technical writers want to add any) followed by pull requrest followed by discussions on the pull request and then finally merging. 
+For the second half, we will try to get user reviews as to if they found the changes helpful and if they were able to get their tasks done following the documenttion. To do this we would leverage our slack channel and try to get reviews from our users.
+
+## Timeline
+
+The project considering the three ideas, on a whole is expected to be completed within four months. The first few weeks would be used to help the technical writers get accustomed with Keploy and understand what Keploy does so that they can use the information while preparing and updating the documentations. Once the technical writers are selected for our project, we expect them to suggest a timeline within which they expect to complete their tasks.
+
+## Project Budget
+If our project proposal is accepted, we will have seven mentors who will work across all three project ideas. In order to support our team, we would like to request a total grant of USD 14000 from Google. We plan to distribute USD 4000 of this grant among the technical writers working on each project, and allocate an additional USD 200 towards awarding swags to the technical writers as a token of appreciation.
+
+| Budget item      | Total Amount (in USD) | 
+| ---------------- | --------------- |
+| Technical Writer achives the task of adding 'Supported JWT Middlewares' to Go Docs| 4000|
+| Technical Writer achives the task of improving Contribution Guide for Keploy SDK | 4000         |
+| Swags/T-Shirts   | 200             |
+| TOTAL            |     10000          |
+
+
+
+
 
 ### Proposal Format
 A Google Season Of Docs usually consists of a Statement Of Interest. Your Statement Of Interest should generally contain about 1,000 words (**But don't consider this as a constraint**). Here's a guide of what you can include in your Statement Of Interest:
