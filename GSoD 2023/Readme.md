@@ -96,7 +96,7 @@ Follow us on Twitter and LinkedIn to stay up-to-date with the latest news and an
 
 [![LinkedIn Follow](https://img.shields.io/badge/Connect%20On-LinkedIn-blue)](https://www.linkedin.com/company/keploy/)
 
-You can also reach out to us via email at info@keploy.com.
+You can also reach out to us via email at support@keploy.io.
 
 We look forward to hearing from you and helping you get involved with the Keploy community!
 
