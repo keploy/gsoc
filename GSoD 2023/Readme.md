@@ -56,13 +56,16 @@ In summary, participating in GSoD aligns with our values of open source, communi
 ## Projects
 
 1. <b>Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go)</b>. The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
-Mentors: Sanskriti Harmukh and Diganta Kr Banik
+Mentors: Sanskriti Harmukh, Diganta Kr Banik and Barkatul
 
 2. <b>Improve Contribution Guide for Keploy SDK</b>. 
 Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
 You can take reference from the exisitng video and diagrams and construct a guided contribution guide based for the [SDK repo](https://github.com/keploy/keploy).
 Mentors: Ankit Kumar and Jyotirmoy Roy
 
+3. <b>Add References Page for Keploy Variables</b>. 
+Currently, the guide for Keploy's SDK just has no references to the Variables that user can set in addition to ``KEPLOY_MODE``. These Variables are mentioned under configs in [Server Code](https://github.com/keploy/keploy/blob/f9e65515e65a58dd18572564610cb41c55ee8de5/server/server.go#L53).
+Mentors: Animesh Pathak
 
 **Keep an Eye Out 👀 as we add more Projects! We would be happy to review any ideas that you may have to improve our docs!**
 
@@ -88,6 +91,7 @@ If our project proposal is accepted, we will have seven mentors who will work ac
 | ---------------- | --------------- |
 | Technical Writer achives the task of adding 'Supported JWT Middlewares' to Go Docs| 4000|
 | Technical Writer achives the task of improving Contribution Guide for Keploy SDK | 4000         |
+|Add 'References' of Keploy Variables | 4000 |
 | Swags/T-Shirts   | 200             |
 | TOTAL            |     10000          |
 
