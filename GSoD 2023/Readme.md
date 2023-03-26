@@ -90,8 +90,8 @@ If our project proposal is accepted, we will have seven mentors who will work ac
 
 | Budget item      | Total Amount (in USD) | 
 | ---------------- | --------------- |
-| Technical Writer achives the task of adding 'Supported JWT Middlewares' to Go Docs| 4000|
-| Technical Writer achives the task of improving Contribution Guide for Keploy SDK | 4000         |
+| Technical Writer achieves the task of adding 'Supported JWT Middlewares' to Go Docs| 4000|
+| Technical Writer achieves the task of improving Contribution Guide for Keploy SDK | 4000         |
 |Add 'References' of Keploy Variables | 4000 |
 | Swags/T-Shirts   | 200             |
 | TOTAL            |     14000          |
