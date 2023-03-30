@@ -119,10 +119,10 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 **Task List** : 
 
-| Tasks | Repo | Actionable By | [reem-atalah](https://github.com/reem-atalah) |
-|-------|-----------|-----------|-----------|
+| Tasks | Repo | Actionable By | [reem-atalah](https://github.com/reem-atalah) | [Weaam Bassem](https://github.com/We2Am-BaSsem) |
+|-------|-----------|-----------|-----------|-----------|
 |  Setup Keploy Locally with a Sample Java Application (Use as many dependencies you can)    |    Samples-Java       |           |      |     |
-|  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/129)        |           |
+|  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/129)        |           |  [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/pull/142)      |
 |  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/127)       |           |
 |  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/131)   |           |           |
 | Creating Sample Java Application using JWT Token         |   Samples-Java  |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-java/issues/34)      |     [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-java/pull/42)      |
