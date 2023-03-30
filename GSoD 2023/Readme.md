@@ -65,20 +65,22 @@ In summary, participating in GSoD aligns with our values of open source, communi
     1.5 <b>Blog</b>: How much assertions is good assertion?
    <i> Mentors: Sanskriti Harmukh, Diganta Kr Banik and Animesh Pathak</i>
 
-2. <b>Improve Contribution Guide for Keploy SDK</b> - Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
+2. <b>Improve Contribution Guide for Keploy SDK</b> - 
+2.1 Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
 You can take reference from the exisitng video and diagrams and construct a guided contribution guide based for the [SDK repo](https://github.com/keploy/keploy).
-We also would like you to add readmes/guides/guides/blogs for the following topics:
-2.1 Add Adding test coverage to Keploy to Keploy's Contribution Guide
-2.2 Adding Keploy Support for eBPF version of Keploy(both Readme as well as Docs)
-2.3 Migration Guide from Keploy V1 to V2.
-2.4 Blog on E2E vs Unit Testing (especially aimed for advanced developers)
-2.5 Blog on Test Driven Development vs Behaviour Driven Development and how Keploy works with both.
+<b>We also would like you to add readmes/guides/guides/blogs for the following topics</b>:
+2.2 Add Adding test coverage to Keploy to Keploy's Contribution Guide
+2.3 Adding Keploy Support for eBPF version of Keploy(both Readme as well as Docs)
+2.4 Migration Guide from Keploy V1 to V2.
+2.5 Blog on E2E vs Unit Testing (especially aimed for advanced developers)
+2.6 Blog on Test Driven Development vs Behaviour Driven Development and how Keploy works with both.
 <i>Mentors: Ankit Kumar and Jyotirmoy Roy</i>
 
 3. <b> Add blogs, documentation and videos to educate developers around testing with Keploy</b><!-- We expect to improve developer experience and help developers understand how Keploy improves the process as well as the results (including code coverage) for testing. We aim to achive this by educating developers about current testing scenarios that would not only help experienced developers but also developers who are starting out with testing tools. We have jotted a few blog ideas down but would be open to more ideas from technical writers: -->
 3.1 Karate vs REST-Assured vs Keploy
 3.2 Adding documentation for integrating and adding to DSL version of Keploy
 3.3 We expect the selected technical writer to make a video on how Keploy functions (would be better if animated) as it would help users understand more easily how Keploy works. 
+<i>Mentors:  Ankit Kumar, Jyotirmoy Roy, Sanskriti Harmukh, Diganta Kr Banik and Animesh Pathak</i>
 **Keep an Eye Out 👀 as we add more Projects! We would be happy to review any ideas that you may have to improve our docs!**
 
 ## Project Scope
@@ -117,14 +119,14 @@ For the second half, we will try to get user reviews as to if they found the cha
 The project considering the three ideas, on a whole is expected to be completed within four months. The first few weeks would be used to help the technical writers get accustomed with Keploy and understand what Keploy does so that they can use the information while preparing and updating the documentations. Once the technical writers are selected for our project, we expect them to suggest a timeline within which they expect to complete their tasks.
 
 ## Project Budget
-If our project proposal is accepted, we will have seven mentors who will work across all three project ideas. In order to support our team, we would like to request a total grant of USD 14000 from Google. We plan to distribute USD 4000 of this grant among the technical writers working on each project, and allocate an additional USD 200 towards awarding swags to the technical writers as a token of appreciation.
+If our project proposal is accepted, we will have seven mentors who will work across all three project ideas. In order to support our team, we would like to request a total grant of USD 14000 from Google. We plan to distribute USD 4500 of this grant among the technical writers working on each project, and allocate an additional USD 500 towards awarding swags to the technical writers as a token of appreciation.
 
 | Budget item      | Total Amount (in USD) | 
 | ---------------- | --------------- |
-| Technical Writer achieves the task of adding 'Supported JWT Middlewares' to Go Docs| 4000|
-| Technical Writer achieves the task of improving Contribution Guide for Keploy SDK | 4000         |
-|Add 'References' of Keploy Variables | 4000 |
-| Swags/T-Shirts   | 200             |
+| Technical Writer achieves the task of improving Documentation For Keploy SDK and Go Documentation| 4500|
+| Technical Writer achieves the task of improving Contribution Guide for Keploy SDK | 4500         |
+|Technical writer adds blogs, documentation and videos to educate developers around testing with Keploy | 4500 |
+| Swags/T-Shirts   | 500             |
 | TOTAL            |     14000          |
 
 
