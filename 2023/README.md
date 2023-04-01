@@ -126,7 +126,9 @@ show that specific test case among various testcases, `show [test_run_id];` will
 |  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/127)       |           |
 |  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/131)   |           |           |
 | Creating Sample Java Application using JWT Token         |   Samples-Java  |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-java/issues/34)      |     [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-java/pull/42)      |
-| Creating Interceptors and Advice for different jwt objects   |   Java-SDK   |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/132)      |           |           |
+| Creating Interceptors and Advice for different jwt objects   |   Java-SDK   |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/132)      |    [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/pull/145)       |           |    
+| Documentation for new dependecies   |   Java-SDK   |       |           |           |  
+| Documentation for new samples   |   Samples-Java   |       |           |           |  
 
 
 ### 3. Keploy Typescript/Javascript SDK
