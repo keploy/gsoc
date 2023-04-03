@@ -56,25 +56,58 @@ In summary, participating in GSoD aligns with our values of open source, communi
 
 ## Projects
 
-1. <b>Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go)</b>. The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
-Mentors: Sanskriti Harmukh, Diganta Kr Banik and Barkatul
+1. <b>Improve Documentation For Keploy SDK and Go Documentation</b>: 
+    1.1 <b>Add References Page for Keploy Variables</b>. 
+    Currently, the guide for Keploy's SDK just has no references to the Variables that user can set in addition to ``KEPLOY_MODE``. These Variables are mentioned under configs in [Server Code](https://github.com/keploy/keploy/blob/f9e65515e65a58dd18572564610cb41c55ee8de5/server/server.go#L53).
+    1.2 <b>How Keploy handles authentication and authorization</b> - Add 'Supported JWT Middlewares' to [Go Docs](https://github.com/keploy/docs/tree/main/docs/go). The reference can be taken from https://pkg.go.dev/github.com/keploy/go-sdk#readme-supported-jwt-middlewares and you can add the same to the Go Docs in the docs repo.
+    1.3 <b>Add to Documentation how to generate Mocks with generating test case</b> - Keploy supports mock generation without generating test cases. Currently this feature is not documented anywhere in the docs. You need to document this feature, also explaining its advantages (use case scenarios) and the process to achieve3. it.
+    1.4 <b>Blog</b>:Write a blog on Mocks vs Stubs vs Real data (Real Database)
+    1.5 <b>Blog</b>: How much assertions is good assertion?
+   <i> Mentors: Sanskriti Harmukh, Diganta Kr Banik and Animesh Pathak</i>
 
-2. <b>Improve Contribution Guide for Keploy SDK</b>. 
-Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
+2. <b>Improve Contribution Guide for Keploy SDK</b> - 
+2.1 Currently, the contribution guide for Keploy's SDK just has a video refernce to Keploy and a HLD for Java. 
 You can take reference from the exisitng video and diagrams and construct a guided contribution guide based for the [SDK repo](https://github.com/keploy/keploy).
-Mentors: Ankit Kumar and Jyotirmoy Roy
+<b>We also would like you to add readmes/guides/guides/blogs for the following topics</b>:
+2.2 Add Adding test coverage to Keploy to Keploy's Contribution Guide
+2.3 Adding Keploy Support for eBPF version of Keploy(both Readme as well as Docs)
+2.4 Migration Guide from Keploy V1 to V2.
+2.5 Blog on E2E vs Unit Testing (especially aimed for advanced developers)
+2.6 Blog on Test Driven Development vs Behaviour Driven Development and how Keploy works with both.
+<i>Mentors: Ankit Kumar and Jyotirmoy Roy</i>
 
-3. <b>Add References Page for Keploy Variables</b>. 
-Currently, the guide for Keploy's SDK just has no references to the Variables that user can set in addition to ``KEPLOY_MODE``. These Variables are mentioned under configs in [Server Code](https://github.com/keploy/keploy/blob/f9e65515e65a58dd18572564610cb41c55ee8de5/server/server.go#L53).
-Mentors: Animesh Pathak
-
+3. <b> Add blogs, documentation and videos to educate developers around testing with Keploy</b><!-- We expect to improve developer experience and help developers understand how Keploy improves the process as well as the results (including code coverage) for testing. We aim to achive this by educating developers about current testing scenarios that would not only help experienced developers but also developers who are starting out with testing tools. We have jotted a few blog ideas down but would be open to more ideas from technical writers: -->
+3.1 Karate vs REST-Assured vs Keploy
+3.2 Adding documentation for integrating and adding to DSL version of Keploy
+3.3 We expect the selected technical writer to make a video on how Keploy functions (would be better if animated) as it would help users understand more easily how Keploy works. 
+<i>Mentors:  Ankit Kumar, Jyotirmoy Roy, Sanskriti Harmukh, Diganta Kr Banik and Animesh Pathak</i>
 **Keep an Eye Out 👀 as we add more Projects! We would be happy to review any ideas that you may have to improve our docs!**
 
 ## Project Scope
 
-1. <b>Scope for Adding 'Supported JWT Middlewares' to Go Docs</b>: The project would  explain the integration , which is lacking in case of the original doc in pkg.go.dev. Out of scope for this would include simply copying the entire documentation from pkg.go.dev and adding it to our docs.
+<!-- 1. <b>Scope for Adding 'Supported JWT Middlewares' to Go Docs</b>: The project would  explain the integration , which is lacking in case of the original doc in pkg.go.dev. Out of scope for this would include simply copying the entire documentation from pkg.go.dev and adding it to our docs.
 
-2. <b>Scope for improving contribution guide for Keploy SDK</b>: The scope includes a detailed guide to install Keploy on local machine and then tackle the issue to be solved (step by step guide would also include what problems one might face while setting up the environment and known methods to tackle the common errors). Out of Scope for this project would include adding more video content to explain the working of the SDK.
+2. <b>Scope for improving contribution guide for Keploy SDK</b>: The scope includes a detailed guide to install Keploy on local machine and then tackle the issue to be solved (step by step guide would also include what problems one might face while setting up the environment and known methods to tackle the common errors). Out of Scope for this project would include adding more video content to explain the working of the SDK. -->
+
+1. <b>Improve Documentation For Keploy SDK and Go Documentation</b>: The project aims to improve the documentation for Keploy SDK and Go documentation. The specific tasks that can be undertaken as part of the project are:
+    - Adding a References page for Keploy Variables: The objective is to create a new page in the Keploy SDK guide that lists all the Keploy variables that can be set in addition to KEPLOY_MODE, along with a brief description of each.
+    - Adding Supported JWT Middlewares to Go Docs: The objective is to create a new page in the Go documentation that lists the JWT middlewares that Keploy supports, along with a brief description of each.
+    - Adding Documentation for Mock Generation: The objective is to create a new section in the Keploy SDK guide that explains the process for generating mocks in Keploy <i>without recording test cases</i>, along with its advantages and use cases.
+    - Writing a Blog on Mocks vs Stubs vs Real Data: The objective is to write a blog post that explains the differences between mocks, stubs, and real data, along with the pros and cons of each approach and when to use each one.
+    - Writing a Blog on Good Assertion Practices: The objective is to write a blog post that provides tips for writing effective assertions in unit tests, along with examples and use cases.
+
+2. <b>Improve Contribution Guide for Keploy SDK</b>: The project aims to improve the contribution guide for Keploy SDK and add new documentation to the SDK repo. The specific tasks that can be undertaken as part of the project are:
+    - Improving the Contribution Guide: The objective is to create a new contribution guide that is comprehensive and includes detailed instructions on how to contribute to Keploy SDK.
+    - Adding Test Coverage to Keploy's Contribution Guide: The objective is to add a new section to the contribution guide that explains how to add test coverage to Keploy SDK.
+    - Adding eBPF Support to Keploy: The objective is to add a new readme and documentation to the Keploy SDK that explains how to use eBPF with Keploy. 
+    - Migration Guide from Keploy V1 to V2: The objective is to create a new migration guide that explains how to migrate from Keploy V1 to V2. 
+    - Blog on E2E vs Unit Testing: The objective is to write a blog post that explains the differences between end-to-end testing and unit testing, and when to use each approach. The post should include examples and use cases, and should be aimed towards advanced users.
+    - Blog on Test Driven Development vs Behavior Driven Development: The objective is to write a blog post that explains the differences between test-driven development and behavior-driven development, and how Keploy can be used to support both approaches. The post should include examples and use cases, and provide tips for using Keploy in a TDD or BDD workflow.
+
+3. <b> Add blogs, documentation and videos to educate developers around testing with Keploy</b>: The scope for the third idea includes:
+    - Karate vs REST-Assured vs Keploy: The objective is to write a blog post that compares the three testing frameworks Karate, REST-Assured, and Keploy, highlighting their differences and advantages. The post should include examples and use cases for each framework.
+    - Adding documentation for integrating and adding to DSL version of Keploy: The objective is to add new documentation to the Keploy SDK that explains how to integrate and add to the domain-specific language (DSL) version of Keploy.
+    - Video on how Keploy works: The objective is to create an animated video that explains how Keploy works, including its architecture, main components, and how it can be used for testing and deployment. The video should be informative and engaging, and should help users understand the key features and benefits of Keploy.
 
 ## Measuring Project's Success
 We will measure the success of projects in two halves. 
@@ -86,14 +119,14 @@ For the second half, we will try to get user reviews as to if they found the cha
 The project considering the three ideas, on a whole is expected to be completed within four months. The first few weeks would be used to help the technical writers get accustomed with Keploy and understand what Keploy does so that they can use the information while preparing and updating the documentations. Once the technical writers are selected for our project, we expect them to suggest a timeline within which they expect to complete their tasks.
 
 ## Project Budget
-If our project proposal is accepted, we will have seven mentors who will work across all three project ideas. In order to support our team, we would like to request a total grant of USD 14000 from Google. We plan to distribute USD 4000 of this grant among the technical writers working on each project, and allocate an additional USD 200 towards awarding swags to the technical writers as a token of appreciation.
+If our project proposal is accepted, we will have seven mentors who will work across all three project ideas. In order to support our team, we would like to request a total grant of USD 14000 from Google. We plan to distribute USD 4500 of this grant among the technical writers working on each project, and allocate an additional USD 500 towards awarding swags to the technical writers as a token of appreciation.
 
 | Budget item      | Total Amount (in USD) | 
 | ---------------- | --------------- |
-| Technical Writer achieves the task of adding 'Supported JWT Middlewares' to Go Docs| 4000|
-| Technical Writer achieves the task of improving Contribution Guide for Keploy SDK | 4000         |
-|Add 'References' of Keploy Variables | 4000 |
-| Swags/T-Shirts   | 200             |
+| Technical Writer achieves the task of improving Documentation For Keploy SDK and Go Documentation| 4500|
+| Technical Writer achieves the task of improving Contribution Guide for Keploy SDK | 4500         |
+|Technical writer adds blogs, documentation and videos to educate developers around testing with Keploy | 4500 |
+| Swags/T-Shirts   | 500             |
 | TOTAL            |     14000          |
 
 
@@ -112,7 +145,7 @@ You can also go through [GSoD Tech Writer Guide](https://developers.google.com/s
 
 ## About Mentors
 
-Our mentors Animesh Pathak, Sanskriti Harmukh, Ankit Kumar, Diganta Kr Banik, Jyotirmoy Roy and Barakatul Mujauddin are also members of this year's `Google Summer Of Code`. Keploy is one of the projects that has been selected under `GSoC 2023` and we hope that we can provide participants seemless experience during the event. We also hope to follow our GSoC Success and participate in this year's `Google Season Of Docs`.
+Our mentors Animesh Pathak, Sanskriti Harmukh, Ankit Kumar, Diganta Kr Banik, and Jyotirmoy Roy are also members of this year's `Google Summer Of Code`. Keploy is one of the projects that has been selected under `GSoC 2023` and we hope that we can provide participants seemless experience during the event. We also hope to follow our GSoC Success and participate in this year's `Google Season Of Docs`.
 ## Community
 
 Join the Keploy community and connect with mentors and other members through our Slack channel. 
@@ -125,7 +158,7 @@ Follow us on Twitter and LinkedIn to stay up-to-date with the latest news and an
 
 [![LinkedIn Follow](https://img.shields.io/badge/Connect%20On-LinkedIn-blue)](https://www.linkedin.com/company/keploy/)
 
-You can also reach out to us via email at support@keploy.io.
+You can also reach out to us and submit your Statement Of Interests via email at support@keploy.io.
 
 We look forward to hearing from you and helping you get involved with the Keploy community!
 

@@ -79,15 +79,14 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 
 **Task List** : 
-
-| Tasks | Repo | Actionable By | [Achintya](https://github.com/achintya-7) |
-|-------|-----------|-----------|-----------|
-|  Setup Keploy Locally with a Sample Go Application      |      Samples-go     |           |          |  
-|  Use Keploy to increase test cases coverage      |  Keploy         |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/333)     |           |           |
-|  Add a vertical line separator in CLI   |       Keploy    |      [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/334)   |           |           |
-|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/337)     |           |           |
-|  Update Keploy UI with new way of working Keploy    |    UI     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/335)    |           |           |
-| Add configuration to pipe keploy server logs in a file |    Keploy    |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/444)    |    [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/457)       |           | 
+| Tasks | Repo | Actionable By | [Achintya](https://github.com/achintya-7) | [cassiozareck](https://github.com/cassiozareck) | [aerowisca](https://github.com/aerowisca) |
+|-------|-----------|-----------|-----------|----------------|----------------|
+|  Setup Keploy Locally with a Sample Go Application      |      Samples-go     |           |          |          |          |    
+|  Use Keploy to increase test cases coverage      |  Keploy         |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/333)     |           |     [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/471)        |          |          |
+|  Add a vertical line separator in CLI   |       Keploy    |      [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/334)   |           |           |          |          | 
+|  Add support for `Get TC` to display test-cases from yaml   |    Keploy     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/337)     |           |           | [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/517)          |           
+|  Update Keploy UI with new way of working Keploy    |    UI     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/335)    |           |           |          |          
+| Add configuration to pipe keploy server logs in a file |    Keploy    |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/issues/444)    |    [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/457)      |           |   [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/keploy/pull/482)       |
 
 ### 2. Keploy Java SDK
 **Mentors**: Sarthak Shyngle, Gourav Kumar, Charan Kamarapu, Barkatul Mujauddin.
@@ -119,10 +118,10 @@ show that specific test case among various testcases, `show [test_run_id];` will
 
 **Task List** : 
 
-| Tasks | Repo | Actionable By | [reem-atalah](https://github.com/reem-atalah) |
-|-------|-----------|-----------|-----------|
+| Tasks | Repo | Actionable By | [reem-atalah](https://github.com/reem-atalah) | [Weaam Bassem](https://github.com/We2Am-BaSsem) |
+|-------|-----------|-----------|-----------|-----------|
 |  Setup Keploy Locally with a Sample Java Application (Use as many dependencies you can)    |    Samples-Java       |           |      |     |
-|  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/129)        |           |
+|  Create a github action for running java based linters in pipeline     |    Java-SDK       |   [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/129)        |           |  [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/pull/142)      |
 |  Create a github action for publishing sdk to maven central    |    Java-SDK         |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/127)       |           |
 |  Write the test-cases for JAVA-SDK (for Integrations)     |    Java-SDK     |    [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/java-sdk/issues/131)   |           |           |
 | Creating Sample Java Application using JWT Token         |   Samples-Java  |     [<div align='center'><center><img src='../assets/issue.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-java/issues/34)      |     [<div align='center'><center><img src='../assets/pr.svg' height='30' width='20'/></center></div>](https://github.com/keploy/samples-java/pull/42)      |
