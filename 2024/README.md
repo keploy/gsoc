@@ -87,7 +87,7 @@ _________________
 
 **Refs**
 
-**Time Estimate** : 
+**Time Estimate** : 350 hours
 
 **Difficulty** : medium 
 
