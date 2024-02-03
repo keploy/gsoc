@@ -71,15 +71,25 @@ _________________
 ### 2. denoising + docker extension
 **Mentors**:
 
+[Charan Kamarapu](https://github.com/charankamarapu)
+
 **Goals & Ideas**
 
+1. Create a Denoise Command in Keploy CLI which will eliminate the comparison of the noisy fields in the API response while testing. 
+
+2. Create a Docker extension for Keploy which will support all the features of current keploy docker usage. There will no more installation or no more setting up of keploy is required in the local machine with docker extension.
+
 **Skills Required**
+
+1. REST APIs
+2. Docker basics
+3. Networking
 
 **Refs**
 
 **Time Estimate** : 
 
-**Difficulty** :
+**Difficulty** : medium 
 
 **Task List** : 
 | S.No | Tasks | Repo | Actionable By | 
@@ -89,7 +99,9 @@ _________________
 ### 3. Multiplle services using keploy (API chaining)
 **Mentors**:
 
+
 **Goals & Ideas**
+
 
 **Skills Required**
 
