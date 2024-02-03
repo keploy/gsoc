@@ -51,7 +51,7 @@ _________________
 ## **Projects List**
 
 ### 1. Add support for macOS native networking - code from mitmproxy
-**Mentors**:
+**Mentors**: 
 
 **Goals & Ideas**
 
@@ -105,17 +105,46 @@ _________________
 |      |       |       |            |
 
 ### 4. vs code and other editors extension
-**Mentors**:
+**Mentors**: Sarthak Shyngle, Animesh Pathak
 
-**Goals & Ideas**
+**Goals & Ideas:**
+
+1. **Cross-Platform Extension Deployment:**
+   - **Objective:** Develop VS Code and IntelliJ extensions fetching the latest Keploy binary, adapting to system architecture using Docker when native support is lacking (e.g., macOS, Windows).
+   - **Tech Details:** Platform-specific logic and Docker integration for versatile deployment.
+
+2. **Streamlined Keploy CLI Operations:**
+   - **Objective:** Enhance UX by integrating and managing Keploy's CLI operations within the extension, potentially using config files.
+   - **Tech Details:** Golang backend for unified CLI command execution within the extensions.
+
+3. **Extension as Keploy API Client for Recording and Replay:**
+   - **Objective:** Enable the extension to act as a client for seamless API calls to Keploy, facilitating recording and replaying.
+   - **Tech Details:** JavaScript-built client with defined API endpoints for interaction.
+
+4. **Interactive UI Elements with Widgets and Buttons:**
+   - **Objective:** Create an intuitive UI in VS Code and IntelliJ with widgets and buttons for user-friendly Keploy proxy server interaction.
+   - **Tech Details:** HTML, CSS, and web technologies for embedded UI elements.
+
+5. **Marketplace Deployment and Continuous Integration (CI):**
+   - **Objective:** Deploy extensions to VS Code Marketplace and implement a CI pipeline for automated testing, versioning, and releases.
+   - **Tech Details:** Standard CI/CD practices, utilizing VS Code Marketplace for distribution.
+
+These technical advancements aim to deliver a seamless and efficient user experience, making Keploy integration more accessible across diverse development environments.
 
 **Skills Required**
+Javascript
+Golang
+Node.js and npm
+Git
+HTML, CSS, and Web Technologies
 
 **Refs**
+https://code.visualstudio.com/api/get-started/your-first-extension
+https://github.com/microsoft/vscode-extension-samples
 
-**Time Estimate** : 
+**Time Estimate** : 200 hours
 
-**Difficulty** :
+**Difficulty** : Medium 
 
 **Task List** : 
 | S.No | Tasks | Repo | Actionable By | 
