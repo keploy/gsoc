@@ -86,18 +86,35 @@ _________________
 |------|-------|-----------|-----------|
 |      |       |       |            |
 
-### 3. Multiplle services using keploy (API chaining)
+### 3. Multiple services using keploy (API chaining)
 **Mentors**:
+[Gourav Kumar](https://github.com/gouravkrosx)
+
+**Description**
+- In Keploy, testing multiple services via API chaining emphasizes enabling contract testing to ensure seamless interactions among services. This ensures that all communications across services meet predefined expectations, enhancing the reliability of interconnected systems.
+- Contract testing is a method focused on verifying interactions between microservices, applications, or systems, ensuring correct communication through predefined contracts. It facilitates early issue identification and reduces complex end-to-end testing needs.
 
 **Goals & Ideas**
+1. Keploy Support: Integrate contract testing capabilities into Keploy to enable advanced testing functionalities, enhancing its ability to validate microservice interactions effectively.
+2. One-Go Testing: Implement functionality within Keploy for recording tests and mocks for all related microservices simultaneously. This feature would capture both ingress and egress traffic, utilizing process identification (PID) for filtering. The primary goal is to ensure that tests and mocks remain synchronized across all services, thereby maintaining consistency and accuracy in testing environments.
+3. Automated Change Management for API Chains: When using Keploy with services m1, m2, and m3, consider a scenario where m2 undergoes a change, such as the addition of a new field. When this change is incorporated into m2's test cases, it could potentially disrupt the mock interactions expected by m1, necessitating updates to m1's tests to align with the new behavior. This process ensures that mocks are consistently refreshed to reflect the most current service interactions. Keploy facilitates this dynamic updating mechanism, streamlining the maintenance of test cases and mocks across services. Consequently, it simplifies end-to-end (E2E) testing, making it more efficient and reducing the complexity typically associated with testing interconnected services.
+4. Both HTTP test and HTTP mock share the same [spec](https://github.com/keploy/samples-go/blob/main/gin-redis/keploy/test-set-0/tests/test-1.yaml).
 
 **Skills Required**
+1. Golang
+2. REST APIs
+3. Contract Testing
+4. E2E Testing
 
 **Refs**
+1. [What is Contract Testing?](https://pactflow.io/blog/what-is-contract-testing/)
+2. [Keploy Documentation](https://keploy.io/docs/)
+3. [What is a REST API? - IBM](https://www.ibm.com/topics/rest-apis#:~:text=the%20next%20step-,What%20is%20a%20REST%20API%3F,representational%20state%20transfer%20architectural%20style.)
+4. [A Tour of Go](https://go.dev/tour/)
 
-**Time Estimate** : 
+**Time Estimate** : 350 Hours
 
-**Difficulty** :
+**Difficulty** : Medium
 
 **Task List** : 
 | S.No | Tasks | Repo | Actionable By | 
