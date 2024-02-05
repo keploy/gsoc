@@ -85,6 +85,7 @@ Ritik Jain,
 **Mentors**:
 
 [Charan Kamarapu](https://github.com/charankamarapu)
+[Pranshu Srivastava](https://github.com/PranshuSrivastava)
 
 **Goals & Ideas**
 
