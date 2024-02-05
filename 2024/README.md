@@ -111,7 +111,7 @@ Ritik Jain,
 
 ### 3. Multiple services using keploy (API chaining)
 **Mentors**:
-[Gourav Kumar](https://github.com/gouravkrosx)
+[Gourav Kumar](https://github.com/gouravkrosx), [Shivam Sourav Jha](https://github.com/shivamsouravjha)
 
 **Description**
 - In Keploy, testing multiple services via API chaining emphasizes enabling contract testing to ensure seamless interactions among services. This ensures that all communications across services meet predefined expectations, enhancing the reliability of interconnected systems.
