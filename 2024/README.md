@@ -54,7 +54,7 @@ _________________
 Currently, keploy requires a docker to capture the API calls from the application conatiner. It is able to capture the incoming/outgoing network for linux native using the eBPF feature of linux. So to add support for macOS, keploy should redirect the incoming/outgoing requests to the transparent proxy.
 
 **Mentors**:
-Ritik Jain, 
+Ritik Jain, Shubham Jain
 
 **Goals & Ideas**
 * Deploy the PF (Packet Filter) firewall, as detailed at [Wikipedia: PF (firewall)](https://en.wikipedia.org/wiki/PF_(firewall)), to reroute network traffic towards the designated proxy server.
@@ -76,10 +76,6 @@ Ritik Jain,
 
 **Difficulty** : Medium
 
-**Task List** : 
-| S.No | Tasks | Repo | Actionable By | 
-|------|-------|-----------|-----------|
-|      |       |       |            |
 
 ### 2. denoising + docker extension
 **Mentors**:
@@ -104,11 +100,6 @@ Ritik Jain,
 **Time Estimate** : 350 hours
 
 **Difficulty** : medium 
-
-**Task List** : 
-| S.No | Tasks | Repo | Actionable By | 
-|------|-------|-----------|-----------|
-|      |       |       |            |
 
 ### 3. Multiple services using keploy (API chaining)
 **Mentors**:
@@ -142,12 +133,7 @@ Ritik Jain,
 
 **Difficulty** : Medium
 
-**Task List** : 
-| S.No | Tasks | Repo | Actionable By | 
-|------|-------|-----------|-----------|
-|      |       |       |            |
-
-### 4. vs code and other editors extension
+### 4. VScode and other IDE extension
 **Mentors**: Sarthak Shyngle, Animesh Pathak
 
 **Goals & Ideas:**
@@ -177,29 +163,25 @@ These technical advancements aim to deliver a seamless and efficient user experi
 **Skills Required**
 Javascript
 Golang
-Node.js and npm
+Node.js and NPM
 Git
 HTML, CSS, and Web Technologies
 
 **Refs**
-https://code.visualstudio.com/api/get-started/your-first-extension
-https://github.com/microsoft/vscode-extension-samples
+- https://code.visualstudio.com/api/get-started/your-first-extension
+- https://github.com/microsoft/vscode-extension-samples
+- https://code.visualstudio.com/api#how-to-build-extensions
 
 **Time Estimate** : 200 hours
 
 **Difficulty** : Medium 
-
-**Task List** : 
-| S.No | Tasks | Repo | Actionable By | 
-|------|-------|-----------|-----------|
-|      |       |       |            |
 
 
 ### 5. Add support for Windows native
 Currently, keploy requires a docker to capture the API calls from the application conatiner. It is able to capture the incoming/outgoing network for linux native using the eBPF feature of linux. So to add support for windows, keploy should redirect the incoming/outgoing requests to the transparent proxy.
 
 **Mentors**:
-Ritik Jain,
+Ritik Jain, Shubham Jain
 
 **Goals & Ideas**
 * Deploy the IP Routing for windows, to reroute network traffic towards the designated proxy server.
@@ -220,7 +202,16 @@ Ritik Jain,
 
 **Difficulty** : Medium
 
-**Task List** : 
-| S.No | Tasks | Repo | Actionable By | 
-|------|-------|-----------|-----------|
-|      |       |       |            |
+
+--- 
+
+**Task List** : Good First Issue for GSoC aspirants
+
+| Tasks | Repo | Actionable's | 
+|------|-------|-----------|
+|   Wireshark plugin                                     |   [Keploy](https://github.com/keploy/keploy)              |   TBD     |
+|   Update Keploy Chrome extension for v2 usage          |   [Browser Extension](https://github.com/keploy/browser-extension)   |     TBD       |
+|   Improving Fuzzy Matching and Parsing Logic           |   [Keploy](https://github.com/keploy/keploy) |     TBD       |
+|   Updating Blog Website with fixes and new features    |   [Keploy](https://github.com/keploy/blog-website)        |     https://github.com/keploy/keploy/issues/1503 <br> https://github.com/keploy/keploy/issues/1504   <br>  https://github.com/keploy/keploy/issues/1238 <br> https://github.com/keploy/keploy/issues/1239  |
+|   Improve GitHub action for Keploy.                    |   [Keploy](https://github.com/keploy/testGPT)             |     https://github.com/keploy/keploy/issues/1505 <br> https://github.com/keploy/keploy/issues/1506    <br> https://github.com/keploy/keploy/issues/1507  |
+|   Add Rust Sample App to provide support of rustlang   |   [Keploy](https://github.com/keploy/samples-rust)        |       TBD     |
