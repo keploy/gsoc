@@ -172,10 +172,14 @@ HTML, CSS, and Web Technologies
 - https://github.com/microsoft/vscode-extension-samples
 - https://code.visualstudio.com/api#how-to-build-extensions
 
-**Time Estimate** : 200 hours
+**Time Estimate** : 250 hours
 
 **Difficulty** : Medium 
-
+**Task List** :
+| S.No | Tasks | Repo | Actionable By |
+|------|-------|-----------|-----------|
+| 1     | Keploy update     |  [Keploy](https://github.com/keploy/keploy)          |  https://github.com/keploy/keploy/issues/1524          |
+| 2     | VScode extension publish    |  [Keploy](https://github.com/keploy/keploy)          |  https://github.com/keploy/keploy/issues/1525      |
 
 ### 5. Add support for Windows native
 Currently, keploy requires a docker to capture the API calls from the application conatiner. It is able to capture the incoming/outgoing network for linux native using the eBPF feature of linux. So to add support for windows, keploy should redirect the incoming/outgoing requests to the transparent proxy.
