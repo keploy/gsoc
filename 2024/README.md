@@ -223,3 +223,6 @@ Ritik Jain, Shubham Jain
 |   Redirect the incoming requests to the proxy      |   [Keploy](https://github.com/keploy/keploy)     |    https://github.com/keploy/keploy/issues/1521        |
 |   Filter the incoming traffic for the user app     |  [Keploy](https://github.com/keploy/keploy)      |     https://github.com/keploy/keploy/issues/1522       |
 |   Redirect the outgoing traffic for the user app     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1523      |
+|   Test multiple services using keploy     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1541      |
+|    Build an app with multiple services, demonstrating contract testing     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1543      |
+
