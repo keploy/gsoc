@@ -207,7 +207,7 @@ Ritik Jain, Shubham Jain
 
 **Task List** : Good First Issue for GSoC aspirants
 
-| Tasks | Repo | Actionable's | |
+| Tasks | Repo | Actionable's | Fixed by |
 |------|-------|-----------|-----------|
 |   Updating Blog Website with fixes and new features    |   [Keploy](https://github.com/keploy/blog-website)        |     https://github.com/keploy/keploy/issues/1503 <br> https://github.com/keploy/keploy/issues/1504   <br>  https://github.com/keploy/keploy/issues/1238 <br> https://github.com/keploy/keploy/issues/1239 <br> https://github.com/keploy/keploy/issues/1527 | |
 |   Improve GitHub action for Keploy.                    |   [Keploy](https://github.com/keploy/testGPT)             |     https://github.com/keploy/keploy/issues/1505 <br> https://github.com/keploy/keploy/issues/1506    <br> https://github.com/keploy/keploy/issues/1507  |  |
