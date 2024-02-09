@@ -176,10 +176,6 @@ HTML, CSS, and Web Technologies
 
 **Difficulty** : Medium 
 **Task List** :
-| S.No | Tasks | Repo | Actionable By |
-|------|-------|-----------|-----------|
-| 1     | Keploy update     |  [Keploy](https://github.com/keploy/keploy)          |  https://github.com/keploy/keploy/issues/1524          |
-| 2     | VScode extension publish    |  [Keploy](https://github.com/keploy/keploy)          |  https://github.com/keploy/keploy/issues/1525      |
 
 ### 5. Add support for Windows native
 Currently, keploy requires a docker to capture the API calls from the application conatiner. It is able to capture the incoming/outgoing network for linux native using the eBPF feature of linux. So to add support for windows, keploy should redirect the incoming/outgoing requests to the transparent proxy.
@@ -219,3 +215,5 @@ Ritik Jain, Shubham Jain
 |   Updating Blog Website with fixes and new features    |   [Keploy](https://github.com/keploy/blog-website)        |     https://github.com/keploy/keploy/issues/1503 <br> https://github.com/keploy/keploy/issues/1504   <br>  https://github.com/keploy/keploy/issues/1238 <br> https://github.com/keploy/keploy/issues/1239  |
 |   Improve GitHub action for Keploy.                    |   [Keploy](https://github.com/keploy/testGPT)             |     https://github.com/keploy/keploy/issues/1505 <br> https://github.com/keploy/keploy/issues/1506    <br> https://github.com/keploy/keploy/issues/1507  |
 |   Add Rust Sample App to provide support of rustlang   |   [Keploy](https://github.com/keploy/samples-rust)        |       TBD     |
+| JavaScript Script for Automated Keploy Updates      |  [Keploy](https://github.com/keploy/keploy)          |  https://github.com/keploy/keploy/issues/1524          |
+| GitHub Actions Workflow for VS Code Extension Publishing    |  [Keploy](https://github.com/keploy/keploy)          |  https://github.com/keploy/keploy/issues/1525      |
