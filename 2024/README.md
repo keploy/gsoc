@@ -218,3 +218,6 @@ Ritik Jain, Shubham Jain
 | Terminating Keploy is not removing docker container | [Keploy](https://github.com/keplopy)   | https://github.com/keploy/keploy/issues/1533
 | Create a normalisation command in keploy CLI | [Keploy](https://github.com/keplopy) | https://github.com/keploy/keploy/issues/1538
 | Keploy fails with "docker start \<container\>" as user app command | [Keploy](https://github.com/keplopy) | https://github.com/keploy/keploy/issues/1539
+|   Redirect the incoming requests to the proxy      |   [Keploy](https://github.com/keploy/keploy)     |    https://github.com/keploy/keploy/issues/1521        |
+|   Filter the incoming traffic for the user app     |  [Keploy](https://github.com/keploy/keploy)      |     https://github.com/keploy/keploy/issues/1522       |
+|   Redirect the outgoing traffic for the user app     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1523      |
