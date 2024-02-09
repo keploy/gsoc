@@ -76,13 +76,6 @@ Ritik Jain, Shubham Jain
 
 **Difficulty** : Medium
 
-**Task List** : 
-| S.No | Tasks | Repo | Actionable By | 
-|------|-------|-----------|-----------|
-|   1.   | Redirect the incoming requests to the proxy      |   Keploy    |    https://github.com/keploy/keploy/issues/1521        |
-|   2.   |  Filter the incoming traffic for the user app     |  Keploy     |     https://github.com/keploy/keploy/issues/1522       |
-|   3.   |  Redirect the outgoing traffic for the user app     |    Keploy   |      https://github.com/keploy/keploy/issues/1523      |
-
 
 ### 2. denoising + docker extension
 **Mentors**:
