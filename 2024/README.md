@@ -172,7 +172,7 @@ HTML, CSS, and Web Technologies
 - https://github.com/microsoft/vscode-extension-samples
 - https://code.visualstudio.com/api#how-to-build-extensions
 
-**Time Estimate** : 250 hours
+**Time Estimate** : 350 hours
 
 **Difficulty** : Medium 
 **Task List** :
