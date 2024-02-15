@@ -203,6 +203,30 @@ Ritik Jain, Shubham Jain
 **Difficulty** : Medium
 
 
+### 6. Implementing a React UI Console for Test Generation demonstration   
+The goal of this task is to develop a user-friendly interface in React that showcases Keploy's test generation capabilities, the console will be open-source and should show features including test record and replay, as well as automatic test generation. This UI should provide users with a clear and interactive way to understand and explore the features of Keploy's testing framework.
+
+**Mentors**:
+Neha Gupta, Charan Kamarapu
+
+**Goals & Ideas**
+* Design a User-Friendly Interface: Create a visually appealing and intuitive layout that allows users to easily navigate and understand the test generation features. Discuss design with the mentors.
+* Implement Test Record and Replay: Integrate the functionality to record user actions and replay them as tests, showcasing the ease of creating tests with Keploy.
+* Showcase Automatic Test Generation: Demonstrate how Keploy can automatically generate tests based on user interactions, highlighting the efficiency.
+* Interactive Demo: Allow users to interact with the demo, providing them with a hands-on experience of how Keploy simplifies the test generation process.
+* Documentation and Tutorials: Include clear documentation and tutorials within the UI to guide users through the demo and explain the underlying concepts and benefits.
+* Responsive Design: Ensure that the UI is responsive and accessible on various devices and screen sizes, providing a seamless experience for all users.
+
+**Skills Required**
+* React
+* Typescript
+* NextJs
+* TailwindCSS
+
+**Time Estimate** : 350 hours
+
+**Difficulty** : Hard
+
 --- 
 
 **Task List** : Good First Issue for GSoC aspirants
