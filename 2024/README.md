@@ -246,3 +246,4 @@ Neha Gupta, Charan Kamarapu
 |   Redirect the outgoing traffic for the user app     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1523      |  |
 |   Test multiple services using keploy     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1541      |  |
 |    Build an app with multiple services, demonstrating contract testing     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1543   |    |
+|    Add support in Keploy to read from server initiated calls     |    [Keploy](https://github.com/keploy/keploy)    |      https://github.com/keploy/keploy/issues/1572   |    |
