@@ -4,7 +4,7 @@
 
 Welcome to the Keploy GSoC projects page. We encourage candidates to come up with their own project idea.
 
-Join our [Slack Channel](https://join.slack.com/t/keploy/shared_invite/zt-12rfbvc01-o54cOG0X1G6eVJTuI_orSA) and stay tuned for updates.
+Join our [Slack Channel](https://join.slack.com/t/keploy/shared_invite/zt-2dno1yetd-Ec3el~tTwHYIHgGI0jPe7A) and stay tuned for updates.
 
 Use our [Template](https://docs.google.com/document/d/1QSSs4vPvn_tPeJkhwDuJ9YLSXdtygob9cPc-5yXj3pY/edit?usp=sharing) for the proposal. We recommend the use of google docs for the proposal.
 
@@ -207,7 +207,7 @@ Ritik Jain, Shubham Jain
 The goal of this task is to develop a user-friendly interface in React that showcases Keploy's test generation capabilities, the console will be open-source and should show features including test record and replay, as well as automatic test generation. This UI should provide users with a clear and interactive way to understand and explore the features of Keploy's testing framework.
 
 **Mentors**:
-Neha Gupta, Charan Kamarapu
+Neha Gupta, Charan Kamarapu, Hermione Dadheech 
 
 **Goals & Ideas**
 * Design a User-Friendly Interface: Create a visually appealing and intuitive layout that allows users to easily navigate and understand the test generation features. Discuss design with the mentors.
