@@ -207,7 +207,7 @@ Ritik Jain, Shubham Jain
 The goal of this task is to develop a user-friendly interface in React that showcases Keploy's test generation capabilities, the console will be open-source and should show features including test record and replay, as well as automatic test generation. This UI should provide users with a clear and interactive way to understand and explore the features of Keploy's testing framework.
 
 **Mentors**:
-Neha Gupta, Charan Kamarapu
+Neha Gupta, Charan Kamarapu, Hermione Dadheech 
 
 **Goals & Ideas**
 * Design a User-Friendly Interface: Create a visually appealing and intuitive layout that allows users to easily navigate and understand the test generation features. Discuss design with the mentors.
