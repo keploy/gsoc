@@ -148,16 +148,33 @@ Shivam, Charan, Sarthak
 
 
 **Goals & Ideas**
-1.
-2.
+1. Integrate OSS UTG with the RAG indexer.
+2. Integrate Gemini with UTG. 
 
 **Skills Required**
-1.
-2.
+1. Experience with RAG (Retrieval Augmented Generation) architectures.
+
+2. Knowledge of vector databases (e.g., Pinecone, FAISS, Weaviate, etc.).
+
+3. Understanding of graph databases and their integration with AI systems.
+
+4. Familiarity with indexing strategies for efficient code retrieval.
+
+5. Proficiency in Python/Golang for backend development.
 
 **Refs**
-1.
-2.
+1. Research papers on RAG and GRAG models.
+
+2. Documentation for vector and graph databases.
+
+**Tasks** 
+1. Integrate the existing RAG bot with a vector database.
+
+2. Explore dynamic indexing techniques to improve efficiency.
+
+3. Research methodologies for leveraging GRAGs to enhance retrieval.
+
+4. Test OSS UTG with OSS Repos.
 
 **Time Estimate** : 350 hours
 **Difficulty** : Medium
