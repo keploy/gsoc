@@ -165,16 +165,18 @@ Shivam, Charan, Sarthak
 
 ### 6. TestSuite Idempotency Checker
 
-**Mentors**:
-Animesh, Sarthak
+**Mentors**: Animesh, Sarthak
+
+**Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
 
 **Goals & Ideas**
-1.
-2.
+1. Identify Noisy Parameters – Automatically detect parameters in test cases that cause unnecessary variations, leading to non-idempotent behavior.
+2. Validate CRUD Operations – Ensure that CRUD requests in test cases conform to idempotency rules by verifying their consistency across multiple executions.
+3. HTML-based Test Verification – Check test cases that interact with HTML responses to ensure stable outputs and prevent unintended failures.
+4. Automated Idempotency Reporting – Develop a reporting mechanism that flags test cases violating idempotency, with insights into potential fixes.
 
 **Skills Required**
-1.
-2.
+1.Scripting Languages
 
 **Time Estimate** : 350 hours
 **Difficulty** : Hard
