@@ -149,8 +149,6 @@ Shivam, Charan, Sarthak
 
 **Goals & Ideas**
 1. Integrate OSS UTG with the RAG indexer.
-2. Integrate Gemini with UTG. 
-
 **Skills Required**
 1. Experience with RAG (Retrieval Augmented Generation) architectures.
 
@@ -175,6 +173,9 @@ Shivam, Charan, Sarthak
 3. Research methodologies for leveraging GRAGs to enhance retrieval.
 
 4. Test OSS UTG with OSS Repos.
+
+5. Integrate Gemini with UTG. 
+
 
 **Time Estimate** : 350 hours
 **Difficulty** : Medium
