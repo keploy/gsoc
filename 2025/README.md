@@ -73,6 +73,7 @@ The goal of this project is to elevate the Keploy Playground by:
 2. [Meshery Playground](https://play.meshery.io)
 
 **Time Estimate** : 350 hours
+
 **Difficulty** : Medium
 
 
@@ -96,6 +97,7 @@ The goal of this project is to elevate the Keploy Playground by:
 4. [A Tour of Go](https://go.dev/tour/)
 
 **Time Estimate** : 350 hours
+
 **Difficulty** : medium 
 
 ### 3. GitHub App Dashboard with Metrics and Chart
@@ -119,6 +121,7 @@ The goal of this project is to elevate the Keploy Playground by:
 2.GitHub API Docs – To fetch and process PR data effectively.
 
 **Time Estimate** : 350 Hours
+
 **Difficulty** : Medium
 
 ### 4. Code Review GitHub App (Using GitHub Action)
@@ -137,6 +140,7 @@ The goal of this project is to elevate the Keploy Playground by:
 2.
 
 **Time Estimate** : 350 hours
+
 **Difficulty** : Medium 
 
 
@@ -146,35 +150,28 @@ The goal of this project is to elevate the Keploy Playground by:
 
 **Goals & Ideas**
 1. Integrate OSS UTG with the RAG indexer.
+2. 
 **Skills Required**
 1. Experience with RAG (Retrieval Augmented Generation) architectures.
-
 2. Knowledge of vector databases (e.g., Pinecone, FAISS, Weaviate, etc.).
-
 3. Understanding of graph databases and their integration with AI systems.
-
 4. Familiarity with indexing strategies for efficient code retrieval.
-
 5. Proficiency in Python/Golang for backend development.
 
 **Refs**
 1. Research papers on RAG and GRAG models.
-
 2. Documentation for vector and graph databases.
 
 **Tasks** 
 1. Integrate the existing RAG bot with a vector database.
-
 2. Explore dynamic indexing techniques to improve efficiency.
-
 3. Research methodologies for leveraging GRAGs to enhance retrieval.
-
 4. Test OSS UTG with OSS Repos.
-
 5. Integrate Gemini with UTG. 
 
 
 **Time Estimate** : 350 hours
+
 **Difficulty** : Medium
 
 
@@ -199,4 +196,5 @@ The goal of this project is to elevate the Keploy Playground by:
 1.Scripting Languages
 
 **Time Estimate** : 350 hours
-**Difficulty** : Hard
+
+**Difficulty** : Medium
