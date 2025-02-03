@@ -50,8 +50,7 @@ _________________
 
 ### 1. Enhance Keploy Playground
 
-**Mentors**:
-Shivam, Tvisha, Manas
+**Mentors**: Shivam, Tvisha, Manas
 
 **Description**
 1.
@@ -74,8 +73,7 @@ Shivam, Tvisha, Manas
 
 
 ### 2. Contract Testing - Multiple services using Keplot
-**Mentors**:
-Gourav, Charan
+**Mentors**: Gourav, Charan
 
 **Description**
 1.
@@ -99,8 +97,7 @@ Gourav, Charan
 **Difficulty** : medium 
 
 ### 3. GitHub App Dashboard with Metrics and Chart
-**Mentors**:
-Manas, Tvisha, Hermione
+**Mentors**: Manas, Tvisha, Hermione
 
 **Description**
 1.
@@ -122,8 +119,7 @@ Manas, Tvisha, Hermione
 **Difficulty** : Medium
 
 ### 4. Code Review GitHub App (Using GitHub Action)
-**Mentors**: 
-Hermione, Gourav, Yash
+**Mentors**: Hermione, Gourav, Yash
 
 **Goals & Ideas:**
 1. 
@@ -143,9 +139,7 @@ Hermione, Gourav, Yash
 
 ### 5. Code Indexer
 
-**Mentors**:
-Shivam, Charan, Sarthak
-
+**Mentors**: Shivam, Charan, Sarthak
 
 **Goals & Ideas**
 1.
@@ -175,18 +169,13 @@ Shivam, Charan, Sarthak
 3. HTML-based Test Verification – Check test cases that interact with HTML responses to ensure stable outputs and prevent unintended failures.
 4. Automated Idempotency Reporting – Develop a reporting mechanism that flags test cases violating idempotency, with insights into potential fixes.
 
+**Tasks**
+1. Implement Idempotency Check for GET Requests in Postman
+2. Denoise the un-expected Parameters (timestamp, headers, token's, change in body response) from Keploy Testcases
+3. Create a basic report template using Allure or Extent Reports.
+
 **Skills Required**
 1.Scripting Languages
 
 **Time Estimate** : 350 hours
 **Difficulty** : Hard
-
---- 
-
-1. Rag Bot - V2
-2. OSS UTG
-3. Noisy Parameter Identifcation
-4. HTML Testing
-5. Verify the current gaps in UTG and test.
-6. Blog Website UI
-7. Docs Website UI
