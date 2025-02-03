@@ -103,20 +103,21 @@ Gourav, Charan
 Manas, Tvisha, Hermione
 
 **Description**
-1.
-2.
+1.The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
+2.The dashboard should support dynamic updates and be backed by a Go web server to process and serve data.
 
 **Goals & Ideas**
-1.
-2.
+1.Dynamic Dashboard: Develop a frontend that dynamically displays PR-related metrics, using visual elements such as graphs and charts.
+2.Template-Based PR Insights: Enable users to create and use templates for PR analysis, allowing customized views for different teams and workflows.
+3.Scalable & Modular Design: Ensure the system is modular, allowing for easy integration of new metrics, charts, or data sources.
 
 **Skills Required**
-1.
-2.
+1.Frontend Development (React/Next.js, Charting Libraries)
+2.Backend Development (Golang, API Integration)
 
 **Refs**
-1.
-2.
+1.Grafana – For inspiration on dashboard design and real-time data visualization.
+2.GitHub API Docs – To fetch and process PR data effectively.
 
 **Time Estimate** : 350 Hours
 **Difficulty** : Medium
