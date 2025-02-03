@@ -54,20 +54,24 @@ _________________
 Shivam, Tvisha, Manas
 
 **Description**
-1.
-2.
+
+The goal of this project is to elevate the Keploy Playground by:
+1. **Expanding Language Support:** Adding robust support for multiple programming languages such as Java and Python.
+2. **Integrating Test & Mock Support:** Providing comprehensive functionalities to generate tests and simulate mocks seamlessly.
+3. **Improving User Onboarding:** Redesigning the user experience, especially the onboarding process, to ensure a smooth introduction to Keploy’s capabilities.
 
 **Goals & Ideas**
-1.
-2.
+1. **Interactive Demo Environment:** Build a dynamic playground where users can interact with live demos, generate tests, and see real-time results.
+2. **Automated Test Generation from URL Input**: Allow users to provide a URL, then automatically scrape the frontend to generate a sitemap, identify API calls, and create tests based on the discovered endpoints using ATG
+3. **Multi-Language Testing Support:** Implement a flexible backend architecture that supports testing across multiple languages, making Keploy a versatile tool for a diverse range of applications.
 
 **Skills Required**
-1.
-2.
+1. Next.js
+2. Golang, Java, Python
 
 **Refs**
-1.
-2.
+1. [Keploy Playground](https://keploy.io/playground)
+2. [Meshery Playground](https://play.meshery.io)
 
 **Time Estimate** : 350 hours
 **Difficulty** : Medium
