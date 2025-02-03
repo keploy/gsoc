@@ -50,8 +50,7 @@ _________________
 
 ### 1. Enhance Keploy Playground
 
-**Mentors**:
-Shivam, Tvisha, Manas
+**Mentors**: Shivam, Tvisha, Manas
 
 **Description**
 
@@ -78,20 +77,17 @@ The goal of this project is to elevate the Keploy Playground by:
 
 
 ### 2. Contract Testing - Multiple services using Keplot
-**Mentors**:
-Gourav, Charan
+**Mentors**: Gourav, Charan
 
-**Description**
-1.
-2.
+**Description**: Contract testing is a method focused on verifying interactions between microservices, applications, or systems, ensuring correct communication through predefined contracts. It facilitates early issue identification and reduces complex end-to-end testing needs.
 
 **Goals & Ideas**
-1. 
-2.
+1. Keploy Support: Integrate contract testing capabilities into Keploy to enable advanced testing functionalities, enhancing its ability to validate microservice interactions effectively.
+2. Automated Change Management for API Chains: When using Keploy with services m1, m2, and m3, consider a scenario where m2 undergoes a change, such as the addition of a new field. When this change is incorporated into m2's test cases, it could potentially disrupt the mock interactions expected by m1, necessitating updates to m1's tests to align with the new behavior. This process ensures that mocks are consistently refreshed to reflect the most current service interactions. Keploy facilitates this dynamic updating mechanism, streamlining the maintenance of test cases and mocks across services. Consequently, it simplifies end-to-end (E2E) testing, making it more efficient and reducing the complexity typically associated with testing interconnected services.
 
 **Skills Required**
-1.
-2.
+1. Golang
+2. REST APIs
 
 **Refs**
 1. [What is Contract Testing?](https://pactflow.io/blog/what-is-contract-testing/)
@@ -103,8 +99,7 @@ Gourav, Charan
 **Difficulty** : medium 
 
 ### 3. GitHub App Dashboard with Metrics and Chart
-**Mentors**:
-Manas, Tvisha, Hermione
+**Mentors**: Manas, Tvisha, Hermione
 
 **Description**
 1.The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
@@ -127,8 +122,7 @@ Manas, Tvisha, Hermione
 **Difficulty** : Medium
 
 ### 4. Code Review GitHub App (Using GitHub Action)
-**Mentors**: 
-Hermione, Gourav, Yash
+**Mentors**: Hermione, Gourav, Yash
 
 **Goals & Ideas:**
 1. 
@@ -148,9 +142,7 @@ Hermione, Gourav, Yash
 
 ### 5. Code Indexer
 
-**Mentors**:
-Shivam, Charan, Sarthak
-
+**Mentors**: Shivam, Charan, Sarthak
 
 **Goals & Ideas**
 1. Integrate OSS UTG with the RAG indexer.
@@ -188,26 +180,23 @@ Shivam, Charan, Sarthak
 
 ### 6. TestSuite Idempotency Checker
 
-**Mentors**:
-Animesh, Sarthak
+**Mentors**: Animesh, Sarthak
+
+**Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
 
 **Goals & Ideas**
-1.
-2.
+1. Identify Noisy Parameters – Automatically detect parameters in test cases that cause unnecessary variations, leading to non-idempotent behavior.
+2. Validate CRUD Operations – Ensure that CRUD requests in test cases conform to idempotency rules by verifying their consistency across multiple executions.
+3. HTML-based Test Verification – Check test cases that interact with HTML responses to ensure stable outputs and prevent unintended failures.
+4. Automated Idempotency Reporting – Develop a reporting mechanism that flags test cases violating idempotency, with insights into potential fixes.
+
+**Tasks**
+1. Implement Idempotency Check for GET Requests in Postman
+2. Denoise the un-expected Parameters (timestamp, headers, token's, change in body response) from Keploy Testcases
+3. Create a basic report template using Allure or Extent Reports.
 
 **Skills Required**
-1.
-2.
+1.Scripting Languages
 
 **Time Estimate** : 350 hours
 **Difficulty** : Hard
-
---- 
-
-1. Rag Bot - V2
-2. OSS UTG
-3. Noisy Parameter Identifcation
-4. HTML Testing
-5. Verify the current gaps in UTG and test.
-6. Blog Website UI
-7. Docs Website UI
