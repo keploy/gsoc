@@ -106,6 +106,7 @@ The goal of this project is to elevate the Keploy Playground by:
 **Description**
 1. The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
 2. The dashboard should support dynamic updates and be backed by a Go web server to process and serve data.
+3. Structure the application to be easily extensible, enabling straightforward addition of new metrics or charts in the future.
 
 **Goals & Ideas**
 1. Dynamic Dashboard: Develop a frontend that dynamically displays PR-related metrics, using visual elements such as graphs and charts.
@@ -113,12 +114,14 @@ The goal of this project is to elevate the Keploy Playground by:
 3. Scalable & Modular Design: Ensure the system is modular, allowing for easy integration of new metrics, charts, or data sources.
 
 **Skills Required**
-1. Frontend Development (React/Next.js, Charting Libraries)
-2. Backend Development (Golang, API Integration)
+1. React/Next.js, Charting Libraries(e.g., Chart.js, Recharts, D3.js)
+2. Golang
+3. MongoDB
 
 **Refs**
 1. Grafana – For inspiration on dashboard design and real-time data visualization.
 2. GitHub API Docs – To fetch and process PR data effectively.
+3. Golang 
 
 **Time Estimate** : 350 Hours
 
@@ -128,16 +131,27 @@ The goal of this project is to elevate the Keploy Playground by:
 **Mentors**: Hermione, Gourav, Yash
 
 **Goals & Ideas:**
-1. 
-2.
+
+1. Develop a GitHub App integrated with GitHub Actions triggering a pipeline on Azure/HyperExecute to provide automated code review feedback, analyzing pull requests for coding style, security vulnerabilities, and best practices.
+2. Research about exisiting code review agents and setup a comparison between them by creating a PR using those agents, also create a GitHub Discussion on Keploy displaying the results
+3. Read about other open source agents and understand the flow of these agents
+
+**Tasks:**
+1. Utilize GitHub API to retrieve PRs, integrate with linting tools like ESLint/Prettier (JavaScript) or GolangCI-Lint (Go), and implement static analysis tools for automated feedback.
+2. Create a GitHub App which can triggger a Github Action 
 
 **Skills Required**
-1. 
-2.
+1. GitHub Actions & GitHub API
+2. REST APIs & Webhooks
+3. Golang
+4. JavaScript/TypeScript, Node.js
+5. Static Code Analysis Tools (ESLint, GolangCI-Lint)
 
 **Refs**
-1. 
-2.
+1. [GitHub Actions Documentation](https://docs.github.com/en/actions/) 
+2. [GitHub REST API Guide](https://docs.github.com/en/rest?apiVersion=2022-11-28/)
+3. [ESLint: Pluggable JavaScript Linter](https://pactflow.io/blog/what-is-contract-testing/)
+4. [GolangCI-Lint](https://golangci-lint.run/)
 
 **Time Estimate** : 350 hours
 
