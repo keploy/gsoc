@@ -130,8 +130,14 @@ The goal of this project is to elevate the Keploy Playground by:
 **Mentors**: Hermione, Gourav, Yash
 
 **Goals & Ideas:**
-1. Develop a GitHub App integrated with GitHub Actions to provide automated code review feedback, analyzing pull requests for coding style, security vulnerabilities, and best practices.
-2. Utilize GitHub API to retrieve PRs, integrate with linting tools like ESLint/Prettier (JavaScript) or GolangCI-Lint (Go), and implement static analysis tools for automated feedback.
+
+1. Develop a GitHub App integrated with GitHub Actions triggering a pipeline on Azure/HyperExecute to provide automated code review feedback, analyzing pull requests for coding style, security vulnerabilities, and best practices.
+2. Research about exisiting code review agents and setup a comparison between them by creating a PR using those agents, also create a GitHub Discussion on Keploy displaying the results
+3. Read about other open source agents and understand the flow of these agents
+
+**Tasks:**
+1. Utilize GitHub API to retrieve PRs, integrate with linting tools like ESLint/Prettier (JavaScript) or GolangCI-Lint (Go), and implement static analysis tools for automated feedback.
+2. Create a GitHub App which can triggger a Github Action 
 
 **Skills Required**
 1. GitHub Actions & GitHub API
