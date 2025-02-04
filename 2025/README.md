@@ -104,21 +104,21 @@ The goal of this project is to elevate the Keploy Playground by:
 **Mentors**: Manas, Tvisha, Hermione
 
 **Description**
-1.The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
-2.The dashboard should support dynamic updates and be backed by a Go web server to process and serve data.
+1. The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
+2. The dashboard should support dynamic updates and be backed by a Go web server to process and serve data.
 
 **Goals & Ideas**
-1.Dynamic Dashboard: Develop a frontend that dynamically displays PR-related metrics, using visual elements such as graphs and charts.
-2.Template-Based PR Insights: Enable users to create and use templates for PR analysis, allowing customized views for different teams and workflows.
-3.Scalable & Modular Design: Ensure the system is modular, allowing for easy integration of new metrics, charts, or data sources.
+1. Dynamic Dashboard: Develop a frontend that dynamically displays PR-related metrics, using visual elements such as graphs and charts.
+2. Template-Based PR Insights: Enable users to create and use templates for PR analysis, allowing customized views for different teams and workflows.
+3. Scalable & Modular Design: Ensure the system is modular, allowing for easy integration of new metrics, charts, or data sources.
 
 **Skills Required**
-1.Frontend Development (React/Next.js, Charting Libraries)
-2.Backend Development (Golang, API Integration)
+1. Frontend Development (React/Next.js, Charting Libraries)
+2. Backend Development (Golang, API Integration)
 
 **Refs**
-1.Grafana – For inspiration on dashboard design and real-time data visualization.
-2.GitHub API Docs – To fetch and process PR data effectively.
+1. Grafana – For inspiration on dashboard design and real-time data visualization.
+2. GitHub API Docs – To fetch and process PR data effectively.
 
 **Time Estimate** : 350 Hours
 
@@ -149,8 +149,8 @@ The goal of this project is to elevate the Keploy Playground by:
 **Mentors**: Shivam, Charan, Sarthak
 
 **Goals & Ideas**
-1. Integrate OSS UTG with the RAG indexer.
-2. 
+1. Integrate UTG with the RAG indexer.
+
 **Skills Required**
 1. Experience with RAG (Retrieval Augmented Generation) architectures.
 2. Knowledge of vector databases (e.g., Pinecone, FAISS, Weaviate, etc.).
@@ -169,7 +169,6 @@ The goal of this project is to elevate the Keploy Playground by:
 4. Test OSS UTG with OSS Repos.
 5. Integrate Gemini with UTG. 
 
-
 **Time Estimate** : 350 hours
 
 **Difficulty** : Medium
@@ -187,13 +186,14 @@ The goal of this project is to elevate the Keploy Playground by:
 3. HTML-based Test Verification – Check test cases that interact with HTML responses to ensure stable outputs and prevent unintended failures.
 4. Automated Idempotency Reporting – Develop a reporting mechanism that flags test cases violating idempotency, with insights into potential fixes.
 
+**Skills Required**
+1. Scripting Languages such as Python, Bash.
+2. Golang
+
 **Tasks**
 1. Implement Idempotency Check for GET Requests in Postman
 2. Denoise the un-expected Parameters (timestamp, headers, token's, change in body response) from Keploy Testcases
 3. Create a basic report template using Allure or Extent Reports.
-
-**Skills Required**
-1.Scripting Languages
 
 **Time Estimate** : 350 hours
 
