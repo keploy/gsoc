@@ -77,7 +77,7 @@ The goal of this project is to elevate the Keploy Playground by:
 **Difficulty** : Medium
 
 
-### 2. Contract Testing - Multiple services using Keplot
+### 2. Contract Testing - using Keploy
 **Mentors**: Gourav, Charan
 
 **Description**: Contract testing is a method focused on verifying interactions between microservices, applications, or systems, ensuring correct communication through predefined contracts. It facilitates early issue identification and reduces complex end-to-end testing needs.
