@@ -50,7 +50,7 @@ _________________
 
 ### 1. Enhance Keploy Playground
 
-**Mentors**: Shivam, Tvisha, Manas
+**Mentors**: Shivam Jha, Tvisha Raji, Manas, Neha Gupta
 
 **Description**
 
@@ -78,7 +78,7 @@ The goal of this project is to elevate the Keploy Playground by:
 
 
 ### 2. Contract Testing - using Keploy
-**Mentors**: Gourav, Charan
+**Mentors**: Gourav Kumar, Charan Kamarapu, Shubham Jain
 
 **Description**: Contract testing is a method focused on verifying interactions between microservices, applications, or systems, ensuring correct communication through predefined contracts. It facilitates early issue identification and reduces complex end-to-end testing needs.
 
@@ -101,7 +101,7 @@ The goal of this project is to elevate the Keploy Playground by:
 **Difficulty** : medium 
 
 ### 3. GitHub App Dashboard with Metrics and Chart
-**Mentors**: Manas, Tvisha, Hermione
+**Mentors**: Manas, Tvisha, Hermione, Neha
 
 **Description**
 1. The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
@@ -128,7 +128,7 @@ The goal of this project is to elevate the Keploy Playground by:
 **Difficulty** : Medium
 
 ### 4. Code Review GitHub App (Using GitHub Action)
-**Mentors**: Hermione, Gourav, Yash
+**Mentors**: Hermione, Gourav, Yash, Shubham
 
 **Goals & Ideas:**
 
@@ -160,7 +160,7 @@ The goal of this project is to elevate the Keploy Playground by:
 
 ### 5. Code Indexer
 
-**Mentors**: Shivam, Charan, Sarthak
+**Mentors**: Shivam, Charan, Sarthak, Shubham
 
 **Goals & Ideas**
 1. Integrate UTG with the RAG indexer.
@@ -190,7 +190,7 @@ The goal of this project is to elevate the Keploy Playground by:
 
 ### 6. TestSuite Idempotency Checker
 
-**Mentors**: Animesh, Sarthak
+**Mentors**: Animesh, Sarthak, Neha
 
 **Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
 
