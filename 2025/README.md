@@ -113,8 +113,12 @@ The goal of this project is to elevate the Keploy Playground by:
 2. Template-Based PR Insights: Enable users to create and use templates for PR analysis, allowing customized views for different teams and workflows.
 3. Scalable & Modular Design: Ensure the system is modular, allowing for easy integration of new metrics, charts, or data sources.
 
+**Tasks:**
+1. Develop a web app that enables users to track GitHub organizations, repositories, and user activity, providing a customizable feed and insights.
+2. Research about GitHub APIs, Building Modular Dashboards, Data Processing and Integration
+
 **Skills Required**
-1. React/Next.js, Charting Libraries(e.g., Chart.js, Recharts, D3.js)
+1. Next.js, Charting Libraries(e.g., Chart.js, Recharts, D3.js)
 2. Golang
 3. MongoDB
 
