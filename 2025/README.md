@@ -216,3 +216,17 @@ The goal of this project is to elevate the Keploy Playground by:
 **Time Estimate** : 350 hours
 
 **Difficulty** : Medium
+
+---
+## Task List : Good First Issue for GSoC aspirants
+
+| Projects | Good First Issue |
+| -------- | ------- |
+| update website themes  | https://github.com/keploy/keploy/issues/2536 </br> https://github.com/keploy/keploy/issues/2535 </br> https://github.com/keploy/keploy/issues/2534  |
+| Integrate RAG Bot with a Vector Database  | https://github.com/keploy/keploy/issues/2533  |
+| PR Analysis with Linting & Static Analysis in testGPT    | https://github.com/keploy/keploy/issues/2532    |
+| Checking of HTML-Based Test Validation   | https://github.com/keploy/keploy/issues/2528    |
+| a GitHub App to Trigger GitHub Actions    | https://github.com/keploy/keploy/issues/2531    |
+| Denoise Unexpected Parameters in Keploy Testcases | https://github.com/keploy/keploy/issues/2527  |
+| Implement Idempotency Check for GET Requests | https://github.com/keploy/keploy/issues/2526  |
+| SON Diff viewer re-alignment to top | https://github.com/keploy/keploy/issues/2524 |
