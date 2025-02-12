@@ -96,6 +96,10 @@ The goal of this project is to elevate the Keploy Playground by:
 3. [What is a REST API? - IBM](https://www.ibm.com/topics/rest-apis#:~:text=the%20next%20step-,What%20is%20a%20REST%20API%3F,representational%20state%20transfer%20architectural%20style.)
 4. [A Tour of Go](https://go.dev/tour/)
 
+**Tasks**
+1. [Implement Microservices Architecture with HTTP APIs & Validate Keploy Contract Testing](https://github.com/keploy/keploy/issues/2541)
+2. [Identify and Resolve Issues in Keploy Contract Testing Implementation](https://github.com/keploy/keploy/issues/2543) 
+
 **Time Estimate** : 350 hours
 
 **Difficulty** : medium 
