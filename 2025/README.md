@@ -52,9 +52,8 @@ _________________
 
 **Mentors**: Shivam Jha, Tvisha Raji, Manas, Neha Gupta
 
-**Description**
+**Description**: The objective of this project is to enhance the Keploy Playground by introducing new functionalities, improving user experience, and expanding its capabilities. This includes:
 
-The goal of this project is to elevate the Keploy Playground by:
 1. **Expanding Language Support:** Adding robust support for multiple programming languages such as Java and Python.
 2. **Integrating Test & Mock Support:** Providing comprehensive functionalities to generate tests and simulate mocks seamlessly.
 3. **Improving User Onboarding:** Redesigning the user experience, especially the onboarding process, to ensure a smooth introduction to Keploy’s capabilities.
@@ -105,7 +104,7 @@ The goal of this project is to elevate the Keploy Playground by:
 **Difficulty** : medium 
 
 ### 3. GitHub App Dashboard with Metrics and Chart
-**Mentors**: Manas, Tvisha, Hermione, Neha
+**Mentors**: Manas Mahoar, Tvisha Raji, Hermione Dadheech, Neha Gupta
 
 **Description**
 1. The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
@@ -136,7 +135,7 @@ The goal of this project is to elevate the Keploy Playground by:
 **Difficulty** : Medium
 
 ### 4. Code Review GitHub App (Using GitHub Action)
-**Mentors**: Hermione, Gourav, Yash, Shubham
+**Mentors**: Hermione Dadheech, Gourav Kumar, Yash Khare, Shubham Jain
 
 **Goals & Ideas:**
 
@@ -168,7 +167,7 @@ The goal of this project is to elevate the Keploy Playground by:
 
 ### 5. Code Indexer
 
-**Mentors**: Shivam, Charan, Sarthak, Shubham
+**Mentors**: Shivam Shourav Jha, Charan Ka, Sarthak Shyngle, Shubham Jain
 
 **Goals & Ideas**
 1. Integrate UTG with the RAG indexer.
@@ -198,7 +197,7 @@ The goal of this project is to elevate the Keploy Playground by:
 
 ### 6. TestSuite Idempotency Checker
 
-**Mentors**: Animesh, Sarthak, Neha
+**Mentors**: Animesh Pathak, Sarthak Shyngle, Neha Gupta
 
 **Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
 
