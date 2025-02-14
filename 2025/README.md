@@ -212,18 +212,18 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 **Mentors**: Manas, Tvisha, Hermione, Neha
 
 **Description**
-1. The goal of this project is to build a PR Agent Dashboard that provides interactive visualizations, metrics, and insights for pull request activities. 
-2. The dashboard should support dynamic updates and be backed by a Go web server to process and serve data.
-3. Structure the application to be easily extensible, enabling straightforward addition of new metrics or charts in the future.
+1. The objective of this project is to create a console that provides interactive visualizations, metrics, and insights for code merges and test activities.
+2. The console should support dynamic updates and be powered by a Go web server that processes and serves data.
+3. It should be structured for easy extensibility, making it straightforward to add new metrics or charts in the future.
 
 **Goals & Ideas**
-1. Dynamic Dashboard: Develop a frontend that dynamically displays PR-related metrics, using visual elements such as graphs and charts.
-2. Template-Based PR Insights: Enable users to create and use templates for PR analysis, allowing customized views for different teams and workflows.
-3. Scalable & Modular Design: Ensure the system is modular, allowing for easy integration of new metrics, charts, or data sources.
+1. Dynamic Dashboard: Develop a frontend that aggregates and displays real-time test reports using visual elements such as graphs and charts
+2. Template-Based PR Insights: Allow users to create and utilize templates for code analysis, offering customizable views for different teams and workflows.
+3. Scalable & Modular Design:  Ensure the system’s architecture is modular and can accommodate new metrics, charts, or data sources with minimal effort.
 
 **Tasks:**
-1. Develop a web app that enables users to track GitHub organizations, repositories, and user activity, providing a customizable feed and insights.
-2. Research about GitHub APIs, Building Modular Dashboards, Data Processing and Integration
+1. Build a web app that tracks multiple repositories and user activities, offering a customizable feed of test outcomes and analytics.
+2. Research techniques for building modular dashboards, data processing, and integration with various version control or repository hosting services.
 
 **Skills Required**
 1. Next.js, Charting Libraries(e.g., Chart.js, Recharts, D3.js)
@@ -232,8 +232,7 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 
 **Refs**
 1. Grafana – For inspiration on dashboard design and real-time data visualization.
-2. GitHub API Docs – To fetch and process PR data effectively.
-3. Golang 
+2. Golang Documentation – For best practices in building scalable Go services.
 
 **Time Estimate** : 350 Hours
 
