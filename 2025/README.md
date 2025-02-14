@@ -107,7 +107,7 @@ Develop an efficient code indexing system that enables fast and scalable code se
 2. Documentation for vector and graph databases.
 
 **Tasks** 
-1. Integrate the existing RAG bot with a [Milvus](https://milvus.io/).
+1. Integrate the existing RAG bot with a [Milvus](https://github.com/milvus-io/milvus).
   * Modify the existing RAG bot to store code snippets as vector embeddings in Milvus.
 2. Explore dynamic indexing techniques to improve efficiency.
   * Research and compare different indexing techniques (HNSW, IVF, PQ, Flat Index) for faster retrieval.
