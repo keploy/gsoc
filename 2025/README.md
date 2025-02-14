@@ -107,11 +107,15 @@ Develop an efficient code indexing system that enables fast and scalable code se
 2. Documentation for vector and graph databases.
 
 **Tasks** 
-1. Integrate the existing RAG bot with a vector database.
+1. Integrate the existing RAG bot with a [Milvus](https://github.com/milvus-io/milvus).
+  * Modify the existing RAG bot to store code snippets as vector embeddings in Milvus.
 2. Explore dynamic indexing techniques to improve efficiency.
+  * Research and compare different indexing techniques (HNSW, IVF, PQ, Flat Index) for faster retrieval.
 3. Research methodologies for leveraging GRAGs to enhance retrieval.
-4. Test OSS UTG with OSS Repos.
-5. Integrate Gemini with UTG. 
+  * Implement a prototype that combines vector search with graph-based retrieval to improve accuracy.
+4. Test Open-Source [UTG (Unit Test Generation)](https://keploy.io/docs/running-keploy/unit-test-generator/) with OSS Repositories.
+  * Run Keploy’s OSS Unit Test Generator (UTG) on real-world repositories and suggest optimizations for the UTG model based on results.
+5. Use [Gemini AI](https://gemini.google.com/app) (Google’s LLM) to generate better test cases from indexed OSS codebases.
 
 **Time Estimate** : 350 hours
 
