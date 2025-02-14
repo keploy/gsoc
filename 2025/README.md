@@ -189,10 +189,13 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 ### 5. API contract matching - Adding Features and Platform support
 **Mentors**: Gourav Kumar, Charan Kamarapu, Ahmed Lotfy, Shubham Jain
 
-**Description**: TBd.
+**Description**: The goal of this project is to enhance the functionality of contract testing by adding new features and improving existing capabilities. This includes better schema storage, consolidation, and validation, along with exploring a provider-driven approach as a future enhancement.
 
 **Goals & Ideas**
-1. TBD
+1. **Schema Storage Enhancement**: Implement local storage support for schemas, functioning as a mock public registry (e.g., S3).
+2. **Unified Schema Management**: Merge individual test/mock schemas into a comprehensive single schema for each service, consolidating all APIs
+3. **Advanced Schema Comparison**: Design and improve schema validation between interconnected services to ensure consistency.
+4. **Provider-Driven Architecture**: Develop and integrate a provider-driven contract testing model into Keploy, allowing service providers to define and manage contracts efficiently.
 
 **Skills Required**
 1. Golang
