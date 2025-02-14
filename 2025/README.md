@@ -179,13 +179,12 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 
 
 ### 5. API contract matching - Adding Features and Platform support
-**Mentors**: Gourav Kumar, Charan Kamarapu, Shubham Jain
+**Mentors**: Gourav Kumar, Charan Kamarapu, Ahmed Lotfy, Shubham Jain
 
-**Description**: Contract testing is a method focused on verifying interactions between microservices, applications, or systems, ensuring correct communication through predefined contracts. It facilitates early issue identification and reduces complex end-to-end testing needs.
+**Description**: TBd.
 
 **Goals & Ideas**
-1. Keploy Support: Integrate contract testing capabilities into Keploy to enable advanced testing functionalities, enhancing its ability to validate microservice interactions effectively.
-2. Automated Change Management for API Chains: When using Keploy with services m1, m2, and m3, consider a scenario where m2 undergoes a change, such as the addition of a new field. When this change is incorporated into m2's test cases, it could potentially disrupt the mock interactions expected by m1, necessitating updates to m1's tests to align with the new behavior. This process ensures that mocks are consistently refreshed to reflect the most current service interactions. Keploy facilitates this dynamic updating mechanism, streamlining the maintenance of test cases and mocks across services. Consequently, it simplifies end-to-end (E2E) testing, making it more efficient and reducing the complexity typically associated with testing interconnected services.
+1. TBD
 
 **Skills Required**
 1. Golang
