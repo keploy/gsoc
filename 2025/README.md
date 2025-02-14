@@ -48,28 +48,127 @@ _________________
 
 ## **Projects List**
 
-### 1. Enhance Keploy Playground
+### 1. AI-Powered Open-Source Code Review Agent (Using any CI/CD workflow)
+**Mentors**: Hermione, Gourav, Yash, Shubham
+
+Develop an AI-driven, open-source code review agent that integrates with version control platforms and CI/CD pipelines to provide automated feedback on coding style, security vulnerabilities, and best practices. Use any CI/CD runners and open-source static analysis tools to improve the developer experience in open-source projects.
+
+**Goals & Ideas:**
+
+1. Develop a application integrated that can be integrated to CI/CD workflows triggering a pipeline on GCP/HyperExecute to provide automated code review feedback, analyzing pull requests for coding style, security vulnerabilities, and best practices.
+2. Utilize version control APIs (such as Git-based platforms) to retrieve code changes, integrate with linting tools like ESLint/Prettier (JavaScript) or GolangCI-Lint (Go), and implement AI/ML-based static analysis for automated feedback.
+3. Train an AI/ML model on public open-source repositories to identify common coding issues and suggest improvements. Use Google's Vertex AI or an open-source ML model like CodeBERT, DeepSeek, Ollama to provide AI-powered code reviews.
+4. Web dashboard for analytics and insights.
+
+**Tasks:**
+1. Explore the architecture and workflows of various open-source code review systems to understand their impact and areas for improvement and build a matrix comparing them based on features such as accuracy, language support, ease of integration, and performance
+2. Build a modular webhook-based system to allow easy integration with various platforms.
+3. Integrate OWASP Dependency-Check or Google’s Open Source Insights (deps.dev API) to detect vulnerable dependencies.
+4. Export review results in JSON, Markdown, or PDF formats for offline analysis.
+
+**Skills Required:**
+- CI/CD workflows & automation
+- REST APIs & Webhooks
+- Golang
+- JavaScript/TypeScript, Node.js
+- Static Code Analysis Tools (ESLint, GolangCI-Lint)
+- AI/ML for automated code review - Vertex AI (Optional but beneficial)
+
+**Refs**
+1. [ESLint: Pluggable JavaScript Linter](https://pactflow.io/blog/what-is-contract-testing/)
+2. [GolangCI-Lint](https://golangci-lint.run/)
+
+**Time Estimate** : 350 hours
+
+**Difficulty** : Hard
+
+### 2. OSS Code Indexer for Efficient Retrieval
+
+**Mentors**: Shivam, Charan, Sarthak, Shubham Jain
+
+**Goals & Ideas**
+Develop an efficient code indexing system that enables fast and scalable code search and retrieval. The system will integrate  open source unit test geneartion with a Retrieval-Augmented Generation (RAG) indexer, utilizing vector and graph databases to improve query efficiency and relevance. The goal is to create a robust and scalable solution that can handle large open-source codebases and enable better code discovery, navigation, and reuse. 
+
+- Integrate the existing RAG bot with a vector database.
+- Explore dynamic indexing techniques to improve efficiency.
+- Research methodologies for leveraging GRAGs to enhance retrieval.
+- Test OSS UTG with OSS Repos.
+- Integrate Gemini with UTG.
+
+**Skills Required**
+1. Experience with RAG (Retrieval Augmented Generation) architectures.
+2. Knowledge of vector databases (e.g., Pinecone, FAISS, Weaviate, etc.).
+3. Understanding of graph databases and their integration with AI systems.
+4. Familiarity with indexing strategies for efficient code retrieval.
+5. Proficiency in Python/Golang for backend development.
+
+**Refs**
+1. Research papers on RAG and GRAG models.
+2. Documentation for vector and graph databases.
+
+**Tasks** 
+1. Integrate the existing RAG bot with a vector database.
+2. Explore dynamic indexing techniques to improve efficiency.
+3. Research methodologies for leveraging GRAGs to enhance retrieval.
+4. Test OSS UTG with OSS Repos.
+5. Integrate Gemini with UTG. 
+
+**Time Estimate** : 350 hours
+
+**Difficulty** : Medium
+
+
+### 3. TestSuite Idempotency Checker
+
+**Mentors**: Animesh, Sarthak, Neha
+
+**Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
+
+**Goals & Ideas**
+1. Identify Noisy Parameters – Automatically detect parameters in test cases that cause unnecessary variations, leading to non-idempotent behavior.
+2. Validate CRUD Operations – Ensure that CRUD requests in test cases conform to idempotency rules by verifying their consistency across multiple executions.
+3. HTML-based Test Verification – Check test cases that interact with HTML responses to ensure stable outputs and prevent unintended failures.
+4. Automated Idempotency Reporting – Develop a reporting mechanism that flags test cases violating idempotency, with insights into potential fixes.
+
+**Skills Required**
+1. Scripting Languages such as Python, Bash.
+2. Golang
+
+**Tasks**
+1. Implement Idempotency Check for GET Requests in Postman
+2. Denoise the un-expected Parameters (timestamp, headers, token's, change in body response) from Keploy Testcases
+3. Create a basic report template using Allure or Extent Reports.
+
+**Time Estimate** : 350 hours
+
+**Difficulty** : Medium
+
+
+### 4. Improve Keploy Open-Source Playground console
 
 **Mentors**: Shivam Jha, Tvisha Raji, Manas, Neha Gupta
 
 **Description**
 
-The goal of this project is to elevate the Keploy Playground by:
-1. **Expanding Language Support:** Adding robust support for multiple programming languages such as Java and Python.
-2. **Integrating Test & Mock Support:** Providing comprehensive functionalities to generate tests and simulate mocks seamlessly.
-3. **Improving User Onboarding:** Redesigning the user experience, especially the onboarding process, to ensure a smooth introduction to Keploy’s capabilities.
+The goal of this project is to elevate the open-source Keploy Playground for the contributors to understand record-replay. Few of the features requests b community includes:
+1. **Expanding Language Support:** Adding support for more languages such as Java, Python, Node.
+2. **Integrating Test & Mock Support:** Adding support to fetch generated tests from the keploy server and simulated mocks which can be editable on the playground.
+3. **Improving User Onboarding:** Currently the playground lags if the payload is big, or in case of AI/ML genrated tests, the idea is to improve performance of the react console so that other community members can experience it well.
 
 **Goals & Ideas**
-1. **Interactive Demo Environment:** Build a dynamic playground where users can interact with live demos, generate tests, and see real-time results.
-2. **Automated Test Generation from URL Input**: Allow users to provide a URL, then automatically scrape the frontend to generate a sitemap, identify API calls, and create tests based on the discovered endpoints using ATG
-3. **Multi-Language Testing Support:** Implement a flexible backend architecture that supports testing across multiple languages, making Keploy a versatile tool for a diverse range of applications.
+1. **Currently Loading Structure Loading is Fragile:** Improve the user experience by fixing the performance issues and handling edge cases.
+2. **Interactive Demo Environment:** Build a dynamic playground console where users can interact with live demos, generate tests, and see real-time results.
+3. **Automated Test Generation from URL Input**: Allow users to provide a URL, then automatically scrape the frontend to generate a sitemap, identify API calls, and create tests based on the discovered endpoints using ATG
+4. **Multi-Language Testing Support:** Implement a flexible backend architecture that supports testing across multiple languages, making Keploy a versatile tool for a diverse range of applications.
 
 **Skills Required**
-1. Next.js
-2. Golang, Java, Python
+1. Next.js, React, typescript
+2. API call handling
+3. Golang, Java, Python
+4. [optional] AI/ML 
 
 **Refs**
-1. [Keploy Playground](https://keploy.io/playground)
+1. [source code] - https://github.com/keploy/website/tree/main/app/(default) 
 2. [Meshery Playground](https://play.meshery.io)
 
 **Time Estimate** : 350 hours
@@ -77,7 +176,7 @@ The goal of this project is to elevate the Keploy Playground by:
 **Difficulty** : Medium
 
 
-### 2. Contract Testing - using Keploy
+### 5. API contract matching - Adding Features and Platform supports 
 **Mentors**: Gourav Kumar, Charan Kamarapu, Shubham Jain
 
 **Description**: Contract testing is a method focused on verifying interactions between microservices, applications, or systems, ensuring correct communication through predefined contracts. It facilitates early issue identification and reduces complex end-to-end testing needs.
@@ -104,7 +203,7 @@ The goal of this project is to elevate the Keploy Playground by:
 
 **Difficulty** : medium 
 
-### 3. GitHub App Dashboard with Metrics and Chart
+### 6.  App Dashboard with Metrics and Chart
 **Mentors**: Manas, Tvisha, Hermione, Neha
 
 **Description**
@@ -132,92 +231,6 @@ The goal of this project is to elevate the Keploy Playground by:
 3. Golang 
 
 **Time Estimate** : 350 Hours
-
-**Difficulty** : Medium
-
-### 4. Code Review GitHub App (Using GitHub Action)
-**Mentors**: Hermione, Gourav, Yash, Shubham
-
-**Goals & Ideas:**
-
-1. Develop a GitHub App integrated with GitHub Actions triggering a pipeline on Azure/HyperExecute to provide automated code review feedback, analyzing pull requests for coding style, security vulnerabilities, and best practices.
-2. Research about exisiting code review agents and setup a comparison between them by creating a PR using those agents, also create a GitHub Discussion on Keploy displaying the results
-3. Read about other open source agents and understand the flow of these agents
-
-**Tasks:**
-1. Utilize GitHub API to retrieve PRs, integrate with linting tools like ESLint/Prettier (JavaScript) or GolangCI-Lint (Go), and implement static analysis tools for automated feedback.
-2. Create a GitHub App which can triggger a Github Action 
-
-**Skills Required**
-1. GitHub Actions & GitHub API
-2. REST APIs & Webhooks
-3. Golang
-4. JavaScript/TypeScript, Node.js
-5. Static Code Analysis Tools (ESLint, GolangCI-Lint)
-
-**Refs**
-1. [GitHub Actions Documentation](https://docs.github.com/en/actions/) 
-2. [GitHub REST API Guide](https://docs.github.com/en/rest?apiVersion=2022-11-28/)
-3. [ESLint: Pluggable JavaScript Linter](https://pactflow.io/blog/what-is-contract-testing/)
-4. [GolangCI-Lint](https://golangci-lint.run/)
-
-**Time Estimate** : 350 hours
-
-**Difficulty** : Medium 
-
-
-### 5. Code Indexer
-
-**Mentors**: Shivam, Charan, Sarthak, Shubham
-
-**Goals & Ideas**
-1. Integrate UTG with the RAG indexer.
-
-**Skills Required**
-1. Experience with RAG (Retrieval Augmented Generation) architectures.
-2. Knowledge of vector databases (e.g., Pinecone, FAISS, Weaviate, etc.).
-3. Understanding of graph databases and their integration with AI systems.
-4. Familiarity with indexing strategies for efficient code retrieval.
-5. Proficiency in Python/Golang for backend development.
-
-**Refs**
-1. Research papers on RAG and GRAG models.
-2. Documentation for vector and graph databases.
-
-**Tasks** 
-1. Integrate the existing RAG bot with a vector database.
-2. Explore dynamic indexing techniques to improve efficiency.
-3. Research methodologies for leveraging GRAGs to enhance retrieval.
-4. Test OSS UTG with OSS Repos.
-5. Integrate Gemini with UTG. 
-
-**Time Estimate** : 350 hours
-
-**Difficulty** : Medium
-
-
-### 6. TestSuite Idempotency Checker
-
-**Mentors**: Animesh, Sarthak, Neha
-
-**Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
-
-**Goals & Ideas**
-1. Identify Noisy Parameters – Automatically detect parameters in test cases that cause unnecessary variations, leading to non-idempotent behavior.
-2. Validate CRUD Operations – Ensure that CRUD requests in test cases conform to idempotency rules by verifying their consistency across multiple executions.
-3. HTML-based Test Verification – Check test cases that interact with HTML responses to ensure stable outputs and prevent unintended failures.
-4. Automated Idempotency Reporting – Develop a reporting mechanism that flags test cases violating idempotency, with insights into potential fixes.
-
-**Skills Required**
-1. Scripting Languages such as Python, Bash.
-2. Golang
-
-**Tasks**
-1. Implement Idempotency Check for GET Requests in Postman
-2. Denoise the un-expected Parameters (timestamp, headers, token's, change in body response) from Keploy Testcases
-3. Create a basic report template using Allure or Extent Reports.
-
-**Time Estimate** : 350 hours
 
 **Difficulty** : Medium
 
