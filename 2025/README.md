@@ -120,7 +120,7 @@ Develop an efficient code indexing system that enables fast and scalable code se
 
 ### 3. TestSuite Idempotency Checker
 
-**Mentors**: Animesh, Sarthak, Neha
+**Mentors**: Animesh, Sarthak, Neha Gupta
 
 **Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
 
@@ -130,15 +130,17 @@ Develop an efficient code indexing system that enables fast and scalable code se
 3. HTML-based Test Verification – Check test cases that interact with HTML responses to ensure stable outputs and prevent unintended failures.
 4. Automated Idempotency Reporting – Develop a reporting mechanism that flags test cases violating idempotency, with insights into potential fixes.
 
-**Skills Required**
-1. Scripting Languages such as Python, Bash.
-2. Golang
-
 **Tasks**
 1. Implement Idempotency Check for GET Requests in Postman
 2. Denoise the un-expected Parameters (timestamp, headers, token's, change in body response) from Keploy Testcases
 3. Create a basic report template using Allure or Extent Reports.
+4. Handling noisy parameters of big payloads(10k or more lines) in the cli-diff viewer.
 
+**Skills Required**
+1. Scripting Languages such as Python, Bash.
+2. Golang
+3. Logical Reasoning + DSA
+   
 **Time Estimate** : 350 hours
 
 **Difficulty** : Medium
@@ -176,7 +178,7 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 **Difficulty** : Medium
 
 
-### 5. API contract matching - Adding Features and Platform supports 
+### 5. API contract matching - Adding Features and Platform support
 **Mentors**: Gourav Kumar, Charan Kamarapu, Shubham Jain
 
 **Description**: Contract testing is a method focused on verifying interactions between microservices, applications, or systems, ensuring correct communication through predefined contracts. It facilitates early issue identification and reduces complex end-to-end testing needs.
