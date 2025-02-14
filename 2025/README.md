@@ -148,7 +148,7 @@ Develop an efficient code indexing system that enables fast and scalable code se
 
 ### 4. Improve Keploy Open-Source Playground console
 
-**Mentors**: Shivam Jha, Tvisha Raji, Manas, Neha Gupta
+**Mentors**: Aditya Sharma, Shivam Jha, Tvisha Raji, Manas, Neha Gupta
 
 **Description**
 
