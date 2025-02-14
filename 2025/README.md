@@ -53,12 +53,11 @@ _________________
 
 Develop an AI-driven, open-source code review agent that integrates with version control platforms and CI/CD pipelines to provide automated feedback on coding style, security vulnerabilities, and best practices. Use any CI/CD runners and open-source static analysis tools to improve the developer experience in open-source projects.
 
-**Goals & Ideas:**
+**Description**: The objective of this project is to enhance the Keploy Playground by introducing new functionalities, improving user experience, and expanding its capabilities. This includes:
 
-1. Develop a application integrated that can be integrated to CI/CD workflows triggering a pipeline on GCP/HyperExecute to provide automated code review feedback, analyzing pull requests for coding style, security vulnerabilities, and best practices.
-2. Utilize version control APIs (such as Git-based platforms) to retrieve code changes, integrate with linting tools like ESLint/Prettier (JavaScript) or GolangCI-Lint (Go), and implement AI/ML-based static analysis for automated feedback.
-3. Train an AI/ML model on public open-source repositories to identify common coding issues and suggest improvements. Use Google's Vertex AI or an open-source ML model like CodeBERT, DeepSeek, Ollama to provide AI-powered code reviews.
-4. Web dashboard for analytics and insights.
+1. **Expanding Language Support:** Adding robust support for multiple programming languages such as Java and Python.
+2. **Integrating Test & Mock Support:** Providing comprehensive functionalities to generate tests and simulate mocks seamlessly.
+3. **Improving User Onboarding:** Redesigning the user experience, especially the onboarding process, to ensure a smooth introduction to Keploy’s capabilities.
 
 **Tasks:**
 1. Explore the architecture and workflows of various open-source code review systems to understand their impact and areas for improvement and build a matrix comparing them based on features such as accuracy, language support, ease of integration, and performance
@@ -124,7 +123,7 @@ Develop an efficient code indexing system that enables fast and scalable code se
 
 ### 3. TestSuite Idempotency Checker
 
-**Mentors**: Animesh, Sarthak, Neha Gupta
+**Mentors**: Animesh, Sarthak Shyngle, Neha Gupta
 
 **Description**: Ensuring idempotency in test suites is crucial for reliable and repeatable testing. This project focuses on analyzing test cases to identify operations that should be idempotent, it will help in detecting noisy parameters and inconsistencies which may lead to flaky tests.
 
@@ -144,7 +143,12 @@ Develop an efficient code indexing system that enables fast and scalable code se
 1. Scripting Languages such as Python, Bash.
 2. Golang
 3. Logical Reasoning + DSA
-   
+
+**Ref**
+1. [idempotency and safety in REST APIs ](https://www.linkedin.com/advice/0/how-do-you-test-monitor-idempotency)
+2. [How Idempotent REST APIs Boost Reliability and Error Handling](https://keploy.io/docs/concepts/reference/glossary/idempotency/)
+3. [Idempotent Message Validator](https://docs.mulesoft.com/mule-runtime/latest/idempotent-message-validator)
+
 **Time Estimate** : 350 hours
 
 **Difficulty** : Medium
@@ -208,8 +212,9 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 
 **Difficulty** : medium 
 
+
 ### 6.  App Dashboard with Metrics and Chart
-**Mentors**: Manas, Tvisha, Hermione, Neha
+**Mentors**: Manas Manohar, Tvisha Raji, Hermione Dadheech, Neha Gupta
 
 **Description**
 1. The objective of this project is to create a console that provides interactive visualizations, metrics, and insights for code merges and test activities.
