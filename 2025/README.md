@@ -251,7 +251,8 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 
 | Projects | Good First Issue |
 | -------- | ------- |
-| update website themes  | https://github.com/keploy/keploy/issues/2536 </br> https://github.com/keploy/keploy/issues/2535 </br> https://github.com/keploy/keploy/issues/2534  |
+| update website themes  | https://github.com/keploy/keploy/issues/2536 </br> https://github.com/keploy/keploy/issues/2535 </br> https://github.com/keploy/keploy/issues/2534  | 
+|Improve keploy console| https://github.com/keploy/keploy/issues/2551 </br> https://github.com/keploy/keploy/issues/2552|
 | Integrate RAG Bot with a Vector Database  | https://github.com/keploy/keploy/issues/2533  |
 | PR Analysis with Linting & Static Analysis in testGPT    | https://github.com/keploy/keploy/issues/2532    |
 | Checking of HTML-Based Test Validation   | https://github.com/keploy/keploy/issues/2528    |
