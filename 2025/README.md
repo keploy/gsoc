@@ -49,7 +49,7 @@ _________________
 ## **Projects List**
 
 ### 1. AI-Powered Open-Source Code Review Agent (Using any CI/CD workflow)
-**Mentors**: Hermione, Gourav, Yash, Shubham
+**Mentors**: Hermione, Yash, Gourav, Shubham
 
 Develop an AI-driven, open-source code review agent that integrates with version control platforms and CI/CD pipelines to provide automated feedback on coding style, security vulnerabilities, and best practices. Use any CI/CD runners and open-source static analysis tools to improve the developer experience in open-source projects.
 
@@ -187,7 +187,7 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 
 
 ### 5. API contract matching - Adding Features and Platform support
-**Mentors**: Gourav Kumar, Charan Kamarapu, Ahmed Lotfy, Shubham Jain
+**Mentors**: Ahmed Lotfy, Gourav Kumar, Charan Kamarapu, Shubham Jain
 
 **Description**: The goal of this project is to enhance the functionality of contract testing by adding new features and improving existing capabilities. This includes better schema storage, consolidation, and validation, along with exploring a provider-driven approach as a future enhancement.
 
