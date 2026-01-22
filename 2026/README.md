@@ -204,7 +204,7 @@ This project focuses on creating an interactive dashboard that helps teams manag
 **Time Estimate**: 350 hours  
 **Difficulty**: Medium–Hard  
 
----
+
 
 ### **4. PII Detection & Sanitization Engine**
 
@@ -248,7 +248,7 @@ This project involves creating a real-time PII detection and sanitization layer 
 **Time Estimate**: 350 hours  
 **Difficulty**: Hard  
 
----
+
 
 ### **5. AI Model Testing Framework**
 
@@ -287,7 +287,7 @@ This project focuses on creating a testing and evaluation toolkit for AI applica
 **Time Estimate**: 350 hours  
 **Difficulty**: Medium–Hard  
 
----
+
 
 ### **6. Test Migration Tool**
 
@@ -325,7 +325,6 @@ This project involves building a unified migration platform that parses test def
 **Time Estimate**: 350 hours  
 **Difficulty**: Medium  
 
----
 
 ### **7. Trace-Based Testing**
 
@@ -423,3 +422,37 @@ This project focuses on using trace data (such as OpenTelemetry traces) to autom
 | Modern Navigation and Layout for Writers program website | https://github.com/keploy/keploy/issues/3072 |
 
 
+---
+
+## Task List: Good First Issues for GSoC Aspirants
+
+| Project / Area | Good First Issue |
+|---------------|-----------------|
+| Add New Quickstarts for More Languages | https://github.com/keploy/keploy/issues/3521 |
+| IP not found error when running with Docker Compose | https://github.com/keploy/keploy/issues/3360 |
+| Enhance the testimonial marquee UI on the blog homepage | https://github.com/keploy/keploy/issues/3440 |
+| Beautify tags on blog reading posts | https://github.com/keploy/keploy/issues/3437 |
+| Fix blog navbar dropdown UI on mobile devices | https://github.com/keploy/keploy/issues/3431 |
+| Fix new blog navbar alignment on scroll and shrink | https://github.com/keploy/keploy/issues/3429 |
+| Fix blog navbar alignment on desktop | https://github.com/keploy/keploy/issues/3428 |
+| Fix blog navbar logo on shrink | https://github.com/keploy/keploy/issues/3427 |
+| Remove inclusion of delay time in the test run summary | https://github.com/keploy/keploy/issues/3351 |
+| Add skeleton loaders in the blog website for better UX | https://github.com/keploy/keploy/issues/3293 |
+| Ignore mockery-generated files from Go coverage calculation | https://github.com/keploy/keploy/issues/3219 |
+| Add modern UI components to blog landing page | https://github.com/keploy/keploy/issues/3084 |
+| Add dark/light mode support with toggle (Blog) | https://github.com/keploy/keploy/issues/3083 |
+| Redesign testimonials section (Blog Website) | https://github.com/keploy/keploy/issues/3082 |
+| Create writers page with cards for contributors | https://github.com/keploy/keploy/issues/3074 |
+| Add resources page for Writers Program | https://github.com/keploy/keploy/issues/3076 |
+| Add dark/light mode support with toggle (DevRel Website) | https://github.com/keploy/keploy/issues/3078 |
+| Add blog publishing flow documentation page | https://github.com/keploy/keploy/issues/3077 |
+| SEO, Open Graph, sitemap, and performance optimizations | https://github.com/keploy/keploy/issues/3079 |
+| Add search functionality in blog website navbar | https://github.com/keploy/keploy/issues/3081 |
+| Redesign and implement navbar using Tailwind CSS or UI library | https://github.com/keploy/keploy/issues/2769 |
+| Improve Keploy docs website mobile-friendliness | https://github.com/keploy/keploy/issues/2998 |
+| Redesign DevRel website | https://github.com/keploy/keploy/issues/3066 |
+| Add navbar, footer, and new UI components for DevRel website | https://github.com/keploy/keploy/issues/3067 |
+| Migrate Writers site to Next.js 15 + TypeScript + Tailwind | https://github.com/keploy/keploy/issues/3069 |
+| Improve typography, fonts, and information hierarchy (Writers site) | https://github.com/keploy/keploy/issues/3070 |
+| Modern UI components for key sections (Writers site) | https://github.com/keploy/keploy/issues/3071 |
+| Modern navigation and layout for Writers site | https://github.com/keploy/keploy/issues/3072 |
