@@ -88,108 +88,88 @@ This project focuses on designing and implementing an MCP server that acts as a 
 **Difficulty**: Medium–Hard  
 
 
-### 2. Keploy Blog Website Revamp & Performance Enhancement
+### 2. Keploy Blog Website Refactoring, Redesign & Performance Improvements
 
 **Mentors**: Neha Gupta, TBD
 
+The Keploy blog is a key channel for sharing technical knowledge and community contributions. As the blog continues to grow, there is an opportunity to **refactor existing code, redesign the user experience, and improve overall performance and maintainability** to better serve both readers and contributors.
 
-The Keploy blog is a key channel for sharing technical knowledge and community contributions. However, the current blog website has several limitations:
-- UI/UX inconsistencies
-- Performance and page load issues
-- Limited contributor-friendly workflows
-- Missing features common in modern developer blogs
+Several improvement opportunities already exist as GitHub issues in the Keploy repository. Contributors are also encouraged to propose enhancements by taking inspiration from modern open-source and developer-focused blogs.
 
-Several improvement opportunities already exist as GitHub issues in the Keploy repository, and additional enhancements can be proposed by analyzing best-in-class open-source and developer-focused blogs.
+---
 
-#### **Description**
+### **Description**
 
-Revamp the **Keploy Blog Website** to improve **UI/UX, performance, accessibility, and contributor experience**, while keeping the platform scalable and easy to maintain.
+This project focuses on **refactoring and redesigning the Keploy blog website** to improve **UI/UX, performance, accessibility, and contributor experience**, while keeping the platform scalable and easy to maintain.
 
-This project focuses on improving both the frontend experience and the backend/content management workflows of the Keploy blog. Contributors will work on existing issues, propose new improvements, and implement features inspired by high-quality developer blogs.
+Contributors will work across both the frontend and backend/content management workflows of the blog. The project encourages hands-on ownership—students will pick existing issues, suggest improvements, and drive features from ideation through implementation.
 
-Contributors are encouraged to take ownership by identifying gaps, creating new issues, and driving features from ideation to implementation.
+---
 
-#### **Focus Areas**
+### **Focus Areas**
 
-- UI/UX improvements
-- Performance optimization
-- Backend/API development
+- UI/UX redesign and visual consistency
+- Performance optimization and Core Web Vitals
+- Backend and API improvements
 - Documentation and contributor experience
-- DevOps and deployment improvements
+- DevOps and deployment enhancements
 
-#### **Tasks**
+---
 
-1. Audit the existing blog website for UI, performance, and architectural issues.
-2. Pick and solve at least one existing issue from the Keploy repository.
-3. Improve UI/UX:
+### **Tasks**
+
+1. Audit the existing blog website for UI, performance, and architectural improvements.
+2. Pick and resolve at least one existing issue from the Keploy repository.
+3. Refactor and redesign UI components:
    - Layout, typography, and readability
-   - Navigation and discoverability
+   - Navigation and content discoverability
    - Mobile responsiveness and accessibility
 4. Optimize performance:
    - Improve page load time and Lighthouse scores
-   - Optimize images, scripts, and caching
+   - Optimize images, scripts, and caching strategies
 5. Enhance backend and CMS workflows (WordPress):
    - Improve content management and publishing flow
    - Enhance APIs or integrations if applicable
 6. Propose and implement new features inspired by modern developer blogs:
-   - Better search and filtering
-   - SEO enhancements
+   - Search and filtering
+   - SEO improvements
    - Related posts and engagement features
-7. Improve documentation and contributor onboarding for the blog.
+7. Improve documentation and onboarding for blog contributors.
 
-#### **Tech Stack**
+---
+
+### **Tech Stack**
+
 - TypeScript
 - JavaScript
 - WordPress
 - Tailwind CSS
 
-#### **Skills Required**
+---
+
+### **Skills Required**
+
 - Frontend development (JavaScript, TypeScript, CSS)
 - UI/UX fundamentals
 - WordPress or CMS-based development
 - Web performance optimization
 - Open-source collaboration
 
-#### **References**
+---
 
-- Keploy blog repository issues [https://github.com/keploy/keploy/issues?q=is%3Aissue%20is%3Aopen%20label%3Ablog-website]
+### **References**
+
+- Keploy blog repository issues:  
+  https://github.com/keploy/keploy/issues?q=is%3Aissue%20is%3Aopen%20label%3Ablog-website
 
 **Time Estimate**: 350 hours  
-**Difficulty**: Medium  
-
-
+**Difficulty**: Medium
 
 ---
 
-## Task List: Good First Issues for GSoC Aspirants
 
-| Project / Area | Good First Issue |
-|---------------|-----------------|
-| Add New Quickstarts for More Languages | https://github.com/keploy/keploy/issues/3521 |
-| IP not found error when running with Docker Compose | https://github.com/keploy/keploy/issues/3360 |
-| Enhance the testimonial marquee UI on the blog homepage | https://github.com/keploy/keploy/issues/3440 |
-| Beautify tags on blog reading posts | https://github.com/keploy/keploy/issues/3437 |
-| Fix blog navbar dropdown UI on mobile devices | https://github.com/keploy/keploy/issues/3431 |
-| Fix new blog navbar alignment on scroll and shrink | https://github.com/keploy/keploy/issues/3429 |
-| Fix blog navbar alignment on desktop | https://github.com/keploy/keploy/issues/3428 |
-| Fix blog navbar logo on shrink | https://github.com/keploy/keploy/issues/3427 |
-| Remove inclusion of delay time in the test run summary | https://github.com/keploy/keploy/issues/3351 |
-| Add skeleton loaders in the blog website for better UX | https://github.com/keploy/keploy/issues/3293 |
-| Ignore mockery-generated files from Go coverage calculation | https://github.com/keploy/keploy/issues/3219 |
-| Add modern UI components to blog landing page | https://github.com/keploy/keploy/issues/3084 |
-| Add dark/light mode support with toggle (Blog) | https://github.com/keploy/keploy/issues/3083 |
-| Redesign testimonials section (Blog Website) | https://github.com/keploy/keploy/issues/3082 |
-| Create writers page with cards for contributors | https://github.com/keploy/keploy/issues/3074 |
-| Add resources page for Writers Program | https://github.com/keploy/keploy/issues/3076 |
-| Add dark/light mode support with toggle (DevRel Website) | https://github.com/keploy/keploy/issues/3078 |
-| Add blog publishing flow documentation page | https://github.com/keploy/keploy/issues/3077 |
-| SEO, Open Graph, sitemap, and performance optimizations | https://github.com/keploy/keploy/issues/3079 |
-| Add search functionality in blog website navbar | https://github.com/keploy/keploy/issues/3081 |
-| Redesign and implement navbar using Tailwind CSS or UI library | https://github.com/keploy/keploy/issues/2769 |
-| Improve Keploy docs website mobile-friendliness | https://github.com/keploy/keploy/issues/2998 |
-| Redesign DevRel website | https://github.com/keploy/keploy/issues/3066 |
-| Add navbar, footer, and new UI components for DevRel website | https://github.com/keploy/keploy/issues/3067 |
-| Migrate Writers site to Next.js 15 + TypeScript + Tailwind | https://github.com/keploy/keploy/issues/3069 |
-| Improve typography, fonts, and information hierarchy (Writers site) | https://github.com/keploy/keploy/issues/3070 |
-| Modern UI components for key sections (Writers site) | https://github.com/keploy/keploy/issues/3071 |
-| Modern navigation and layout for Writers site | https://github.com/keploy/keploy/issues/3072 |
+## Good First Issues for GSoC Aspirants
+
+Here is a curated list of **Good First Issues** for GSoC aspirants. You can pick any issue from the list below and start contributing to Keploy:
+
+👉 https://github.com/keploy/keploy/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Good%20First%20Issue%22
