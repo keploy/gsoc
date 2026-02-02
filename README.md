@@ -42,8 +42,8 @@ You can read more about the format of the program and its goals [here](https://g
 | Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines | November 9, 2026|
 
 #### Statistics
-- Since year 2005, 20,000+ students and 19,000+ mentors from over 118 countries has came together to participate in GSoC
-- Approximately 38+ million lines of code have been produced
+- Since 2005, 22,000+ contributors and 20,000+ mentors from over 120 countries have come together to participate in GSoC.
+- Approximately 45+ million lines of code have been produced across thousands of open-source organizations.
 
 ---
 
@@ -71,4 +71,5 @@ We encourage Contributors to set up Keploy for local development and play around
 We'd love to collaborate with you to make Keploy great. To get started:
 * [Slack](https://join.slack.com/t/keploy/shared_invite/zt-12rfbvc01-o54cOG0X1G6eVJTuI_orSA) - Discussions with the community and the team.
 * [GitHub](https://github.com/keploy/keploy/issues) - For bug reports and feature requests.
+* [Documentation](https://keploy.io/docs/) - Learn how Keploy works under the hood.
 
