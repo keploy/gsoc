@@ -10,8 +10,8 @@ It captures the external dependency network calls (like database queries, intern
 
 Developers can use keploy alongside their favorite unit testing framework to save time writing testcases.  
 
-# Keploy + Google Summer of Code, 2024
-This is the main place for all information related to Keploy's participation in Google Summer of Code, 2024 as a mentoring organization.
+# Keploy + Google Summer of Code, 2026
+This is the main place for all information related to Keploy's participation in Google Summer of Code, 2026 as a mentoring organization.
 
 ## What is Google Summer of Code?
 
@@ -24,25 +24,29 @@ Google pays the students, not the organizations they work with. Beginning in 202
 You can read more about the format of the program and its goals [here](https://google.github.io/gsocguides/mentor/).
 
 
-## What is the timeline for GSoC 2024?
+## What is the timeline for GSoC 2026?
 [Full timeline](https://developers.google.com/open-source/gsoc/timeline)
 
-|Important events | Deadline|
-| ----- | ----- |
-| Organization Applications Open | January 22, 2024|
-| Organization Application Deadline | February 6, 2024 |
-| Organizations Announced | February 21, 2024 |
-| Potential GSoC contributors discuss application ideas with mentoring organizations | February 22 - March 18, 2024 |
-| GSoC contributor application period | March 18 - April 2, 2024 |
-| Accepted GSoC Contributor projects announced | May 1, 2024 |
-| Contributors work on their Google Summer of Code projects | May 27, 2024 - August 26, 2024|
-| Mentors submit final GSoC contributor evaluations (standard coding period) | August 26, 2024 - September 2, 2024|
-| Initial results of Google Summer of Code 2024 announced | September 3, 2023 |
-| Students work on their Google Summer of Code project | May 1, 2024 - November 4, 2024|
+
+| Important Event | Date |
+|-----------------|------|
+| Organization applications open | **January 19, 2026** |
+| Organization application deadline | **February 3, 2026 (18:00 UTC)** |
+| Accepted mentoring organizations announced | **February 19, 2026** |
+| Contributor discussion period | **February 19 – March 15, 2026** |
+| Contributor applications open | **March 16, 2026 (18:00 UTC)** |
+| Contributor application deadline | **March 31, 2026 (18:00 UTC)** |
+| Accepted GSoC contributors announced | **April 30, 2026** |
+| Community bonding period | **May 1 – May 24, 2026** |
+| Coding period begins | **May 25, 2026** |
+| Midterm evaluations | **July 6 – July 10, 2026** |
+| Final submission & evaluations (standard projects) | **August 24, 2026** |
+| Extended coding period (if applicable) | **August 24 – November 2, 2026** |
+| Final evaluation deadline (extended projects) | **November 9, 2026** |
 
 #### Statistics
-- Since year 2005, 20,000+ students and 19,000+ mentors from over 118 countries has came together to participate in GSoC
-- Approximately 38+ million lines of code have been produced
+- Since year 2005, 22,000+ students and 21,000+ mentors from over 120 countries have came together to participate in GSoC
+- Approximately 42+ million lines of code have been produced
 
 ---
 
