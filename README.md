@@ -63,7 +63,7 @@ Please read [The Mentor Guide](MENTOR-GUIDE.md).
 
 Students should have knowledge of git, go, and markdown for most projects since the project work heavily depends on them.
 
-We invite students to look into [our open proposals](https://github.com/keploy/gsoc/tree/main/2023), ask mentors questions to understand the projects better and if interested apply for the project when the application period opens.
+We invite students to look into [our open proposals](https://github.com/keploy/gsoc/tree/main/2026), ask mentors questions to understand the projects better and if interested apply for the project when the application period opens.
 
 Mentors would like to know why the project interests the student, whether they have the pre-requisite skills, and most importantly, how they plan to implement it.
 
