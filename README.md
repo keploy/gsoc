@@ -1,47 +1,50 @@
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?logo=github)](CODE_OF_CONDUCT.md) 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?logo=github)](CODE_OF_CONDUCT.md)
 [![Tests](https://github.com/keploy/keploy/actions/workflows/go.yml/badge.svg)](https://github.com/keploy/keploy/actions)
 [![Slack](.github/slack.svg)](https://join.slack.com/t/keploy/shared_invite/zt-12rfbvc01-o54cOG0X1G6eVJTuI_orSA)
 [![License](.github/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # About Keploy
-Keploy is a no-code testing platform that generates tests from API calls. 
+Keploy is a no-code testing platform that generates tests from API calls.
 
-It captures the external dependency network calls (like database queries, internal/external services) for each request to replay them (including writes/mutations!) later during testing. 
+It captures the external dependency network calls (like database queries, internal/external services) for each request to replay them (including writes/mutations!) later during testing.
 
-Developers can use keploy alongside their favorite unit testing framework to save time writing testcases.  
+Developers can use Keploy alongside their favorite unit testing framework to save time writing test cases.
 
-# Keploy + Google Summer of Code, 2024
-This is the main place for all information related to Keploy's participation in Google Summer of Code, 2024 as a mentoring organization.
+# Keploy + Google Summer of Code, 2026
+This is the main place for all information related to Keploy's participation in Google Summer of Code, 2026 as a mentoring organization.
 
 ## What is Google Summer of Code?
 
-[Google Summer of Code](https://summerofcode.withgoogle.com/) is a 16 years old program, run every summer, with the intention of bringing more students into open source. 
+[Google Summer of Code](https://summerofcode.withgoogle.com/) is a global program, run every summer, with the intention of bringing more contributors into open source.
 
-Open source projects apply as mentor organizations and if they are accepted, students send proposals to them to work on a few months' long project. Projects can be planned out by the organizations in advance or can be proposed by students.
+Open source projects apply as mentor organizations and if they are accepted, contributors send proposals to them to work on a few months' long project. Projects can be planned out by the organizations in advance or can be proposed by contributors.
 
-Google pays the students, not the organizations they work with. Beginning in 2024, Google is opening the program up to all newcomers of open source that are 18 years and older.
+Google pays the contributors, not the organizations they work with. The program is open to all newcomers of open source that are 18 years and older.
 
 You can read more about the format of the program and its goals [here](https://google.github.io/gsocguides/mentor/).
 
 
-## What is the timeline for GSoC 2024?
+## What is the timeline for GSoC 2026?
 [Full timeline](https://developers.google.com/open-source/gsoc/timeline)
 
 |Important events | Deadline|
 | ----- | ----- |
-| Organization Applications Open | January 22, 2024|
-| Organization Application Deadline | February 6, 2024 |
-| Organizations Announced | February 21, 2024 |
-| Potential GSoC contributors discuss application ideas with mentoring organizations | February 22 - March 18, 2024 |
-| GSoC contributor application period | March 18 - April 2, 2024 |
-| Accepted GSoC Contributor projects announced | May 1, 2024 |
-| Contributors work on their Google Summer of Code projects | May 27, 2024 - August 26, 2024|
-| Mentors submit final GSoC contributor evaluations (standard coding period) | August 26, 2024 - September 2, 2024|
-| Initial results of Google Summer of Code 2024 announced | September 3, 2023 |
-| Students work on their Google Summer of Code project | May 1, 2024 - November 4, 2024|
+| Organization Applications Open | January 19, 2026 |
+| Organization Application Deadline | February 3, 2026 |
+| Organizations Announced | February 19, 2026 |
+| Potential GSoC contributors discuss application ideas with mentoring organizations | February 19 - March 15, 2026 |
+| GSoC contributor application period | March 16 - March 31, 2026 |
+| Accepted GSoC contributor projects announced | April 30, 2026 |
+| Community bonding period | May 1 - May 24, 2026 |
+| Coding officially begins | May 25, 2026 |
+| Midterm evaluations | July 6 - July 10, 2026 |
+| Final submissions (standard coding period) | August 17 - August 24, 2026 |
+| Mentors submit final evaluations (standard coding period) | August 24 - August 31, 2026 |
+| Extended coding period for larger projects | August 24 - November 2, 2026 |
+| Final evaluation deadline (extended projects) | November 9, 2026 |
 
 #### Statistics
-- Since year 2005, 20,000+ students and 19,000+ mentors from over 118 countries has came together to participate in GSoC
+- Since 2005, 20,000+ contributors and 19,000+ mentors from over 118 countries have come together to participate in GSoC
 - Approximately 38+ million lines of code have been produced
 
 ---
@@ -55,19 +58,39 @@ Keploy members and members from the wider community can both propose projects, h
 ## What is expected of a mentor?
 Please read [The Mentor Guide](MENTOR-GUIDE.md).
 
-## Information for applying students
+## Information for applying contributors
 
-Students should have knowledge of git, go, and markdown for most projects since the project work heavily depends on them.
+Contributors should have knowledge of git, Go, and markdown for most projects since the project work heavily depends on them.
 
-We invite students to look into [our open proposals](https://github.com/keploy/gsoc/tree/main/2023), ask mentors questions to understand the projects better and if interested apply for the project when the application period opens.
+We invite contributors to look into [our open proposals for 2026](https://github.com/keploy/gsoc/tree/main/2026), ask mentors questions to understand the projects better and if interested apply for the project when the application period opens.
 
-Mentors would like to know why the project interests the student, whether they have the pre-requisite skills, and most importantly, how they plan to implement it.
+Mentors would like to know why the project interests the contributor, whether they have the pre-requisite skills, and most importantly, how they plan to implement it.
 
-We encourage Contributors to set up Keploy for local development and play around with the code and tests to get more comfortable with the project. 
+We encourage contributors to set up Keploy for local development and play around with the code and tests to get more comfortable with the project. See the [Contributing Guide](CONTRIBUTING.md) for how to get started.
 
+## GSoC 2026 Project Ideas
+
+Here is a brief overview of the projects available for GSoC 2026. For full details, see the [2026 Participant Guide](https://github.com/keploy/gsoc/tree/main/2026).
+
+| # | Project | Difficulty | Hours |
+| - | ------- | ---------- | ----- |
+| 1 | MCP Server for Keploy (Model Context Protocol Integration) | Medium-Hard | 350 |
+| 2 | Keploy Blog Website Refactoring, Redesign & Performance Improvements | Medium | 350 |
+
+Looking for a place to start? Check out the [Good First Issues](https://github.com/keploy/keploy/issues?q=is%3Aissue+state%3Aopen+label%3A%22Good+First+Issue%22) on the main Keploy repo.
+
+## Proposal Template
+
+Use our **[Proposal Template](https://docs.google.com/document/d/1yRWf5pXuUij-UwlXB9knDKqk9VYvV5GrNf865p77Y1U/edit?usp=sharing)** when writing your proposal. We recommend the use of Google Docs. Also see the [Proposal Guide](PROPOSAL-GUIDE.md) for more details.
+
+## Past GSoC Projects
+- [GSoC 2025 Projects](https://github.com/keploy/gsoc/tree/main/2025)
+- [GSoC 2024 Projects](https://github.com/keploy/gsoc/tree/main/2024)
+- [GSoC 2023 Projects](https://github.com/keploy/gsoc/tree/main/2023)
+- [GSoC 2022 Projects](https://github.com/keploy/gsoc/tree/main/2022)
 
 ## Community support
 We'd love to collaborate with you to make Keploy great. To get started:
 * [Slack](https://join.slack.com/t/keploy/shared_invite/zt-12rfbvc01-o54cOG0X1G6eVJTuI_orSA) - Discussions with the community and the team.
 * [GitHub](https://github.com/keploy/keploy/issues) - For bug reports and feature requests.
-
+* [Keploy Documentation](https://keploy.io/docs/) - Learn more about Keploy's features and capabilities.
