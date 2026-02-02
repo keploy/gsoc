@@ -45,7 +45,7 @@ You can read more about the format of the program and its goals [here](https://g
 | Final evaluation deadline (extended projects) | **November 9, 2026** |
 
 #### Statistics
-- Since year 2005, 22,000+ students and 21,000+ mentors from over 120 countries have came together to participate in GSoC
+- Since 2005, over 22,000 students and 21,000 mentors from more than 120 countries have come together to participate in GSoC
 - Approximately 42+ million lines of code have been produced
 
 ---
