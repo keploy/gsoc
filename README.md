@@ -35,13 +35,13 @@ You can read more about the format of the program and its goals [here](https://g
 | Potential GSoC contributors discuss application ideas with mentoring organizations | February 19 - March 15, 2026 |
 | GSoC contributor application period | March 16 - March 31, 2026 |
 | Accepted GSoC Contributor projects announced | April 30, 2026 |
-| Contributors work on their Google Summer of Code projects | May 1, 2026 - August 24, 2026|
-| Midterm evaluation for Google Summer of Code projects | July 6, 2026 - July 10, 2026|
-| Mentors submit final GSoC contributor evaluations (standard coding period) | August 17, 2026 - August 31, 2026|
-| GSoC contributors with extended timelines continue coding | August 24, 2026 - November 2, 2026 |
+| Contributors work on their Google Summer of Code projects | May 1 - August 24, 2026|
+| Midterm evaluation for Google Summer of Code projects | July 6 - July 10, 2026|
+| Mentors submit final GSoC contributor evaluations (standard coding period) | August 17 - August 31, 2026|
+| GSoC contributors with extended timelines continue coding | August 24 - November 2, 2026 |
 | Final date for all GSoC contributors to submit their final work product and final evaluation | November 2, 2026 |
 | Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines | November 9, 2026 |
-| Students work on their Google Summer of Code project | May 1, 2024 - November 2, 2024|
+| Students work on their Google Summer of Code project | May 1 - November 2, 2026|
 
 #### Statistics
 - Since year 2005, 22,000+ students and 21,000+ mentors from over 123 countries has came together to participate in GSoC
