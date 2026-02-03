@@ -259,4 +259,4 @@ The goal of this project is to elevate the open-source Keploy Playground for the
 | a GitHub App to Trigger GitHub Actions    | https://github.com/keploy/keploy/issues/2531    |
 | Denoise Unexpected Parameters in Keploy Testcases | https://github.com/keploy/keploy/issues/2527  |
 | Implement Idempotency Check for GET Requests | https://github.com/keploy/keploy/issues/2526  |
-| SON Diff viewer re-alignment to top | https://github.com/keploy/keploy/issues/2524 |
+<!-- | SON Diff viewer re-alignment to top | https://github.com/keploy/keploy/issues/2524 | This issue is closed-->
