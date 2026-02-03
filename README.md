@@ -68,6 +68,25 @@ Mentors would like to know why the project interests the student, whether they h
 
 We encourage Contributors to set up Keploy for local development and play around with the code and tests to get more comfortable with the project. 
 
+## GSoC 2026 Project Ideas
+
+| Project | Difficulty | Hours |
+| ------- | ---------- | ----- |
+| MCP Server for Keploy (Model Context Protocol Integration) | Medium-Hard | 350 |
+| Keploy Blog Website Refactoring, Redesign & Performance Improvements | Medium | 350 |
+
+Here is a brief overview of the projects available for GSoC 2026. For full details, see the [2026 Participant Guide](https://github.com/keploy/gsoc/tree/main/2026).
+
+## Proposal Template
+
+Use our **[Proposal Template](https://docs.google.com/document/d/1yRWf5pXuUij-UwlXB9knDKqk9VYvV5GrNf865p77Y1U/edit?usp=sharing)** when writing your proposal. We recommend the use of Google Docs. Also see the [Proposal Guide](PROPOSAL-GUIDE.md) for more details.
+
+## Our Past GSoC Projects
+- [GSoC 2025 Projects](https://github.com/keploy/gsoc/tree/main/2025)
+- [GSoC 2024 Projects](https://github.com/keploy/gsoc/tree/main/2024)
+- [GSoC 2023 Projects](https://github.com/keploy/gsoc/tree/main/2023)
+- [GSoC 2022 Projects](https://github.com/keploy/gsoc/tree/main/2022)
+
 ## Make your first contribution here - Solve a Good First Issue 
 
 | What to Fix | Good First Issue |
@@ -83,4 +102,3 @@ We encourage Contributors to set up Keploy for local development and play around
 We'd love to collaborate with you to make Keploy great. To get started:
 * [Slack](https://join.slack.com/t/keploy/shared_invite/zt-12rfbvc01-o54cOG0X1G6eVJTuI_orSA) - Discussions with the community and the team.
 * [GitHub](https://github.com/keploy/keploy/issues) - For bug reports and feature requests.
-
