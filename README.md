@@ -68,6 +68,16 @@ Mentors would like to know why the project interests the student, whether they h
 
 We encourage Contributors to set up Keploy for local development and play around with the code and tests to get more comfortable with the project. 
 
+## Make your first contribution here - Solve a Good First Issue 
+
+| What to Fix | Good First Issue |
+| -------- | ------- |
+| Redesign Questions card, Prev/Next cards | https://github.com/keploy/keploy/issues/3657 |
+| Fix broken anchors in the doc website | https://github.com/keploy/keploy/issues/3649 |
+| Linter for PR changes for samples-go | https://github.com/keploy/keploy/issues/3550 |
+| Add New Quickstarts for More Languages (Rust, Ruby, C++, Perl, PHP) | https://github.com/keploy/keploy/issues/3521 |
+| Fix blog navbar dropdown ui on mobile devices | https://github.com/keploy/keploy/issues/3431 |
+| More Good First Issue | https://github.com/keploy/keploy/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Good%20First%20Issue%22 |
 
 ## Community support
 We'd love to collaborate with you to make Keploy great. To get started:
