@@ -90,7 +90,7 @@ This project focuses on designing and implementing an MCP server that acts as a 
 
 ### 2. Keploy Blog Website Refactoring, Redesign & Performance Improvements
 
-**Mentors**: Neha Gupta, TBD
+**Mentors**: Manas Manohar, Neha Gupta, Amaan Bhati
 
 The Keploy blog is a key channel for sharing technical knowledge and community contributions. As the blog continues to grow, there is an opportunity to **refactor existing code, redesign the user experience, and improve overall performance and maintainability** to better serve both readers and contributors.
 
