@@ -99,4 +99,4 @@ Every SDKs support the popular and common Routers and Databases.
 
 # Contact
 
-Feel free to join [slack](https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA) to start a conversation with us.
+Feel free to join [Slack](https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA) to start a conversation with us.
