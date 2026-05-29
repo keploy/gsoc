@@ -150,7 +150,9 @@ Our mentors Animesh Pathak, Sanskriti Harmukh, Ankit Kumar, Diganta Kr Banik, an
 
 Join the Keploy community and connect with mentors and other members through our Slack channel. 
 
-[![Join Keploy on Slack!](https://img.shields.io/badge/Join%20Us%20On-Slack-orange)](https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA)
+[![Join Keploy on Slack!](https://img.shields.io/badge/Join%20Us%20On-Slack-orange)][slack-invite]
+
+[slack-invite]: https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA
  
 Follow us on Twitter and LinkedIn to stay up-to-date with the latest news and announcements:
 
