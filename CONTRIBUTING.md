@@ -101,4 +101,4 @@ Every SDKs support the popular and common Routers and Databases.
 
 Feel free to join [Slack][slack-invite] to start a conversation with us.
 
-[slack-invite]: https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA
+[slack-invite]: https://keploy.io/slack
