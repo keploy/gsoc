@@ -6,7 +6,7 @@ Welcome to the Keploy GSoC projects page. We encourage candidates to come up wit
 
 Join our [Slack Channel][slack-invite] and stay tuned for updates.
 
-[slack-invite]: https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA
+[slack-invite]: https://keploy.io/slack
 
 Use our [Template](https://docs.google.com/document/d/1QSSs4vPvn_tPeJkhwDuJ9YLSXdtygob9cPc-5yXj3pY/edit?usp=sharing) for the proposal. We recommend the use of google docs for the proposal.
 

@@ -152,8 +152,8 @@ Join the Keploy community and connect with mentors and other members through our
 
 [![Join Keploy on Slack!](https://img.shields.io/badge/Join%20Us%20On-Slack-orange)][slack-invite]
 
-[slack-invite]: https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA
- 
+[slack-invite]: https://keploy.io/slack
+
 Follow us on Twitter and LinkedIn to stay up-to-date with the latest news and announcements:
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/keploy?style=social)](https://twitter.com/keployio)

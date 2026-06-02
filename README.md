@@ -75,5 +75,5 @@ We'd love to collaborate with you to make Keploy great. To get started:
 * [Slack][slack-invite] - Discussions with the community and the team.
 * [GitHub](https://github.com/keploy/keploy/issues) - For bug reports and feature requests.
 
-[slack-invite]: https://join.slack.com/t/keploy/shared_invite/zt-3zcnuqfgl-WYK1NMhslVHsCtNcA1ULwA
+[slack-invite]: https://keploy.io/slack
 
