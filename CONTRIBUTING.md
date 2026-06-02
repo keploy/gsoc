@@ -2,7 +2,7 @@
 
 Thank you for your interest in Keploy and for taking the time to contribute to this project. 🙌 Keploy is a project by developers for developers and there are a lot of ways you can contribute.
 
-If you don't know where to start contributing, ask us on our [Slack channel][slack-invite].
+If you don't know where to start contributing, ask us on our [Slack Channel][slack-invite].
 
 ## Code of conduct
 
